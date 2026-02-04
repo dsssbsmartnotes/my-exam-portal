@@ -1,0 +1,17 @@
+{
+  "test_id": "sec_hindi_01",
+  "title": "Hindi Language Set - 01",
+  "time_minutes": 15,
+  "sections": ["Hindi"],
+  "questions": [
+    {
+      "section": "Hindi",
+      "q_en": "Synonym of 'Agni'?",
+      "q_hi": "'अग्नि' का पर्यायवाची शब्द है?",
+      "ans": "1",
+      "op_en": ["Anal", "Anil", "Jal", "Vayu"],
+      "op_hi": ["अनल", "अनिल", "जल", "वायु"],
+      "solution": "अग्नि का पर्यायवाची 'अनल' है।"
+    }
+  ]
+}
