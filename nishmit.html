@@ -3,55 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSSSB Admin Panel</title>
+    <title>Nishmit Admin Panel (Pro)</title>
     <style>
-        body { font-family: sans-serif; background: #f0f2f5; padding: 15px; margin: 0; }
-        .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        h2 { text-align: center; color: #2563eb; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 15px; margin: 0; color: #334155; }
+        .container { max-width: 700px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h2 { text-align: center; color: #2563eb; margin-top: 0; }
         
-        label { font-weight: bold; font-size: 14px; margin-top: 10px; display: block; }
-        input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
-        textarea { height: 60px; resize: vertical; }
+        .tab-bar { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        .tab { flex: 1; padding: 10px; text-align: center; cursor: pointer; font-weight: bold; color: #64748b; border-radius: 6px; }
+        .tab.active { background: #eff6ff; color: #2563eb; }
+
+        label { font-weight: 600; font-size: 13px; margin-top: 12px; display: block; color: #475569; }
+        input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 15px; background: #f8fafc; box-sizing: border-box;}
+        textarea { height: 70px; resize: vertical; }
         
-        .section-box { border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; margin-bottom: 20px; background: #f9fafb; }
+        .section-box { border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; margin-bottom: 20px; background: white; }
         .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
         
-        .btn { width: 100%; padding: 12px; background: #2563eb; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+        .btn { width: 100%; padding: 12px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; margin-top: 15px; transition: 0.2s; }
+        .btn:active { transform: scale(0.98); }
         .btn.add { background: #16a34a; }
-        .btn.download { background: #dc2626; margin-top: 20px; }
-        .btn.copy { background: #4b5563; }
+        .btn.download { background: #dc2626; margin-top: 25px; }
+        .btn.import { background: #0f172a; }
 
-        #previewArea { background: #1e293b; color: #4ade80; padding: 10px; border-radius: 6px; font-family: monospace; font-size: 12px; margin-top: 20px; white-space: pre-wrap; display:none; }
-        .counter { text-align: center; font-weight: bold; color: #64748b; margin: 10px 0; }
+        .counter { text-align: center; font-weight: bold; color: #16a34a; background: #dcfce7; padding: 8px; border-radius: 6px; margin-bottom: 15px; }
+        
+        /* Bulk Area */
+        #bulkArea { display: none; }
+        .hint { font-size: 12px; color: #64748b; margin-top: 5px; }
+        
+        /* List Preview */
+        .q-list-item { background: #f1f5f9; padding: 10px; border-radius: 6px; margin-bottom: 8px; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
+        .del-btn { color: #dc2626; cursor: pointer; font-weight: bold; padding: 5px; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h2>📱 Question Maker</h2>
+    <h2>📱 Question Maker & Bulk Tool</h2>
 
-    <div class="section-box">
-        <label>Test ID (Unique, e.g., math_02)</label>
-        <input type="text" id="testId" placeholder="test_id_here">
-        
-        <label>Test Title</label>
-        <input type="text" id="testTitle" placeholder="DSSSB Full Mock 02">
-        
-        <div style="display:flex; gap:10px;">
-            <div style="flex:1">
-                <label>Time (Mins)</label>
-                <input type="number" id="testTime" value="120">
-            </div>
-            <div style="flex:1">
-                <label>Subjects (Comma Sep)</label>
-                <input type="text" id="testSections" value="General,Reasoning,Maths,English,Hindi">
-            </div>
-        </div>
+    <div class="tab-bar">
+        <div class="tab active" onclick="switchTab('manual')">✍️ Manual Entry</div>
+        <div class="tab" onclick="switchTab('bulk')">🚀 Bulk Upload</div>
     </div>
 
-    <div class="section-box" style="border-color: #2563eb;">
-        <div class="counter" id="qCounter">Total Questions Added: 0</div>
+    <div class="section-box">
+        <div style="display:flex; gap:10px;">
+            <div style="flex:1">
+                <label>Test ID (e.g., math_05)</label>
+                <input type="text" id="testId" placeholder="unique_id">
+            </div>
+            <div style="flex:1">
+                <label>Time (Min)</label>
+                <input type="number" id="testTime" value="120">
+            </div>
+        </div>
+        <label>Test Title</label>
+        <input type="text" id="testTitle" placeholder="Full Mock Test Title">
+        <label>Subjects (Comma Separated)</label>
+        <input type="text" id="testSections" value="General,Reasoning,Maths,English,Hindi">
+    </div>
 
+    <div class="counter" id="qCounter">Questions Ready: 0</div>
+
+    <div id="manualArea" class="section-box">
         <label>Select Section</label>
         <select id="qSec">
             <option>General</option>
@@ -61,22 +76,16 @@
             <option>Hindi</option>
         </select>
 
-        <label>Question (English)</label>
-        <textarea id="qEn" placeholder="Type question in English"></textarea>
+        <label>Question (Eng)</label>
+        <textarea id="qEn" placeholder="Question Text..."></textarea>
         
-        <label>Question (Hindi)</label>
-        <textarea id="qHi" placeholder="हिंदी में प्रश्न लिखें"></textarea>
+        <label>Question (Hindi - Optional)</label>
+        <textarea id="qHi" placeholder="हिंदी प्रश्न..."></textarea>
 
-        <label>Options (English)</label>
+        <label>Options (Eng)</label>
         <div class="opt-grid">
-            <input id="oe1" placeholder="Op A"><input id="oe2" placeholder="Op B">
-            <input id="oe3" placeholder="Op C"><input id="oe4" placeholder="Op D">
-        </div>
-
-        <label>Options (Hindi)</label>
-        <div class="opt-grid">
-            <input id="oh1" placeholder="Op A (Hi)"><input id="oh2" placeholder="Op B (Hi)">
-            <input id="oh3" placeholder="Op C (Hi)"><input id="oh4" placeholder="Op D (Hi)">
+            <input id="oe1" placeholder="A"><input id="oe2" placeholder="B">
+            <input id="oe3" placeholder="C"><input id="oe4" placeholder="D">
         </div>
 
         <label>Correct Answer</label>
@@ -87,76 +96,160 @@
             <option value="4">Option D</option>
         </select>
 
-        <label>Solution / Explanation</label>
-        <textarea id="qSol" placeholder="Explanation goes here..."></textarea>
+        <label>Solution</label>
+        <textarea id="qSol" placeholder="Explanation..."></textarea>
 
-        <button class="btn add" onclick="addQuestion()">➕ Add Question</button>
+        <button class="btn add" onclick="addQuestion()">➕ Add Single Question</button>
     </div>
 
-    <button class="btn copy" onclick="copyJSON()">📋 Copy JSON Code</button>
-    <button class="btn download" onclick="downloadFile()">⬇️ Download .json File</button>
+    <div id="bulkArea" class="section-box">
+        <label>📂 Option 1: Load Existing JSON File</label>
+        <input type="file" id="fileInput" accept=".json" onchange="loadFromFile()">
+        <p class="hint">Select a previously downloaded .json file to edit or add more questions.</p>
 
-    <div id="previewArea"></div>
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #e2e8f0;">
+
+        <label>📋 Option 2: Paste JSON Data</label>
+        <textarea id="bulkText" style="height:150px;" placeholder='[ {"q_en": "...", "ans": "1"}, ... ]'></textarea>
+        <p class="hint">Paste a JSON array of questions generated by AI (ChatGPT/Gemini).</p>
+        <button class="btn import" onclick="processBulk()">⚡ Parse & Add Questions</button>
+    </div>
+
+    <div id="previewList" style="margin-top:20px;"></div>
+
+    <button class="btn download" onclick="downloadFile()">⬇️ Download Final JSON</button>
 </div>
 
 <script>
     let questionsList = [];
+    let currentTab = 'manual';
 
+    function switchTab(tab) {
+        currentTab = tab;
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        event.target.classList.add('active');
+        if(tab === 'manual') {
+            document.getElementById('manualArea').style.display = 'block';
+            document.getElementById('bulkArea').style.display = 'none';
+        } else {
+            document.getElementById('manualArea').style.display = 'none';
+            document.getElementById('bulkArea').style.display = 'block';
+        }
+    }
+
+    function updateCounter() {
+        document.getElementById('qCounter').innerText = `Questions Ready: ${questionsList.length}`;
+        renderList();
+    }
+
+    function renderList() {
+        const list = document.getElementById('previewList');
+        list.innerHTML = "";
+        questionsList.slice().reverse().slice(0, 5).forEach((q, idx) => { // Show last 5
+            const realIdx = questionsList.length - 1 - idx;
+            list.innerHTML += `
+                <div class="q-list-item">
+                    <span><b>Q${realIdx+1} (${q.section}):</b> ${q.q_en.substring(0, 30)}...</span>
+                    <span class="del-btn" onclick="removeQ(${realIdx})">🗑️</span>
+                </div>`;
+        });
+        if(questionsList.length > 5) list.innerHTML += `<div style="text-align:center; font-size:12px; color:#64748b;">...and ${questionsList.length - 5} more</div>`;
+    }
+
+    function removeQ(idx) {
+        questionsList.splice(idx, 1);
+        updateCounter();
+    }
+
+    // MANUAL ADD
     function addQuestion() {
-        // Collect Data
         const sec = document.getElementById('qSec').value;
         const qEn = document.getElementById('qEn').value;
         const qHi = document.getElementById('qHi').value;
         
         const opEn = [
-            document.getElementById('oe1').value,
-            document.getElementById('oe2').value,
-            document.getElementById('oe3').value,
-            document.getElementById('oe4').value
+            document.getElementById('oe1').value, document.getElementById('oe2').value,
+            document.getElementById('oe3').value, document.getElementById('oe4').value
         ];
 
-        const opHi = [
-            document.getElementById('oh1').value,
-            document.getElementById('oh2').value,
-            document.getElementById('oh3').value,
-            document.getElementById('oh4').value
-        ];
+        // Hindi options fallback to English if empty
+        const opHiInputs = [
+            document.getElementById('oe1').value, document.getElementById('oe2').value, // Placeholder logic, ideally separate inputs
+            document.getElementById('oe3').value, document.getElementById('oe4').value
+        ]; 
 
         const ans = document.getElementById('qAns').value;
         const sol = document.getElementById('qSol').value;
 
-        if(!qEn && !qHi) { alert("Please enter a question text!"); return; }
+        if(!qEn) { alert("Question text is required!"); return; }
 
-        // Create Object
-        const qObj = {
+        questionsList.push({
             section: sec,
             q_en: qEn,
-            q_hi: qHi || qEn, // Fallback to English if Hindi empty
+            q_hi: qHi || qEn,
             ans: ans,
             op_en: opEn,
-            op_hi: opHi[0] ? opHi : opEn, // Fallback to Eng options
+            op_hi: opEn, // Currently using Eng opts for both to save space in manual, user can edit json
             solution: sol
-        };
+        });
 
-        questionsList.push(qObj);
-        
-        // Update UI
-        document.getElementById('qCounter').innerText = `Total Questions Added: ${questionsList.length}`;
-        alert("Question Added!");
-        
-        // Clear Inputs
+        updateCounter();
+        // Clear manual inputs
         document.getElementById('qEn').value = "";
         document.getElementById('qHi').value = "";
+        document.getElementById('qSol').value = "";
         document.getElementById('oe1').value = ""; document.getElementById('oe2').value = "";
         document.getElementById('oe3').value = ""; document.getElementById('oe4').value = "";
-        document.getElementById('oh1').value = ""; document.getElementById('oh2').value = "";
-        document.getElementById('oh3').value = ""; document.getElementById('oh4').value = "";
-        document.getElementById('qSol').value = "";
-        
-        updatePreview();
+        alert("Added!");
     }
 
-    function generateFinalJSON() {
+    // BULK IMPORT FROM TEXT
+    function processBulk() {
+        const text = document.getElementById('bulkText').value;
+        try {
+            const parsed = JSON.parse(text);
+            if(Array.isArray(parsed)) {
+                questionsList = questionsList.concat(parsed);
+                updateCounter();
+                alert(`Successfully added ${parsed.length} questions!`);
+                document.getElementById('bulkText').value = "";
+            } else {
+                alert("Invalid format: Must be a JSON Array [...]");
+            }
+        } catch(e) {
+            alert("JSON Error: " + e.message);
+        }
+    }
+
+    // LOAD FROM FILE
+    function loadFromFile() {
+        const file = document.getElementById('fileInput').files[0];
+        if(!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const data = JSON.parse(e.target.result);
+                // Load metadata
+                if(data.test_id) document.getElementById('testId').value = data.test_id;
+                if(data.title) document.getElementById('testTitle').value = data.title;
+                if(data.time_minutes) document.getElementById('testTime').value = data.time_minutes;
+                if(data.questions) {
+                    questionsList = questionsList.concat(data.questions);
+                    updateCounter();
+                    alert(`Loaded ${data.questions.length} questions from file.`);
+                }
+            } catch(err) {
+                alert("Error reading file: " + err.message);
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    // DOWNLOAD
+    function downloadFile() {
+        if(questionsList.length === 0) { alert("No questions to download!"); return; }
+        
         const testId = document.getElementById('testId').value || "test_id";
         const title = document.getElementById('testTitle').value || "New Test";
         const time = parseInt(document.getElementById('testTime').value);
@@ -170,27 +263,7 @@
             questions: questionsList
         };
 
-        return JSON.stringify(finalData, null, 2);
-    }
-
-    function updatePreview() {
-        const json = generateFinalJSON();
-        const p = document.getElementById('previewArea');
-        p.style.display = 'block';
-        p.innerText = json;
-    }
-
-    function copyJSON() {
-        const json = generateFinalJSON();
-        navigator.clipboard.writeText(json).then(() => alert("JSON Copied to Clipboard!"));
-    }
-
-    function downloadFile() {
-        if(questionsList.length === 0) { alert("Add questions first!"); return; }
-        
-        const json = generateFinalJSON();
-        const testId = document.getElementById('testId').value || "new_test";
-        
+        const json = JSON.stringify(finalData, null, 2);
         const blob = new Blob([json], { type: "application/json" });
         const url = URL.createObjectURL(blob);
         
