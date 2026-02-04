@@ -1,0 +1,17 @@
+{
+  "test_id": "sec_eng_01",
+  "title": "English Language Set - 01",
+  "time_minutes": 15,
+  "sections": ["English"],
+  "questions": [
+    {
+      "section": "English",
+      "q_en": "Select the antonym of 'Happy'.",
+      "q_hi": "'Happy' का विलोम चुनें।",
+      "ans": "1",
+      "op_en": ["Sad", "Joyful", "Glad", "Cheerful"],
+      "op_hi": ["Sad", "Joyful", "Glad", "Cheerful"],
+      "solution": "Antonym of Happy is Sad."
+    }
+  ]
+}
