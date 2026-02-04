@@ -1,0 +1,26 @@
+{
+  "test_id": "sec_gk_01",
+  "title": "General Awareness Set - 01",
+  "time_minutes": 10,
+  "sections": ["GK"],
+  "questions": [
+    {
+      "section": "GK",
+      "q_en": "Who is the current Prime Minister of India?",
+      "q_hi": "भारत के वर्तमान प्रधान मंत्री कौन हैं?",
+      "ans": "1",
+      "op_en": ["Narendra Modi", "Rahul Gandhi", "Amit Shah", "Manmohan Singh"],
+      "op_hi": ["नरेंद्र मोदी", "राहुल गांधी", "अमित शाह", "मनमोहन सिंह"],
+      "solution": "Shri Narendra Modi is the PM."
+    },
+    {
+      "section": "GK",
+      "q_en": "Where is the capital of India?",
+      "q_hi": "भारत की राजधानी कहाँ है?",
+      "ans": "1",
+      "op_en": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+      "op_hi": ["नई दिल्ली", "मुंबई", "कोलकाता", "चेन्नई"],
+      "solution": "New Delhi is the capital."
+    }
+  ]
+}
