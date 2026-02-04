@@ -1,0 +1,26 @@
+{
+  "test_id": "sec_reasoning_01",
+  "title": "Reasoning Practice Set - 01",
+  "time_minutes": 15,
+  "sections": ["Reasoning"],
+  "questions": [
+    {
+      "section": "Reasoning",
+      "q_en": "Find the next number: 2, 4, 8, 16, ?",
+      "q_hi": "अगली संख्या ज्ञात करें: 2, 4, 8, 16, ?",
+      "ans": "1",
+      "op_en": ["32", "30", "28", "24"],
+      "op_hi": ["32", "30", "28", "24"],
+      "solution": "Pattern is x2. So, 16 x 2 = 32."
+    },
+    {
+      "section": "Reasoning",
+      "q_en": "A is B's brother. C is A's father. How is C related to B?",
+      "q_hi": "A, B का भाई है। C, A का पिता है। C का B से क्या संबंध है?",
+      "ans": "1",
+      "op_en": ["Father", "Uncle", "Brother", "Grandfather"],
+      "op_hi": ["पिता", "चाचा", "भाई", "दादा"],
+      "solution": "C is father of A, and A is brother of B. So C is father of B."
+    }
+  ]
+}
