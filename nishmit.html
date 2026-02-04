@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSSSB Admin Panel</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; padding: 15px; margin: 0; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #2563eb; }
+        
+        label { font-weight: bold; font-size: 14px; margin-top: 10px; display: block; }
+        input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+        textarea { height: 60px; resize: vertical; }
+        
+        .section-box { border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; margin-bottom: 20px; background: #f9fafb; }
+        .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        
+        .btn { width: 100%; padding: 12px; background: #2563eb; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+        .btn.add { background: #16a34a; }
+        .btn.download { background: #dc2626; margin-top: 20px; }
+        .btn.copy { background: #4b5563; }
+
+        #previewArea { background: #1e293b; color: #4ade80; padding: 10px; border-radius: 6px; font-family: monospace; font-size: 12px; margin-top: 20px; white-space: pre-wrap; display:none; }
+        .counter { text-align: center; font-weight: bold; color: #64748b; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>📱 Question Maker</h2>
+
+    <div class="section-box">
+        <label>Test ID (Unique, e.g., math_02)</label>
+        <input type="text" id="testId" placeholder="test_id_here">
+        
+        <label>Test Title</label>
+        <input type="text" id="testTitle" placeholder="DSSSB Full Mock 02">
+        
+        <div style="display:flex; gap:10px;">
+            <div style="flex:1">
+                <label>Time (Mins)</label>
+                <input type="number" id="testTime" value="120">
+            </div>
+            <div style="flex:1">
+                <label>Subjects (Comma Sep)</label>
+                <input type="text" id="testSections" value="General,Reasoning,Maths,English,Hindi">
+            </div>
+        </div>
+    </div>
+
+    <div class="section-box" style="border-color: #2563eb;">
+        <div class="counter" id="qCounter">Total Questions Added: 0</div>
+
+        <label>Select Section</label>
+        <select id="qSec">
+            <option>General</option>
+            <option>Reasoning</option>
+            <option>Maths</option>
+            <option>English</option>
+            <option>Hindi</option>
+        </select>
+
+        <label>Question (English)</label>
+        <textarea id="qEn" placeholder="Type question in English"></textarea>
+        
+        <label>Question (Hindi)</label>
+        <textarea id="qHi" placeholder="हिंदी में प्रश्न लिखें"></textarea>
+
+        <label>Options (English)</label>
+        <div class="opt-grid">
+            <input id="oe1" placeholder="Op A"><input id="oe2" placeholder="Op B">
+            <input id="oe3" placeholder="Op C"><input id="oe4" placeholder="Op D">
+        </div>
+
+        <label>Options (Hindi)</label>
+        <div class="opt-grid">
+            <input id="oh1" placeholder="Op A (Hi)"><input id="oh2" placeholder="Op B (Hi)">
+            <input id="oh3" placeholder="Op C (Hi)"><input id="oh4" placeholder="Op D (Hi)">
+        </div>
+
+        <label>Correct Answer</label>
+        <select id="qAns">
+            <option value="1">Option A</option>
+            <option value="2">Option B</option>
+            <option value="3">Option C</option>
+            <option value="4">Option D</option>
+        </select>
+
+        <label>Solution / Explanation</label>
+        <textarea id="qSol" placeholder="Explanation goes here..."></textarea>
+
+        <button class="btn add" onclick="addQuestion()">➕ Add Question</button>
+    </div>
+
+    <button class="btn copy" onclick="copyJSON()">📋 Copy JSON Code</button>
+    <button class="btn download" onclick="downloadFile()">⬇️ Download .json File</button>
+
+    <div id="previewArea"></div>
+</div>
+
+<script>
+    let questionsList = [];
+
+    function addQuestion() {
+        // Collect Data
+        const sec = document.getElementById('qSec').value;
+        const qEn = document.getElementById('qEn').value;
+        const qHi = document.getElementById('qHi').value;
+        
+        const opEn = [
+            document.getElementById('oe1').value,
+            document.getElementById('oe2').value,
+            document.getElementById('oe3').value,
+            document.getElementById('oe4').value
+        ];
+
+        const opHi = [
+            document.getElementById('oh1').value,
+            document.getElementById('oh2').value,
+            document.getElementById('oh3').value,
+            document.getElementById('oh4').value
+        ];
+
+        const ans = document.getElementById('qAns').value;
+        const sol = document.getElementById('qSol').value;
+
+        if(!qEn && !qHi) { alert("Please enter a question text!"); return; }
+
+        // Create Object
+        const qObj = {
+            section: sec,
+            q_en: qEn,
+            q_hi: qHi || qEn, // Fallback to English if Hindi empty
+            ans: ans,
+            op_en: opEn,
+            op_hi: opHi[0] ? opHi : opEn, // Fallback to Eng options
+            solution: sol
+        };
+
+        questionsList.push(qObj);
+        
+        // Update UI
+        document.getElementById('qCounter').innerText = `Total Questions Added: ${questionsList.length}`;
+        alert("Question Added!");
+        
+        // Clear Inputs
+        document.getElementById('qEn').value = "";
+        document.getElementById('qHi').value = "";
+        document.getElementById('oe1').value = ""; document.getElementById('oe2').value = "";
+        document.getElementById('oe3').value = ""; document.getElementById('oe4').value = "";
+        document.getElementById('oh1').value = ""; document.getElementById('oh2').value = "";
+        document.getElementById('oh3').value = ""; document.getElementById('oh4').value = "";
+        document.getElementById('qSol').value = "";
+        
+        updatePreview();
+    }
+
+    function generateFinalJSON() {
+        const testId = document.getElementById('testId').value || "test_id";
+        const title = document.getElementById('testTitle').value || "New Test";
+        const time = parseInt(document.getElementById('testTime').value);
+        const sections = document.getElementById('testSections').value.split(',');
+
+        const finalData = {
+            test_id: testId,
+            title: title,
+            time_minutes: time,
+            sections: sections,
+            questions: questionsList
+        };
+
+        return JSON.stringify(finalData, null, 2);
+    }
+
+    function updatePreview() {
+        const json = generateFinalJSON();
+        const p = document.getElementById('previewArea');
+        p.style.display = 'block';
+        p.innerText = json;
+    }
+
+    function copyJSON() {
+        const json = generateFinalJSON();
+        navigator.clipboard.writeText(json).then(() => alert("JSON Copied to Clipboard!"));
+    }
+
+    function downloadFile() {
+        if(questionsList.length === 0) { alert("Add questions first!"); return; }
+        
+        const json = generateFinalJSON();
+        const testId = document.getElementById('testId').value || "new_test";
+        
+        const blob = new Blob([json], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${testId}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+</script>
+
+</body>
+</html>
