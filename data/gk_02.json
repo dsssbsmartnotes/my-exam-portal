@@ -1,0 +1,390 @@
+{
+  "test_id": "gk_02",
+  "title": "gk pyq dsssb ",
+  "time_minutes": 15,
+  "sections": [
+    "General"
+  ],
+  "questions": [
+    {
+      "section": "GK",
+      "q_en": "Who is known as the Father of the Indian Constitution?",
+      "q_hi": "भारतीय संविधान के जनक किसे कहा जाता है?",
+      "op_en": [
+        "Jawaharlal Nehru",
+        "B. R. Ambedkar",
+        "Mahatma Gandhi",
+        "Rajendra Prasad"
+      ],
+      "op_hi": [
+        "जवाहरलाल नेहरू",
+        "बी. आर. अंबेडकर",
+        "महात्मा गांधी",
+        "राजेंद्र प्रसाद"
+      ],
+      "ans": "2",
+      "solution": "Dr. B. R. Ambedkar is known as the Father of the Indian Constitution."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which river is the longest in India?",
+      "q_hi": "भारत की सबसे लंबी नदी कौन सी है?",
+      "op_en": [
+        "Yamuna",
+        "Ganga",
+        "Godavari",
+        "Brahmaputra"
+      ],
+      "op_hi": [
+        "यमुना",
+        "गंगा",
+        "गोदावरी",
+        "ब्रह्मपुत्र"
+      ],
+      "ans": "2",
+      "solution": "The Ganga is the longest river in India."
+    },
+    {
+      "section": "GK",
+      "q_en": "What is the capital of Australia?",
+      "q_hi": "ऑस्ट्रेलिया की राजधानी क्या है?",
+      "op_en": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "op_hi": [
+        "सिडनी",
+        "मेलबर्न",
+        "कैनबरा",
+        "पर्थ"
+      ],
+      "ans": "3",
+      "solution": "Canberra is the capital city of Australia."
+    },
+    {
+      "section": "GK",
+      "q_en": "Who was the first President of India?",
+      "q_hi": "भारत के प्रथम राष्ट्रपति कौन थे?",
+      "op_en": [
+        "Rajendra Prasad",
+        "S. Radhakrishnan",
+        "Jawaharlal Nehru",
+        "Zakir Husain"
+      ],
+      "op_hi": [
+        "राजेंद्र प्रसाद",
+        "एस. राधाकृष्णन",
+        "जवाहरलाल नेहरू",
+        "जाकिर हुसैन"
+      ],
+      "ans": "1",
+      "solution": "Dr. Rajendra Prasad was the first President of India."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which planet is known as the Red Planet?",
+      "q_hi": "कौन सा ग्रह लाल ग्रह कहलाता है?",
+      "op_en": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "op_hi": [
+        "पृथ्वी",
+        "मंगल",
+        "बृहस्पति",
+        "शुक्र"
+      ],
+      "ans": "2",
+      "solution": "Mars is called the Red Planet due to its reddish appearance."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which vitamin is produced in the human body in sunlight?",
+      "q_hi": "सूर्य के प्रकाश से मानव शरीर में कौन सा विटामिन बनता है?",
+      "op_en": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "op_hi": [
+        "विटामिन A",
+        "विटामिन B",
+        "विटामिन C",
+        "विटामिन D"
+      ],
+      "ans": "4",
+      "solution": "Vitamin D is produced in the human body in sunlight."
+    },
+    {
+      "section": "GK",
+      "q_en": "Who wrote the National Anthem of India?",
+      "q_hi": "भारत का राष्ट्रगान किसने लिखा?",
+      "op_en": [
+        "Bankim Chandra Chatterjee",
+        "Rabindranath Tagore",
+        "Sarojini Naidu",
+        "Subhash Chandra Bose"
+      ],
+      "op_hi": [
+        "बंकिम चंद्र चट्टोपाध्याय",
+        "रवींद्रनाथ टैगोर",
+        "सरोजिनी नायडू",
+        "सुभाष चंद्र बोस"
+      ],
+      "ans": "2",
+      "solution": "Rabindranath Tagore wrote the National Anthem of India."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which gas is most abundant in the Earth's atmosphere?",
+      "q_hi": "पृथ्वी के वायुमंडल में सबसे अधिक कौन सी गैस पाई जाती है?",
+      "op_en": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "op_hi": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "हाइड्रोजन"
+      ],
+      "ans": "2",
+      "solution": "Nitrogen is the most abundant gas in the Earth's atmosphere."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which country is known as the Land of Rising Sun?",
+      "q_hi": "उगते सूर्य की भूमि किस देश को कहा जाता है?",
+      "op_en": [
+        "China",
+        "Japan",
+        "Korea",
+        "Thailand"
+      ],
+      "op_hi": [
+        "चीन",
+        "जापान",
+        "कोरिया",
+        "थाईलैंड"
+      ],
+      "ans": "2",
+      "solution": "Japan is known as the Land of the Rising Sun."
+    },
+    {
+      "section": "GK",
+      "q_en": "What is the currency of the United Kingdom?",
+      "q_hi": "यूनाइटेड किंगडम की मुद्रा क्या है?",
+      "op_en": [
+        "Euro",
+        "Dollar",
+        "Pound Sterling",
+        "Yen"
+      ],
+      "op_hi": [
+        "यूरो",
+        "डॉलर",
+        "पाउंड स्टर्लिंग",
+        "येन"
+      ],
+      "ans": "3",
+      "solution": "The currency of the United Kingdom is Pound Sterling."
+    },
+    {
+      "section": "GK",
+      "q_en": "Who invented the telephone?",
+      "q_hi": "टेलीफोन का आविष्कार किसने किया?",
+      "op_en": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "op_hi": [
+        "थॉमस एडिसन",
+        "अलेक्जेंडर ग्राहम बेल",
+        "निकोला टेस्ला",
+        "गुग्लिल्मो मारकोनी"
+      ],
+      "ans": "2",
+      "solution": "Alexander Graham Bell invented the telephone."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which is the smallest state of India by area?",
+      "q_hi": "क्षेत्रफल के अनुसार भारत का सबसे छोटा राज्य कौन सा है?",
+      "op_en": [
+        "Goa",
+        "Sikkim",
+        "Tripura",
+        "Manipur"
+      ],
+      "op_hi": [
+        "गोवा",
+        "सिक्किम",
+        "त्रिपुरा",
+        "मणिपुर"
+      ],
+      "ans": "1",
+      "solution": "Goa is the smallest state of India by area."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which organ purifies blood in the human body?",
+      "q_hi": "मानव शरीर में रक्त को शुद्ध करने वाला अंग कौन सा है?",
+      "op_en": [
+        "Heart",
+        "Liver",
+        "Kidney",
+        "Lungs"
+      ],
+      "op_hi": [
+        "हृदय",
+        "यकृत",
+        "गुर्दा",
+        "फेफड़े"
+      ],
+      "ans": "3",
+      "solution": "Kidneys purify blood in the human body."
+    },
+    {
+      "section": "GK",
+      "q_en": "Who was the first woman Prime Minister of India?",
+      "q_hi": "भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+      "op_en": [
+        "Pratibha Patil",
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Sonia Gandhi"
+      ],
+      "op_hi": [
+        "प्रतिभा पाटिल",
+        "इंदिरा गांधी",
+        "सरोजिनी नायडू",
+        "सोनिया गांधी"
+      ],
+      "ans": "2",
+      "solution": "Indira Gandhi was the first woman Prime Minister of India."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which metal is liquid at room temperature?",
+      "q_hi": "कमरे के तापमान पर कौन सी धातु द्रव होती है?",
+      "op_en": [
+        "Iron",
+        "Mercury",
+        "Aluminium",
+        "Copper"
+      ],
+      "op_hi": [
+        "लोहा",
+        "पारा",
+        "एल्युमिनियम",
+        "तांबा"
+      ],
+      "ans": "2",
+      "solution": "Mercury is liquid at room temperature."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which is the national animal of India?",
+      "q_hi": "भारत का राष्ट्रीय पशु कौन सा है?",
+      "op_en": [
+        "Lion",
+        "Elephant",
+        "Tiger",
+        "Leopard"
+      ],
+      "op_hi": [
+        "शेर",
+        "हाथी",
+        "बाघ",
+        "तेंदुआ"
+      ],
+      "ans": "3",
+      "solution": "Tiger is the national animal of India."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which ocean is the largest in the world?",
+      "q_hi": "विश्व का सबसे बड़ा महासागर कौन सा है?",
+      "op_en": [
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "op_hi": [
+        "हिंद महासागर",
+        "अटलांटिक महासागर",
+        "आर्कटिक महासागर",
+        "प्रशांत महासागर"
+      ],
+      "ans": "4",
+      "solution": "The Pacific Ocean is the largest ocean in the world."
+    },
+    {
+      "section": "GK",
+      "q_en": "Who discovered gravity?",
+      "q_hi": "गुरुत्वाकर्षण की खोज किसने की?",
+      "op_en": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Charles Darwin"
+      ],
+      "op_hi": [
+        "अल्बर्ट आइंस्टीन",
+        "आइजैक न्यूटन",
+        "गैलीलियो गैलीली",
+        "चार्ल्स डार्विन"
+      ],
+      "ans": "2",
+      "solution": "Sir Isaac Newton discovered gravity."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which day is celebrated as World Environment Day?",
+      "q_hi": "विश्व पर्यावरण दिवस कब मनाया जाता है?",
+      "op_en": [
+        "5 June",
+        "22 April",
+        "16 October",
+        "8 March"
+      ],
+      "op_hi": [
+        "5 जून",
+        "22 अप्रैल",
+        "16 अक्टूबर",
+        "8 मार्च"
+      ],
+      "ans": "1",
+      "solution": "World Environment Day is celebrated on 5 June."
+    },
+    {
+      "section": "GK",
+      "q_en": "Which is the highest mountain peak in the world?",
+      "q_hi": "विश्व की सबसे ऊँची पर्वत चोटी कौन सी है?",
+      "op_en": [
+        "K2",
+        "Kangchenjunga",
+        "Mount Everest",
+        "Makalu"
+      ],
+      "op_hi": [
+        "के2",
+        "कंचनजंगा",
+        "माउंट एवरेस्ट",
+        "मकालू"
+      ],
+      "ans": "3",
+      "solution": "Mount Everest is the highest mountain peak in the world."
+    }
+  ]
+}
