@@ -1,0 +1,26 @@
+{
+  "test_id": "dsssb_full_01",
+  "title": "DSSSB Full Mock Test - 01",
+  "time_minutes": 120,
+  "sections": ["General", "Reasoning", "Maths", "English", "Hindi"],
+  "questions": [
+    {
+      "section": "General",
+      "q_en": "Who is known as the 'Iron Man of India'?",
+      "q_hi": "भारत के 'लौह पुरुष' के रूप में किसे जाना जाता है?",
+      "ans": "2",
+      "op_en": ["M.K. Gandhi", "Sardar Patel", "J.L. Nehru", "Subhash Bose"],
+      "op_hi": ["एम.के. गांधी", "सरदार पटेल", "जे.एल. नेहरू", "सुभाष बोस"],
+      "solution": "<b>Sardar Vallabhbhai Patel</b> played a key role."
+    },
+    {
+       "section": "Maths",
+       "q_en": "Solve: 2 + 2 = ?",
+       "q_hi": "हल करें: 2 + 2 = ?",
+       "ans": "4",
+       "op_en": ["3", "5", "6", "4"],
+       "op_hi": ["3", "5", "6", "4"],
+       "solution": "Simple addition."
+    }
+  ]
+}

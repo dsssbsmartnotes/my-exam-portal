@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSSSB CBT Professional Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }, svg: { fontCache: 'global' }, startup: { typeset: false } };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+<style>
+/* ... (AAPKA PURANA CSS SAME RAHEGA - COPY PASTE YOUR CSS HERE) ... */
+/* For brevity, using your exact CSS provided in previous prompt */
+:root { --primary: #2563eb; --primary-dark: #1e40af; --success: #16a34a; --danger: #dc2626; --warning: #ca8a04; --bg-body: #f1f5f9; --bg-card: #ffffff; --text-main: #1e293b; --text-muted: #64748b; --border-color: #e2e8f0; --header-height: 60px; --footer-height: 60px; }
+body.dark-mode { --primary: #60a5fa; --primary-dark: #3b82f6; --success: #4ade80; --danger: #f87171; --bg-body: #0f172a; --bg-card: #1e293b; --text-main: #f1f5f9; --text-muted: #94a3b8; --border-color: #334155; }
+* { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-body); color: var(--text-main); overflow: hidden; user-select: none; }
+body { display: grid; grid-template-rows: var(--header-height) auto 1fr var(--footer-height); }
+#tgPopup { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--bg-card); padding: 25px; width: 85%; max-width: 320px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); z-index: 9999; text-align: center; display: none; color: var(--text-main); border: 1px solid var(--border-color); }
+#tgPopup a { display: block; background: #0088cc; color: #fff; padding: 12px; border-radius: 8px; text-decoration: none; margin-top: 15px; font-weight: bold; }
+.tg-btn-continue { background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; cursor: pointer; font-weight: 600; width: 100%; }
+#toast-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); z-index: 10000; display: flex; flex-direction: column; gap: 10px; align-items: center; pointer-events: none; width: 90%; max-width: 400px; }
+.toast { background: rgba(30, 41, 59, 0.95); color: #fff; padding: 12px 20px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 12px; font-size: 14px; animation: slideUp 0.3s ease-out; pointer-events: auto; backdrop-filter: blur(4px); width: 100%; border-left: 4px solid var(--primary); }
+.toast.success { border-color: var(--success); } .toast.error { border-color: var(--danger); } .toast.warning { border-color: var(--warning); }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.full-overlay { position: fixed; inset: 0; background: var(--bg-body); z-index: 2000; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; overflow-y: auto; }
+.login-card { background: var(--bg-card); padding: 30px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; border: 1px solid var(--border-color); }
+.login-input { width: 100%; padding: 12px; margin: 8px 0; border: 2px solid var(--border-color); border-radius: 8px; background: var(--bg-body); color: var(--text-main); font-size: 16px; }
+.btn-primary { background: var(--primary); color: #fff; border: none; padding: 12px; width: 100%; border-radius: 8px; font-weight: bold; font-size: 16px; cursor: pointer; margin-top: 15px; }
+header { background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding: 0 15px; z-index: 50; height: var(--header-height); }
+.brand { font-weight: 800; font-size: 18px; color: var(--primary); display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.header-tools { display: flex; gap: 8px; align-items: center; }
+.timer-badge { background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 5px 10px; border-radius: 6px; font-weight: bold; font-family: monospace; font-size: 16px; border: 1px solid rgba(37, 99, 235, 0.2); }
+.nav-btn { padding: 6px 10px; border-radius: 6px; font-weight: 600; cursor: pointer; border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-size: 13px; display: flex; align-items: center; justify-content: center; }
+#sectionBar { background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; overflow-x: auto; scrollbar-width: none; white-space: nowrap; height: 50px; align-items: center; }
+.sec-tab { padding: 0 15px; height: 100%; font-size: 13px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 5px; border-bottom: 3px solid transparent; transition: 0.2s; opacity: 0.7; }
+.sec-tab.active { color: var(--primary); border-bottom-color: var(--primary); background: rgba(37, 99, 235, 0.05); opacity: 1; }
+.sec-tab.done { color: var(--success); opacity: 1; }
+#mainArea { padding: 15px; overflow-y: auto; display: none; position: relative; background: var(--bg-body); }
+.q-card { background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); margin-bottom: 20px; }
+.q-header { display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; font-size: 13px; color: var(--text-muted); }
+.q-text { font-size: 16px; line-height: 1.5; margin-bottom: 15px; font-weight: 500; overflow-x: auto; }
+.q-text img, .opt img { max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in; }
+.opt { display: flex; align-items: center; padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 8px; cursor: pointer; transition: 0.2s; background: var(--bg-card); font-size: 14px; }
+.opt:hover { background: var(--bg-body); border-color: var(--primary); }
+.opt.sel { background: rgba(37, 99, 235, 0.1); border-color: var(--primary); font-weight: 600; }
+.opt-badge { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--border-color); display: flex; align-items: center; justify-content: center; margin-right: 10px; font-size: 11px; font-weight: bold; flex-shrink: 0; }
+.opt.sel .opt-badge { background: var(--primary); border-color: var(--primary); color: #fff; }
+.opt.correct-ans { border-color: var(--success); background: rgba(22, 163, 74, 0.1); }
+.opt.correct-ans .opt-badge { background: var(--success); border-color: var(--success); color: #fff; }
+.opt.wrong-ans { border-color: var(--danger); background: rgba(220, 38, 38, 0.1); }
+.opt.wrong-ans .opt-badge { background: var(--danger); border-color: var(--danger); color: #fff; }
+footer { background: var(--bg-card); padding: 5px 10px; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; gap: 8px; display: none; z-index: 40; align-items: center; height: var(--footer-height); }
+footer .nav-btn { height: 40px; flex: 1; max-width: 120px; }
+footer .btn-grid { max-width: 80px; }
+.nav-btn.primary { background: var(--primary); color: #fff; border: none; }
+#palettePanel { position: fixed; top: 0; right: 0; bottom: 0; width: 280px; background: var(--bg-card); z-index: 2000; display: flex; flex-direction: column; box-shadow: -5px 0 25px rgba(0,0,0,0.2); transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+#palettePanel.show { transform: translateX(0); }
+.modal-header { padding: 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 16px; }
+.p-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; padding: 15px; overflow-y: auto; flex: 1; align-content: start; }
+.qbtn { aspect-ratio: 1; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); font-weight: 600; font-size: 12px; cursor: pointer; color: var(--text-main); }
+.qbtn.current { border: 2px solid var(--text-main); }
+.qbtn.answered { background: var(--success); color: #fff; border: none; }
+.qbtn.review { background: var(--warning); color: #fff; border: none; }
+.qbtn.p-correct { background: var(--success); color: #fff; border-color: var(--success); }
+.qbtn.p-wrong { background: var(--danger); color: #fff; border-color: var(--danger); }
+.qbtn.p-skip { background: var(--text-muted); color: #fff; border-color: var(--text-muted); opacity: 0.6; }
+@media(max-width: 480px) { #palettePanel { width: 85%; } .brand span { font-size: 20px; } .brand { font-size: 16px; } .timer-badge { font-size: 14px; padding: 4px 8px; } .nav-btn { padding: 5px 8px; font-size: 12px; } .sec-tab { padding: 0 10px; font-size: 12px; } footer { padding: 5px; } .dashboard-grid { grid-template-columns: 1fr; } .big-num { font-size: 24px; } }
+#zoomModal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 5000; display: none; justify-content: center; align-items: center; flex-direction: column; }
+#zoomImg { max-width: 95%; max-height: 80vh; border-radius: 8px; border: 1px solid #fff; }
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 1500; display: none; backdrop-filter: blur(2px); justify-content: center; align-items: center; padding: 10px; }
+.modal-card { background: var(--bg-card); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.modal-body { padding: 15px; overflow-y: auto; }
+.dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px; }
+.stat-box { background: var(--bg-body); padding: 15px; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; }
+.big-num { font-size: 28px; font-weight: 800; color: var(--primary); }
+.analysis-area-box { padding: 10px; border-radius: 8px; font-size: 13px; margin-top: 10px; text-align: left; }
+.area-strong { background: rgba(22, 163, 74, 0.1); border: 1px solid var(--success); color: var(--success); }
+.area-weak { background: rgba(220, 38, 38, 0.1); border: 1px solid var(--danger); color: var(--danger); }
+.area-avg { background: rgba(202, 138, 4, 0.1); border: 1px solid var(--warning); color: var(--warning); }
+.res-q-box { margin-bottom: 15px; padding: 10px; border: 1px solid var(--border-color); border-radius: 6px; background: var(--bg-card); page-break-inside: avoid; }
+.res-status-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; color: #fff; font-size: 11px; margin-left: 5px; text-transform: uppercase; font-weight: bold; }
+.badge-green { background: var(--success); } .badge-red { background: var(--danger); } .badge-gray { background: var(--text-muted); }
+.sol-box { margin-top: 10px; padding: 10px; background: rgba(37, 99, 235, 0.05); border-left: 3px solid var(--primary); font-size: 14px; border-radius: 0 4px 4px 0; }
+.leaderboard-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 10px; }
+.leaderboard-table th, .leaderboard-table td { padding: 10px; border-bottom: 1px solid var(--border-color); text-align: left; }
+.leaderboard-table th { background: var(--bg-body); color: var(--text-muted); }
+.rank-1 { color: #d4af37; font-weight: bold; } .rank-2 { color: #c0c0c0; font-weight: bold; } .rank-3 { color: #cd7f32; font-weight: bold; }
+</style>
+</head>
+
+<body onload="initApp()">
+
+<div id="tgPopup">
+ <b>ðŸ“¢ Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests â€¢ PDFs â€¢ Results
+ <a href="https://t.me/DSSSBRank" target="_blank">Join Telegram</a><br>
+ <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div id="zoomModal" onclick="closeZoom()">
+    <span style="position:absolute; top:20px; right:20px; font-size:40px; color:#fff; cursor:pointer;">&times;</span>
+    <img id="zoomImg" src="">
+    <div style="color:#fff; margin-top:10px;">Click anywhere to close</div>
+</div>
+
+<div id="paletteOverlay" onclick="togglePalette()" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1900; display:none;"></div>
+<div id="toast-container"></div>
+
+<div id="startScreen" class="full-overlay">
+    <div class="login-card">
+        <div style="font-size:40px; margin-bottom:10px;">ðŸŽ“</div>
+        <h2 style="margin:0 0 10px 0; color:var(--primary);">DSSSB Pro Portal</h2>
+        <p id="testTitleDisp" style="color:var(--text-muted); font-size:14px; margin-bottom:20px;">Loading Test Data...</p>
+        <input type="text" id="startNameInput" class="login-input" placeholder="Enter Full Name">
+        <input type="password" id="examPassInput" class="login-input" placeholder="Password (default: dsssb2406)">
+        <button class="btn-primary" onclick="validateLogin()" id="startBtn" disabled>START EXAM</button>
+    </div>
+</div>
+
+<header>
+    <div class="brand"><span>ðŸ›¡ï¸</span> DSSSB CBT</div>
+    <div class="header-tools">
+        <div id="timer" class="timer-badge">00:00</div>
+        <button class="nav-btn" onclick="toggleTheme()">ðŸŒ™</button>
+        <button class="nav-btn" onclick="toggleLang()" id="langBtn">HI</button>
+        <button class="nav-btn" onclick="toggleFS()">â›¶</button>
+    </div>
+</header>
+
+<div id="sectionBar"></div>
+
+<div id="mainArea">
+    <div class="q-card">
+        <div class="q-header">
+            <span>Q.<b id="qNumDisp">1</b></span>
+            <span><span style="color:var(--success)">+1.0</span> / <span style="color:var(--danger)">-0.25</span></span>
+        </div>
+        <div id="qContent" class="q-text"></div>
+        <div id="opts"></div>
+        <div id="solutionDisplay" class="sol-box" style="display:none; margin-top:15px;"></div>
+        <div style="margin-top:20px; display:flex; gap:10px;">
+            <button class="nav-btn" style="border-color:var(--warning); color:var(--warning); flex:1;" onclick="markReview()">â­ Review</button>
+            <button class="nav-btn" style="flex:1;" onclick="clearResponse()">Clear</button>
+        </div>
+    </div>
+    <div style="height:20px;"></div>
+</div>
+
+<div id="palettePanel">
+    <div class="modal-header" style="background:var(--bg-body);">
+        <span>Question Palette</span>
+        <button onclick="togglePalette()" style="border:none; background:none; font-size:24px;">&times;</button>
+    </div>
+    <div class="p-grid" id="paletteGrid"></div>
+    <div style="padding:15px; border-top:1px solid var(--border-color);">
+        <button id="mainSubmitBtn" onclick="submitTest()" class="btn-primary" style="background:var(--danger);">SUBMIT EXAM</button>
+    </div>
+</div>
+
+<div id="resultModal" class="modal-overlay">
+    <div class="modal-card">
+        <div class="modal-header">
+            <span>ðŸ† Result & Leaderboard</span>
+            <button onclick="closeResult()" style="border:none; background:none; font-size:20px;">&times;</button>
+        </div>
+        <div class="modal-body" id="resultContent"></div>
+    </div>
+</div>
+
+<footer>
+    <button class="nav-btn btn-grid" onclick="togglePalette()">Grid</button>
+    <button class="nav-btn" onclick="prev()">Prev</button>
+    <button class="nav-btn primary" id="nextBtn" onclick="next()">Next</button>
+</footer>
+<script>
+// --- FIREBASE CONFIG ---
+const firebaseConfig = {
+  apiKey: "AIzaSyBVaSgp3OJWWMVcIj6XiUyRh64hfgGmHIw",
+  authDomain: "dsssb-cbt.firebaseapp.com",
+  databaseURL: "https://dsssb-cbt-default-rtdb.firebaseio.com", 
+  projectId: "dsssb-cbt",
+  storageBucket: "dsssb-cbt.firebasestorage.app",
+  messagingSenderId: "14625387674",
+  appId: "1:14625387674:web:3bfeaaca2391b2524ddb23",
+  measurementId: "G-P5K9DHX4E5"
+};
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+
+// --- CONFIG VARS ---
+const PASS_ENCODED = "ZHNzc2IyNDA2"; 
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
+
+// --- DYNAMIC STATE ---
+let QUESTIONS = [];
+let SECTION_MAP = [];
+let TOTAL_TIME_MINS = 0;
+let TEST_ID = "unknown_test"; // Will be fetched from JSON
+let DB_REF_NAME = "dsssb_results"; 
+
+let currentState = { idx: 0, answers: [], review: [], time: 0, secIdx: 0, submitted: false, name: "" };
+let timerInt;
+let secIndices = [];
+
+// --- INITIALIZATION ---
+function initApp() {
+    // 1. Get File Parameter
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file');
+
+    if(!file) {
+        alert("No test file selected! Redirecting to dashboard.");
+        window.location.href = "index.html";
+        return;
+    }
+
+    // 2. Fetch JSON Data
+    fetch(file)
+    .then(res => res.json())
+    .then(data => {
+        // Load data into variables
+        QUESTIONS = data.questions;
+        SECTION_MAP = data.sections;
+        TOTAL_TIME_MINS = data.time_minutes;
+        TEST_ID = data.test_id;
+        DB_REF_NAME = `dsssb_results/${TEST_ID}`; // Separate Rank per Test ID
+        
+        document.getElementById('testTitleDisp').innerText = data.title;
+        document.getElementById('startBtn').disabled = false;
+        
+        // Setup State Arrays
+        currentState.answers = new Array(QUESTIONS.length).fill(null);
+        currentState.review = new Array(QUESTIONS.length).fill(false);
+        currentState.time = TOTAL_TIME_MINS * 60;
+        
+        calcSectionIndices();
+    })
+    .catch(err => {
+        document.getElementById('testTitleDisp').innerText = "Error Loading Test.";
+        console.error(err);
+    });
+}
+
+// --- HELPER FUNCTIONS (Most remain same) ---
+
+function calcSectionIndices() { 
+    secIndices = [];
+    SECTION_MAP.forEach(sec => { 
+        const start = QUESTIONS.findIndex(q => q.section === sec); 
+        secIndices.push(start !== -1 ? start : 0); 
+    }); 
+}
+
+function validateLogin() {
+    const name = document.getElementById('startNameInput').value.trim();
+    const pass = document.getElementById('examPassInput').value.trim();
+    if(!name) return showToast("Enter Name", "error");
+    if(btoa(pass) !== PASS_ENCODED) return showToast("Invalid Password", "error");
+    currentState.name = name;
+    startGame();
+}
+
+function startGame() {
+    document.getElementById('startScreen').style.display = 'none';
+    document.querySelector('header').style.display = 'flex';
+    document.getElementById('mainArea').style.display = 'block';
+    document.querySelector('footer').style.display = 'flex';
+    renderSectionTabs();
+    currentState.idx = secIndices[0];
+    loadQuestion(currentState.idx);
+    startTimer();
+    showToast(`Welcome ${currentState.name}`, "success");
+    toggleFS(); 
+    document.getElementById('tgPopup').style.display = "block"; 
+}
+
+function renderSectionTabs() {
+    const bar = document.getElementById('sectionBar'); let html = "";
+    SECTION_MAP.forEach((sec, i) => {
+        let cls = "sec-tab"; let icon = "ðŸ”’";
+        if (currentState.submitted) {
+            cls += " done"; icon = "ðŸ”“";
+            if (i === currentState.secIdx) { cls += " active"; icon = "ðŸ‘ï¸"; }
+        } else {
+            if(i === currentState.secIdx) { cls += " active"; icon = "ðŸŸ¢"; }
+            else if(i < currentState.secIdx) { cls += " done"; icon = "âœ…"; }
+        }
+        html += `<div class="${cls}" onclick="jumpSection(${i})">${icon} ${sec}</div>`;
+    });
+    bar.innerHTML = html;
+}
+
+function jumpSection(secIndex) {
+    if(currentState.submitted) {
+        currentState.secIdx = secIndex;
+        loadQuestion(secIndices[secIndex]);
+        renderSectionTabs();
+    }
+}
+
+function loadQuestion(idx) {
+    currentState.idx = idx; 
+    const q = QUESTIONS[idx]; 
+    const isHindi = document.getElementById('langBtn').innerText === "HI";
+    
+    // Auto update section index based on current Q
+    const qSecIdx = SECTION_MAP.indexOf(q.section);
+    if(qSecIdx !== -1 && qSecIdx !== currentState.secIdx) {
+        currentState.secIdx = qSecIdx;
+        renderSectionTabs();
+    }
+
+    document.getElementById('qNumDisp').innerText = idx + 1;
+    const contentDiv = document.getElementById('qContent');
+    contentDiv.innerHTML = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
+    contentDiv.querySelectorAll('img').forEach(img => { img.onclick = () => openZoom(img.src); });
+
+    let optsHtml = ""; 
+    const correctIdx = parseInt(q.ans) - 1;
+    const optsArr = isHindi ? (q.op_hi || q.op_en) : (q.op_en || q.op_hi);
+    
+    optsArr.forEach((opt, i) => {
+        let cls = "opt"; 
+        const myAns = currentState.answers[idx];
+        if (currentState.submitted) {
+            if (i === correctIdx) cls += " correct-ans";
+            else if (i === myAns && i !== correctIdx) cls += " wrong-ans";
+        } else {
+            if(myAns === i) cls += " sel";
+        }
+        optsHtml += `<div class="${cls}" onclick="selectAns(${i})"><div class="opt-badge">${String.fromCharCode(65+i)}</div><div style="width:100%">${opt}</div></div>`;
+    });
+    
+    document.getElementById('opts').innerHTML = optsHtml;
+    
+    const solBox = document.getElementById('solutionDisplay');
+    if(currentState.submitted) {
+        solBox.innerHTML = `<b>Solution:</b><br>${q.solution}`;
+        solBox.style.display = 'block';
+    } else { solBox.style.display = 'none'; }
+
+    updateNavButtons(); 
+    renderPalette(); 
+    if(window.MathJax) MathJax.typesetPromise();
+}
+
+function selectAns(i) { 
+    if(currentState.submitted) return; 
+    currentState.answers[currentState.idx] = i; 
+    loadQuestion(currentState.idx); 
+}
+
+function next() {
+    if(currentState.idx < QUESTIONS.length - 1) {
+        if (currentState.submitted) { loadQuestion(currentState.idx + 1); return; }
+        const nextQ = QUESTIONS[currentState.idx + 1]; 
+        const currQ = QUESTIONS[currentState.idx];
+        if(nextQ.section !== currQ.section) {
+            if(confirm(`Finish ${currQ.section} section?`)) { 
+                currentState.secIdx++; renderSectionTabs(); loadQuestion(currentState.idx + 1); 
+            }
+        } else { loadQuestion(currentState.idx + 1); }
+    } else { 
+        if(!currentState.submitted) submitTest();
+        else showToast("End of Questions", "info");
+    }
+}
+
+function prev() {
+    if (currentState.submitted && currentState.idx > 0) { loadQuestion(currentState.idx - 1); return; }
+    const currQ = QUESTIONS[currentState.idx];
+    if(currentState.idx > 0) {
+        const prevQ = QUESTIONS[currentState.idx - 1];
+        if(prevQ.section === currQ.section) { loadQuestion(currentState.idx - 1); } 
+        else { showToast("Locked Section", "warning"); }
+    }
+}
+
+function updateNavButtons() {
+    const btn = document.getElementById('nextBtn');
+    if(currentState.idx === QUESTIONS.length - 1) { 
+        btn.innerText = currentState.submitted ? "END" : "FINISH"; 
+        if (!currentState.submitted) btn.style.background = "var(--danger)"; 
+    } else { 
+        btn.innerText = "Next"; 
+        btn.style.background = "var(--primary)"; 
+    }
+}
+
+function startTimer() {
+    clearInterval(timerInt);
+    timerInt = setInterval(() => {
+        if(currentState.submitted) return;
+        if(currentState.time <= 0) { submitTest(); return; }
+        currentState.time--;
+        const m = Math.floor(currentState.time / 60).toString().padStart(2,'0');
+        const s = (currentState.time % 60).toString().padStart(2,'0');
+        const el = document.getElementById('timer');
+        el.innerText = `${m}:${s}`;
+        if(currentState.time < 300) el.classList.add('low');
+    }, 1000);
+}
+
+function showToast(msg, type="info") {
+    const container = document.getElementById('toast-container'); const t = document.createElement('div'); t.className = `toast ${type}`;
+    let icon = "â„¹ï¸"; if(type==="success") icon = "âœ…"; if(type==="error") icon = "âŒ"; if(type==="warning") icon = "âš ï¸";
+    t.innerHTML = `<span>${icon}</span> <span>${msg}</span>`; container.appendChild(t); setTimeout(() => t.remove(), 3000);
+}
+
+function togglePalette() { document.getElementById('palettePanel').classList.toggle('show'); document.getElementById('paletteOverlay').style.display = document.getElementById('palettePanel').classList.contains('show') ? 'block' : 'none'; }
+
+function renderPalette() {
+    const grid = document.getElementById('paletteGrid'); grid.innerHTML = "";
+    QUESTIONS.forEach((q, i) => {
+        const myAns = currentState.answers[i]; 
+        let cls = "qbtn";
+        if (currentState.submitted) {
+            const correctIdx = parseInt(q.ans) - 1;
+            if (myAns === correctIdx) cls += " p-correct";
+            else if (myAns !== null) cls += " p-wrong";
+            else cls += " p-skip";
+            if(currentState.review[i]) cls += " review";
+        } else {
+            if(i === currentState.idx) cls += " current"; 
+            if(myAns !== null) cls += " answered"; 
+            else if(currentState.review[i]) cls += " review";
+        }
+        
+        const isAccessible = currentState.submitted || (i >= secIndices[currentState.secIdx] && (currentState.secIdx === SECTION_MAP.length -1 || i < secIndices[currentState.secIdx+1]));
+        const btn = document.createElement('button'); btn.className = cls; btn.innerText = i + 1;
+        if(isAccessible) { btn.onclick = () => { loadQuestion(i); if(window.innerWidth < 768) togglePalette(); }; } else btn.style.opacity = "0.3";
+        grid.appendChild(btn);
+    });
+}
+
+function markReview() { currentState.review[currentState.idx] = !currentState.review[currentState.idx]; loadQuestion(currentState.idx); }
+function clearResponse() { currentState.answers[currentState.idx] = null; loadQuestion(currentState.idx); }
+function toggleTheme() { document.body.classList.toggle('dark-mode'); }
+function toggleLang() { const btn = document.getElementById('langBtn'); btn.innerText = btn.innerText === "HI" ? "EN" : "HI"; loadQuestion(currentState.idx); }
+function openZoom(src) { document.getElementById('zoomImg').src = src; document.getElementById('zoomModal').style.display = 'flex'; }
+function closeZoom() { document.getElementById('zoomModal').style.display = 'none'; }
+function toggleFS() { !document.fullscreenElement ? document.documentElement.requestFullscreen() : document.exitFullscreen(); }
+function closeTg(){ document.getElementById('tgPopup').style.display = "none"; }
+function closeResult() { document.getElementById('resultModal').style.display = 'none'; }
+
+function sendResultToTelegram(name,score,c,w,s,time,accuracy){
+ fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,{
+  method:"POST", headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+   chat_id:TELEGRAM_CHAT_ID,
+   text:`ðŸ“˜ ${TEST_ID}\n\nðŸ‘¤ Name: ${name}\nâ± Time: ${time}\nâœ… Correct: ${c}\nâŒ Wrong: ${w}\nâž– Skipped: ${s}\nðŸŽ¯ Score: ${score}\nðŸ“Š Accuracy: ${accuracy}%\n\nðŸ”¥ DSSSB Smart Notes`
+  })
+ });
+}
+
+function submitTest() {
+    if(!currentState.submitted) { if(!confirm("Submit Exam?")) return; }
+    currentState.submitted = true; 
+    clearInterval(timerInt); 
+    renderPalette(); renderSectionTabs();
+
+    let totalScore = 0, correct = 0, wrong = 0, skipped = 0;
+    let sectionScores = {};
+
+    QUESTIONS.forEach((q, i) => {
+        const secName = q.section;
+        if(!sectionScores[secName]) sectionScores[secName] = {c:0, w:0, s:0, total:0};
+        sectionScores[secName].total++;
+        const correctIdx = parseInt(q.ans) - 1;
+        const myAns = currentState.answers[i];
+        if(myAns === null) { skipped++; sectionScores[secName].s++; }
+        else if(myAns === correctIdx) { correct++; totalScore += 1; sectionScores[secName].c++; }
+        else { wrong++; totalScore -= 0.25; sectionScores[secName].w++; }
+    });
+
+    const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(1) : 0;
+    const timeSpentSeconds = (TOTAL_TIME_MINS * 60) - currentState.time;
+    const timeStr = `${Math.floor(timeSpentSeconds/60)}m ${timeSpentSeconds%60}s`;
+
+    // Strong/Weak Logic
+    let strongAreas = [], weakAreas = [];
+    for (const [sec, data] of Object.entries(sectionScores)) {
+        const acc = data.total > 0 ? (data.c / data.total) * 100 : 0;
+        if (acc >= 75) strongAreas.push(sec); else if (acc <= 40) weakAreas.push(sec);
+    }
+
+    // FIREBASE SAVE (Dynamic Collection)
+    const userData = { name: currentState.name, score: parseFloat(totalScore.toFixed(2)), timeTaken: timeSpentSeconds, timestamp: firebase.database.ServerValue.TIMESTAMP };
+    db.ref(DB_REF_NAME).push(userData);
+
+    sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
+
+    // Generate HTML for Result
+    let html = `
+        <div id="pdfContent">
+            <div style="text-align:center; border-bottom:2px solid var(--primary); padding-bottom:10px;">
+                <h2 style="color:var(--primary); margin:0;">DSSSB SMART NOTES</h2>
+                <p>Test: ${TEST_ID} | Candidate: <b>${currentState.name}</b></p>
+            </div>
+            <div class="dashboard-grid">
+                <div class="stat-box"><div class="big-num">${totalScore.toFixed(2)}</div><div>Score</div></div>
+                <div class="stat-box"><div class="big-num">${accuracy}%</div><div>Accuracy</div></div>
+            </div>
+            <div class="analysis-area-box area-strong"><b>ðŸ’ª Strong:</b> ${strongAreas.join(', ') || 'None'}</div>
+            <div class="analysis-area-box area-weak"><b>âš ï¸ Weak:</b> ${weakAreas.join(', ') || 'None'}</div>
+            
+            <div style="margin:20px 0; background:var(--bg-body); padding:10px;">
+                <h4>ðŸ† Live Leaderboard</h4>
+                <table class="leaderboard-table" id="leaderboardTable"><tbody id="leaderboardBody"></tbody></table>
+            </div>
+
+            <div style="height:200px;"><canvas id="pieChart"></canvas></div>
+        </div>
+        <button onclick="downloadPDF()" class="btn-primary">Download PDF</button>
+    `;
+    
+    document.getElementById('resultContent').innerHTML = html;
+    document.getElementById('resultModal').style.display = 'flex';
+    document.getElementById('mainSubmitBtn').style.display = 'none';
+
+    new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] } });
+    
+    fetchLeaderboard();
+}
+
+function fetchLeaderboard() {
+    // Dynamic Fetch based on Test ID
+    db.ref(DB_REF_NAME).orderByChild('score').limitToLast(50).once('value', (snapshot) => {
+        let scores = [];
+        snapshot.forEach(child => scores.push(child.val()));
+        scores.sort((a, b) => b.score - a.score || a.timeTaken - b.timeTaken);
+        
+        let html = "";
+        scores.slice(0, 10).forEach((s, idx) => {
+            html += `<tr><td>${idx+1}</td><td>${s.name}</td><td>${s.score}</td></tr>`;
+        });
+        document.getElementById('leaderboardBody').innerHTML = html;
+    });
+}
+
+function downloadPDF() {
+    const element = document.getElementById('pdfContent');
+    html2pdf().from(element).save(`${currentState.name}_Result.pdf`);
+}
+</script>
+</body>
+</html>

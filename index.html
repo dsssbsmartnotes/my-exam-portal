@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSSSB Mock Platform</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f1f5f9; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 5px solid #2563eb; }
+        .card h3 { margin: 0 0 10px 0; color: #1e293b; }
+        .btn { display: inline-block; background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; margin-top: 10px; font-weight: bold; }
+        .btn:hover { background: #1e40af; }
+        .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center; color:#1e293b;">ðŸ›¡ï¸ DSSSB Exam Portal</h1>
+        
+        <h2>ðŸ“ Full Mock Tests</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>DSSSB Full Mock 01</h3>
+                <div><span class="badge">120 Mins</span> <span class="badge">200 Qs</span></div>
+                <p>Complete syllabus test with live ranking.</p>
+                <a href="quiz.html?file=data/full_mock_01.json" class="btn">Start Full Mock</a>
+            </div>
+        </div>
+
+        <h2>ðŸ§® Sectional Tests</h2>
+        <div class="card-grid">
+            <div class="card" style="border-left-color: #ca8a04;">
+                <h3>Maths Special Set 01</h3>
+                <div><span class="badge">20 Mins</span> <span class="badge">20 Qs</span></div>
+                <p>Topic wise practice set.</p>
+                <a href="quiz.html?file=data/maths_set_01.json" class="btn" style="background:#ca8a04">Start Sectional</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

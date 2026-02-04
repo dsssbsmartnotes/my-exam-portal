@@ -1,0 +1,17 @@
+{
+  "test_id": "dsssb_maths_01",
+  "title": "Maths Special Set - 01",
+  "time_minutes": 20,
+  "sections": ["Maths"],
+  "questions": [
+    {
+      "section": "Maths",
+      "q_en": "What is the square root of 144?",
+      "q_hi": "144 का वर्गमूल क्या है?",
+      "ans": "1",
+      "op_en": ["12", "14", "16", "18"],
+      "op_hi": ["12", "14", "16", "18"],
+      "solution": "12 x 12 = 144"
+    }
+  ]
+}
