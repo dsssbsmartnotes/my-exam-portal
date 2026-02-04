@@ -14,8 +14,6 @@ window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath:
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 
 <style>
-/* ... (AAPKA PURANA CSS SAME RAHEGA - COPY PASTE YOUR CSS HERE) ... */
-/* For brevity, using your exact CSS provided in previous prompt */
 :root { --primary: #2563eb; --primary-dark: #1e40af; --success: #16a34a; --danger: #dc2626; --warning: #ca8a04; --bg-body: #f1f5f9; --bg-card: #ffffff; --text-main: #1e293b; --text-muted: #64748b; --border-color: #e2e8f0; --header-height: 60px; --footer-height: 60px; }
 body.dark-mode { --primary: #60a5fa; --primary-dark: #3b82f6; --success: #4ade80; --danger: #f87171; --bg-body: #0f172a; --bg-card: #1e293b; --text-main: #f1f5f9; --text-muted: #94a3b8; --border-color: #334155; }
 * { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
@@ -97,8 +95,8 @@ footer .btn-grid { max-width: 80px; }
 <body onload="initApp()">
 
 <div id="tgPopup">
- <b>ðŸ“¢ Join DSSSB Smart Notes</b><br><br>
- Daily CBT Tests â€¢ PDFs â€¢ Results
+ <b>📢 Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests • PDFs • Results
  <a href="https://t.me/DSSSBRank" target="_blank">Join Telegram</a><br>
  <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
 </div>
@@ -114,7 +112,7 @@ footer .btn-grid { max-width: 80px; }
 
 <div id="startScreen" class="full-overlay">
     <div class="login-card">
-        <div style="font-size:40px; margin-bottom:10px;">ðŸŽ“</div>
+        <div style="font-size:40px; margin-bottom:10px;">🎓</div>
         <h2 style="margin:0 0 10px 0; color:var(--primary);">DSSSB Pro Portal</h2>
         <p id="testTitleDisp" style="color:var(--text-muted); font-size:14px; margin-bottom:20px;">Loading Test Data...</p>
         <input type="text" id="startNameInput" class="login-input" placeholder="Enter Full Name">
@@ -124,12 +122,12 @@ footer .btn-grid { max-width: 80px; }
 </div>
 
 <header>
-    <div class="brand"><span>ðŸ›¡ï¸</span> DSSSB CBT</div>
+    <div class="brand"><span>🛡️</span> DSSSB CBT</div>
     <div class="header-tools">
         <div id="timer" class="timer-badge">00:00</div>
-        <button class="nav-btn" onclick="toggleTheme()">ðŸŒ™</button>
+        <button class="nav-btn" onclick="toggleTheme()">🌑</button>
         <button class="nav-btn" onclick="toggleLang()" id="langBtn">HI</button>
-        <button class="nav-btn" onclick="toggleFS()">â›¶</button>
+        <button class="nav-btn" onclick="toggleFS()">⛶</button>
     </div>
 </header>
 
@@ -145,7 +143,7 @@ footer .btn-grid { max-width: 80px; }
         <div id="opts"></div>
         <div id="solutionDisplay" class="sol-box" style="display:none; margin-top:15px;"></div>
         <div style="margin-top:20px; display:flex; gap:10px;">
-            <button class="nav-btn" style="border-color:var(--warning); color:var(--warning); flex:1;" onclick="markReview()">â­ Review</button>
+            <button class="nav-btn" style="border-color:var(--warning); color:var(--warning); flex:1;" onclick="markReview()">⭐ Review</button>
             <button class="nav-btn" style="flex:1;" onclick="clearResponse()">Clear</button>
         </div>
     </div>
@@ -166,7 +164,7 @@ footer .btn-grid { max-width: 80px; }
 <div id="resultModal" class="modal-overlay">
     <div class="modal-card">
         <div class="modal-header">
-            <span>ðŸ† Result & Leaderboard</span>
+            <span>🏆 Result & Leaderboard</span>
             <button onclick="closeResult()" style="border:none; background:none; font-size:20px;">&times;</button>
         </div>
         <div class="modal-body" id="resultContent"></div>
@@ -178,6 +176,7 @@ footer .btn-grid { max-width: 80px; }
     <button class="nav-btn" onclick="prev()">Prev</button>
     <button class="nav-btn primary" id="nextBtn" onclick="next()">Next</button>
 </footer>
+
 <script>
 // --- FIREBASE CONFIG ---
 const firebaseConfig = {
@@ -203,7 +202,7 @@ const TELEGRAM_CHAT_ID="@dsssbcbtresult";
 let QUESTIONS = [];
 let SECTION_MAP = [];
 let TOTAL_TIME_MINS = 0;
-let TEST_ID = "unknown_test"; // Will be fetched from JSON
+let TEST_ID = "unknown_test"; 
 let DB_REF_NAME = "dsssb_results"; 
 
 let currentState = { idx: 0, answers: [], review: [], time: 0, secIdx: 0, submitted: false, name: "" };
@@ -212,7 +211,6 @@ let secIndices = [];
 
 // --- INITIALIZATION ---
 function initApp() {
-    // 1. Get File Parameter
     const params = new URLSearchParams(window.location.search);
     const file = params.get('file');
 
@@ -222,21 +220,18 @@ function initApp() {
         return;
     }
 
-    // 2. Fetch JSON Data
     fetch(file)
     .then(res => res.json())
     .then(data => {
-        // Load data into variables
         QUESTIONS = data.questions;
         SECTION_MAP = data.sections;
         TOTAL_TIME_MINS = data.time_minutes;
         TEST_ID = data.test_id;
-        DB_REF_NAME = `dsssb_results/${TEST_ID}`; // Separate Rank per Test ID
+        DB_REF_NAME = `dsssb_results/${TEST_ID}`; 
         
         document.getElementById('testTitleDisp').innerText = data.title;
         document.getElementById('startBtn').disabled = false;
         
-        // Setup State Arrays
         currentState.answers = new Array(QUESTIONS.length).fill(null);
         currentState.review = new Array(QUESTIONS.length).fill(false);
         currentState.time = TOTAL_TIME_MINS * 60;
@@ -248,8 +243,6 @@ function initApp() {
         console.error(err);
     });
 }
-
-// --- HELPER FUNCTIONS (Most remain same) ---
 
 function calcSectionIndices() { 
     secIndices = [];
@@ -285,13 +278,13 @@ function startGame() {
 function renderSectionTabs() {
     const bar = document.getElementById('sectionBar'); let html = "";
     SECTION_MAP.forEach((sec, i) => {
-        let cls = "sec-tab"; let icon = "ðŸ”’";
+        let cls = "sec-tab"; let icon = "🔒";
         if (currentState.submitted) {
-            cls += " done"; icon = "ðŸ”“";
-            if (i === currentState.secIdx) { cls += " active"; icon = "ðŸ‘ï¸"; }
+            cls += " done"; icon = "🔓";
+            if (i === currentState.secIdx) { cls += " active"; icon = "👁️"; }
         } else {
-            if(i === currentState.secIdx) { cls += " active"; icon = "ðŸŸ¢"; }
-            else if(i < currentState.secIdx) { cls += " done"; icon = "âœ…"; }
+            if(i === currentState.secIdx) { cls += " active"; icon = "🟢"; }
+            else if(i < currentState.secIdx) { cls += " done"; icon = "✅"; }
         }
         html += `<div class="${cls}" onclick="jumpSection(${i})">${icon} ${sec}</div>`;
     });
@@ -311,7 +304,6 @@ function loadQuestion(idx) {
     const q = QUESTIONS[idx]; 
     const isHindi = document.getElementById('langBtn').innerText === "HI";
     
-    // Auto update section index based on current Q
     const qSecIdx = SECTION_MAP.indexOf(q.section);
     if(qSecIdx !== -1 && qSecIdx !== currentState.secIdx) {
         currentState.secIdx = qSecIdx;
@@ -343,7 +335,7 @@ function loadQuestion(idx) {
     
     const solBox = document.getElementById('solutionDisplay');
     if(currentState.submitted) {
-        solBox.innerHTML = `<b>Solution:</b><br>${q.solution}`;
+        solBox.innerHTML = `<b>Solution:</b><br>${q.solution || 'Not Available'}`;
         solBox.style.display = 'block';
     } else { solBox.style.display = 'none'; }
 
@@ -411,7 +403,7 @@ function startTimer() {
 
 function showToast(msg, type="info") {
     const container = document.getElementById('toast-container'); const t = document.createElement('div'); t.className = `toast ${type}`;
-    let icon = "â„¹ï¸"; if(type==="success") icon = "âœ…"; if(type==="error") icon = "âŒ"; if(type==="warning") icon = "âš ï¸";
+    let icon = "ℹ️"; if(type==="success") icon = "✅"; if(type==="error") icon = "❌"; if(type==="warning") icon = "⚠️";
     t.innerHTML = `<span>${icon}</span> <span>${msg}</span>`; container.appendChild(t); setTimeout(() => t.remove(), 3000);
 }
 
@@ -456,11 +448,12 @@ function sendResultToTelegram(name,score,c,w,s,time,accuracy){
   method:"POST", headers:{"Content-Type":"application/json"},
   body:JSON.stringify({
    chat_id:TELEGRAM_CHAT_ID,
-   text:`ðŸ“˜ ${TEST_ID}\n\nðŸ‘¤ Name: ${name}\nâ± Time: ${time}\nâœ… Correct: ${c}\nâŒ Wrong: ${w}\nâž– Skipped: ${s}\nðŸŽ¯ Score: ${score}\nðŸ“Š Accuracy: ${accuracy}%\n\nðŸ”¥ DSSSB Smart Notes`
+   text:`📖 ${TEST_ID}\n\n👤 Name: ${name}\n⏱ Time: ${time}\n✅ Correct: ${c}\n❌ Wrong: ${w}\n➖ Skipped: ${s}\n🎯 Score: ${score}\n📊 Accuracy: ${accuracy}%\n\n🔥 DSSSB Smart Notes`
   })
  });
 }
 
+// --- MAIN SUBMIT FUNCTION ---
 function submitTest() {
     if(!currentState.submitted) { if(!confirm("Submit Exam?")) return; }
     currentState.submitted = true; 
@@ -517,9 +510,8 @@ function submitTest() {
             <h3 style="margin-top:30px; background:#f0f0f0; padding:10px;">Full Paper Analysis</h3>
     `;
 
-    // 4. Add Detailed Question Analysis Loop (Ye missing tha)
+    // 4. Add Detailed Analysis Loop
     const isHindi = document.getElementById('langBtn').innerText === "HI";
-    
     QUESTIONS.forEach((q, i) => {
         const correctIdx = parseInt(q.ans) - 1;
         const myAns = currentState.answers[i];
@@ -558,68 +550,16 @@ function submitTest() {
 
     // 5. Render Chart
     new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] }, options: { maintainAspectRatio: false } });
-
-    // 6. SAVE TO FIREBASE & THEN FETCH LEADERBOARD (Imp Fix)
-    const userData = { name: currentState.name, score: parseFloat(totalScore.toFixed(2)), timeTaken: timeSpentSeconds, timestamp: firebase.database.ServerValue.TIMESTAMP };
     
+    // 6. SAVE TO FIREBASE & FETCH
+    const userData = { name: currentState.name, score: parseFloat(totalScore.toFixed(2)), timeTaken: timeSpentSeconds, timestamp: firebase.database.ServerValue.TIMESTAMP };
     db.ref(DB_REF_NAME).push(userData).then(() => {
-        // Data save hone ke baad hi leaderboard fetch karein
         fetchLeaderboard();
         sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
     });
-
-    const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(1) : 0;
-    const timeSpentSeconds = (TOTAL_TIME_MINS * 60) - currentState.time;
-    const timeStr = `${Math.floor(timeSpentSeconds/60)}m ${timeSpentSeconds%60}s`;
-
-    // Strong/Weak Logic
-    let strongAreas = [], weakAreas = [];
-    for (const [sec, data] of Object.entries(sectionScores)) {
-        const acc = data.total > 0 ? (data.c / data.total) * 100 : 0;
-        if (acc >= 75) strongAreas.push(sec); else if (acc <= 40) weakAreas.push(sec);
-    }
-
-    // FIREBASE SAVE (Dynamic Collection)
-    const userData = { name: currentState.name, score: parseFloat(totalScore.toFixed(2)), timeTaken: timeSpentSeconds, timestamp: firebase.database.ServerValue.TIMESTAMP };
-    db.ref(DB_REF_NAME).push(userData);
-
-    sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
-
-    // Generate HTML for Result
-    let html = `
-        <div id="pdfContent">
-            <div style="text-align:center; border-bottom:2px solid var(--primary); padding-bottom:10px;">
-                <h2 style="color:var(--primary); margin:0;">DSSSB SMART NOTES</h2>
-                <p>Test: ${TEST_ID} | Candidate: <b>${currentState.name}</b></p>
-            </div>
-            <div class="dashboard-grid">
-                <div class="stat-box"><div class="big-num">${totalScore.toFixed(2)}</div><div>Score</div></div>
-                <div class="stat-box"><div class="big-num">${accuracy}%</div><div>Accuracy</div></div>
-            </div>
-            <div class="analysis-area-box area-strong"><b>ðŸ’ª Strong:</b> ${strongAreas.join(', ') || 'None'}</div>
-            <div class="analysis-area-box area-weak"><b>âš ï¸ Weak:</b> ${weakAreas.join(', ') || 'None'}</div>
-            
-            <div style="margin:20px 0; background:var(--bg-body); padding:10px;">
-                <h4>ðŸ† Live Leaderboard</h4>
-                <table class="leaderboard-table" id="leaderboardTable"><tbody id="leaderboardBody"></tbody></table>
-            </div>
-
-            <div style="height:200px;"><canvas id="pieChart"></canvas></div>
-        </div>
-        <button onclick="downloadPDF()" class="btn-primary">Download PDF</button>
-    `;
-    
-    document.getElementById('resultContent').innerHTML = html;
-    document.getElementById('resultModal').style.display = 'flex';
-    document.getElementById('mainSubmitBtn').style.display = 'none';
-
-    new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] } });
-    
-    fetchLeaderboard();
 }
 
 function fetchLeaderboard() {
-    // Dynamic Fetch based on Test ID
     db.ref(DB_REF_NAME).orderByChild('score').limitToLast(50).once('value', (snapshot) => {
         let scores = [];
         snapshot.forEach(child => scores.push(child.val()));
@@ -639,6 +579,4 @@ function downloadPDF() {
 }
 </script>
 </body>
-
 </html>
-
