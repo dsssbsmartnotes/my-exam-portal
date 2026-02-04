@@ -567,7 +567,6 @@ function submitTest() {
         fetchLeaderboard();
         sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
     });
-}
 
     const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(1) : 0;
     const timeSpentSeconds = (TOTAL_TIME_MINS * 60) - currentState.time;
@@ -642,3 +641,4 @@ function downloadPDF() {
 </body>
 
 </html>
+
