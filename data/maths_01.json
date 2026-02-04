@@ -1,0 +1,17 @@
+{
+  "test_id": "sec_maths_01",
+  "title": "Maths Practice Set - 01",
+  "time_minutes": 20,
+  "sections": ["Maths"],
+  "questions": [
+    {
+      "section": "Maths",
+      "q_en": "What is 15% of 200?",
+      "q_hi": "200 का 15% क्या है?",
+      "ans": "2",
+      "op_en": ["20", "30", "40", "25"],
+      "op_hi": ["20", "30", "40", "25"],
+      "solution": "(15/100) * 200 = 30"
+    }
+  ]
+}
