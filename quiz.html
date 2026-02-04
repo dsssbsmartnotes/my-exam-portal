@@ -470,6 +470,7 @@ function submitTest() {
     let totalScore = 0, correct = 0, wrong = 0, skipped = 0;
     let sectionScores = {};
 
+    // 1. Calculate Scores
     QUESTIONS.forEach((q, i) => {
         const secName = q.section;
         if(!sectionScores[secName]) sectionScores[secName] = {c:0, w:0, s:0, total:0};
@@ -480,6 +481,93 @@ function submitTest() {
         else if(myAns === correctIdx) { correct++; totalScore += 1; sectionScores[secName].c++; }
         else { wrong++; totalScore -= 0.25; sectionScores[secName].w++; }
     });
+
+    const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(1) : 0;
+    const timeSpentSeconds = (TOTAL_TIME_MINS * 60) - currentState.time;
+    const timeStr = `${Math.floor(timeSpentSeconds/60)}m ${timeSpentSeconds%60}s`;
+
+    // 2. Strong/Weak Logic
+    let strongAreas = [], weakAreas = [];
+    for (const [sec, data] of Object.entries(sectionScores)) {
+        const acc = data.total > 0 ? (data.c / data.total) * 100 : 0;
+        if (acc >= 75) strongAreas.push(sec); else if (acc <= 40) weakAreas.push(sec);
+    }
+
+    // 3. Generate HTML
+    let html = `
+        <div id="pdfContent">
+            <div style="text-align:center; border-bottom:2px solid var(--primary); padding-bottom:10px;">
+                <h2 style="color:var(--primary); margin:0;">DSSSB SMART NOTES</h2>
+                <p>Test: ${TEST_ID} | Candidate: <b>${currentState.name}</b></p>
+            </div>
+            <div class="dashboard-grid">
+                <div class="stat-box"><div class="big-num">${totalScore.toFixed(2)}</div><div>Score</div></div>
+                <div class="stat-box"><div class="big-num">${accuracy}%</div><div>Accuracy</div></div>
+            </div>
+            <div class="analysis-area-box area-strong"><b>💪 Strong:</b> ${strongAreas.join(', ') || 'None'}</div>
+            <div class="analysis-area-box area-weak"><b>⚠️ Weak:</b> ${weakAreas.join(', ') || 'None'}</div>
+            
+            <div style="margin:20px 0; background:var(--bg-body); padding:10px;">
+                <h4>🏆 Live Leaderboard</h4>
+                <table class="leaderboard-table"><tbody id="leaderboardBody"><tr><td>Loading...</td></tr></tbody></table>
+            </div>
+
+            <div style="height:200px;"><canvas id="pieChart"></canvas></div>
+
+            <h3 style="margin-top:30px; background:#f0f0f0; padding:10px;">Full Paper Analysis</h3>
+    `;
+
+    // 4. Add Detailed Question Analysis Loop (Ye missing tha)
+    const isHindi = document.getElementById('langBtn').innerText === "HI";
+    
+    QUESTIONS.forEach((q, i) => {
+        const correctIdx = parseInt(q.ans) - 1;
+        const myAns = currentState.answers[i];
+        let statusBadge = "";
+        
+        if(myAns === null) statusBadge = '<span class="res-status-badge badge-gray">SKIPPED</span>';
+        else if(myAns === correctIdx) statusBadge = '<span class="res-status-badge badge-green">CORRECT</span>';
+        else statusBadge = '<span class="res-status-badge badge-red">WRONG</span>';
+
+        const qText = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
+        const optionsArr = isHindi ? (q.op_hi || q.op_en) : (q.op_en || q.op_hi);
+        const correctText = optionsArr[correctIdx] || "N/A";
+        const myText = myAns !== null ? optionsArr[myAns] : "Not Attempted";
+
+        html += `
+            <div class="res-q-box">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px; font-size:13px;">
+                    <b>Q.${i+1} (${q.section})</b>
+                    ${statusBadge}
+                </div>
+                <div style="font-weight:500; margin-bottom:10px;">${qText}</div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; font-size:13px; background:var(--bg-body); padding:10px; border-radius:6px;">
+                    <div><b>Your Answer:</b> <br>${myText}</div>
+                    <div><b>Correct Answer:</b> <br><span style="color:var(--success); font-weight:bold;">${correctText}</span></div>
+                </div>
+                <div class="sol-box"><b>Solution:</b><br>${q.solution || 'Solution not available'}</div>
+            </div>
+        `;
+    });
+
+    html += `</div><button onclick="downloadPDF()" class="btn-primary" style="margin-top:20px;">Download PDF Report 📥</button>`;
+    
+    document.getElementById('resultContent').innerHTML = html;
+    document.getElementById('resultModal').style.display = 'flex';
+    document.getElementById('mainSubmitBtn').style.display = 'none';
+
+    // 5. Render Chart
+    new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] }, options: { maintainAspectRatio: false } });
+
+    // 6. SAVE TO FIREBASE & THEN FETCH LEADERBOARD (Imp Fix)
+    const userData = { name: currentState.name, score: parseFloat(totalScore.toFixed(2)), timeTaken: timeSpentSeconds, timestamp: firebase.database.ServerValue.TIMESTAMP };
+    
+    db.ref(DB_REF_NAME).push(userData).then(() => {
+        // Data save hone ke baad hi leaderboard fetch karein
+        fetchLeaderboard();
+        sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
+    });
+}
 
     const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(1) : 0;
     const timeSpentSeconds = (TOTAL_TIME_MINS * 60) - currentState.time;
@@ -552,4 +640,5 @@ function downloadPDF() {
 }
 </script>
 </body>
+
 </html>
