@@ -1,0 +1,422 @@
+[
+  {
+    "section": "General Awareness",
+    "topic": "Geography",
+    "level": "Moderate",
+    "q_en": "<p><u>___________</u> is the term that refers to the older alluvial deposits found above the floodplains in the Northern Plains.</p>",
+    "q_hi": "<p><u>___________</u> वह शब्द है जो उत्तरी मैदानों में बाढ़ के मैदानों के ऊपर पाए जाने वाले पुराने जलोढ़ निक्षेपों (alluvial deposits) को संदर्भित करता है।</p>",
+    "op_en": [
+      "Khadar",
+      "Bhangar",
+      "Bhabar",
+      "Terai"
+    ],
+    "op_hi": [
+      "खादर",
+      "भांगर",
+      "भाबर",
+      "तराई"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, उत्तर के विशाल मैदानों में मिट्टी के अलग-अलग प्रकार पाए जाते हैं। <b>Bhangar</b> (भांगर) वह पुरानी जलोढ़ मिट्टी है जो बाढ़ के मैदानों से ऊंचाई पर होती है, इसलिए यहाँ हर साल बाढ़ का पानी नहीं पहुँचता। विकल्प 1 (Khadar) नई जलोढ़ मिट्टी होती है जो बहुत उपजाऊ होती है। विकल्प 3 (Bhabar) कंकड़-पत्थरों वाला क्षेत्र है जहाँ नदियाँ गायब हो जाती हैं, और विकल्प 4 (Terai) दलदली इलाका है जहाँ नदियाँ फिर से सतह पर आती हैं। याद रखिएगा, भांगर में कंकड़ (Calcium Carbonate) की मात्रा अधिक होती है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Easy",
+    "q_en": "<p>Who among the following can summon the Joint sitting of the Parliament?</p>",
+    "q_hi": "<p>निम्नलिखित में से कौन संसद की संयुक्त बैठक (Joint sitting) बुला सकता है?</p>",
+    "op_en": [
+      "Prime Minister of India",
+      "Speaker of the Lok Sabha",
+      "Vice President of India",
+      "President of India"
+    ],
+    "op_hi": [
+      "भारत के प्रधानमंत्री",
+      "लोकसभा अध्यक्ष",
+      "भारत के उपराष्ट्रपति",
+      "भारत के राष्ट्रपति"
+    ],
+    "ans": "4",
+    "solution": "प्यारे बच्चों, संविधान के <b>Article 108</b> के तहत, जब किसी साधारण विधेयक पर दोनों सदनों में गतिरोध (deadlock) होता है, तो <b>President of India</b> (राष्ट्रपति) संयुक्त बैठक बुलाते हैं। विकल्प 2 (Speaker) इस बैठक की अध्यक्षता करते हैं, लेकिन बुलाते नहीं हैं। प्रधानमंत्री और उपराष्ट्रपति के पास यह शक्ति नहीं होती। अब तक भारत के इतिहास में केवल तीन बार संयुक्त बैठक बुलाई गई है, इसे भी नोट कर लें!"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "History",
+    "level": "Hard",
+    "q_en": "<p>Match the following.<br /><table><tbody><tr><td>Political Organisation</td><td>Founder</td></tr><tr><td>a. Indian National Association</td><td>i. Gajula Lakshminarasu Chetty</td></tr><tr><td>b. Indian League</td><td>ii. Dadabhai Naoroji</td></tr><tr><td>c. East India Association</td><td>iii. Sisir Kumar Ghose</td></tr><tr><td>d. Madras Native Organisation</td><td>iv. Surendranath Banerjee</td></tr></tbody></table></p>",
+    "q_hi": "<p>निम्नलिखित का मिलान करें।<br /><table><tbody><tr><td>राजनीतिक संगठन</td><td>संस्थापक</td></tr><tr><td>a. इंडियन नेशनल एसोसिएशन</td><td>i. गजुलु लक्ष्मीनारसु चेट्टी</td></tr><tr><td>b. इंडियन लीग</td><td>ii. दादाभाई नौरोजी</td></tr><tr><td>c. ईस्ट इंडिया एसोसिएशन</td><td>iii. शिशिर कुमार घोष</td></tr><tr><td>d. मद्रास नेटिव ऑर्गेनाइजेशन</td><td>iv. सुरेंद्रनाथ बनर्जी</td></tr></tbody></table></p>",
+    "op_en": [
+      "a-ii; b-iv; c-i; d-iii",
+      "a-i; b-iv; c-ii; d-iii",
+      "a-iii; b-iv; c-i; d-ii",
+      "a-iv; b-iii; c-ii; d-i"
+    ],
+    "op_hi": [
+      "a-ii; b-iv; c-i; d-iii",
+      "a-i; b-iv; c-ii; d-iii",
+      "a-iii; b-iv; c-i; d-ii",
+      "a-iv; b-iii; c-ii; d-i"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, भारतीय राष्ट्रीय कांग्रेस से पहले कई संगठनों ने आजादी की नींव रखी थी। सही मिलान इस प्रकार है: <b>a. Indian National Association</b> (1876) के संस्थापक सुरेंद्रनाथ बनर्जी और आनंद मोहन बोस थे। <b>b. Indian League</b> (1875) की शुरुआत शिशिर कुमार घोष ने की। <b>c. East India Association</b> (1866) लंदन में दादाभाई नौरोजी द्वारा बनाया गया। <b>d. Madras Native Association</b> (1852) गजुलु लक्ष्मीनारसु चेट्टी ने बनाया था। इसलिए विकल्प 4 सही जवाब है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Biology",
+    "level": "Moderate",
+    "q_en": "<p>Which of the following statements is correct regarding gymnosperms?</p>",
+    "q_hi": "<p>जिम्नोस्पर्म (Gymnosperms) के संबंध में निम्नलिखित में से कौन सा कथन सही है?</p>",
+    "op_en": [
+      "They are flowering plants that are seedless and have needle-like leaves and cones as their reproductive structure.",
+      "They are flowerless plants that bear naked seeds and have needle-like leaves and cones as their reproductive structure.",
+      "They are flowering plants, bear covered seeds and have flat leaves and flowers as their reproductive structure.",
+      "They are flowerless plants, bear covered seeds and have flat leaves and cones as their reproductive structure."
+    ],
+    "op_hi": [
+      "वे फूल वाले पौधे हैं जो बीज रहित होते हैं और उनकी सुई जैसी पत्तियां और प्रजनन संरचना के रूप में शंकु होते हैं।",
+      "वे बिना फूल वाले पौधे हैं जिनमें नग्न बीज होते हैं और उनकी सुई जैसी पत्तियां और प्रजनन संरचना के रूप में शंकु होते हैं।",
+      "वे फूल वाले पौधे हैं, जिनमें ढके हुए बीज होते हैं और उनकी चपटी पत्तियां और फूल प्रजनन संरचना के रूप में होते हैं।",
+      "वे बिना फूल वाले पौधे हैं, जिनमें ढके हुए बीज होते हैं और उनकी चपटी पत्तियां और प्रजनन संरचना के रूप में शंकु होते हैं।"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, <b>Gymnosperms</b> शब्द का अर्थ ही 'Naked Seeds' (नग्न बीज) होता है। इनमें फूल नहीं लगते और बीज किसी फल के अंदर बंद नहीं होते। इनकी पत्तियां सुई जैसी (needle-like) होती हैं ताकि पानी की कमी को रोका जा सके, और प्रजनन के लिए इनमें 'Cones' (शंकु) पाए जाते हैं। विकल्प 3 'Angiosperms' (आवृत्तबीजी) की विशेषता बताता है। चीड़ (Pine) और देवदार (Cedar) इसके बेहतरीन उदाहरण हैं।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Trade & Economy",
+    "level": "Hard",
+    "q_en": "<p>During 2021-22, which country was the largest importer of power looms from India?</p>",
+    "q_hi": "<p>2021-22 के दौरान, भारत से पावर लूम (Power looms) का सबसे बड़ा आयातक देश कौन सा था?</p>",
+    "op_en": [
+      "China",
+      "Germany",
+      "USA",
+      "Netherlands"
+    ],
+    "op_hi": [
+      "चीन",
+      "जर्मनी",
+      "यूएसए",
+      "नीदरलैंड"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, डेटा के अनुसार साल 2021-22 में <b>USA</b> भारत से कपड़ा मशीनरी और पावर लूम का सबसे बड़ा खरीदार रहा है। भारत के कपड़ा उद्योग के लिए अमेरिका एक बहुत बड़ा बाजार है। विकल्प 1 (China) भी बड़ा व्यापारिक साझेदार है लेकिन पावर लूम के मामले में उस वर्ष अमेरिका शीर्ष पर था। जर्मनी और नीदरलैंड यूरोपीय बाजार के प्रमुख केंद्र हैं, लेकिन उनकी हिस्सेदारी अमेरिका से कम थी।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Easy",
+    "q_en": "<p>What is the primary role of the Supreme Court of India?</p>",
+    "q_hi": "<p>भारत के सर्वोच्च न्यायालय की प्राथमिक भूमिका क्या है?</p>",
+    "op_en": [
+      "To draft laws for the country",
+      "To interpret and uphold the Constitution",
+      "To approve the budget of India",
+      "To enforce international treaties"
+    ],
+    "op_hi": [
+      "देश के लिए कानून बनाना",
+      "संविधान की व्याख्या करना और उसे बनाए रखना",
+      "भारत के बजट को मंजूरी देना",
+      "अंतर्राष्ट्रीय संधियों को लागू करना"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, सुप्रीम कोर्ट को <b>'Guardian of the Constitution'</b> (संविधान का रक्षक) कहा जाता है। इसका मुख्य काम यह देखना है कि कोई भी कानून संविधान के खिलाफ न हो। विकल्प 1 (Drafting laws) संसद का काम है। विकल्प 3 (Budget approval) भी संसद का काम है। विकल्प 4 (Enforcing treaties) कार्यपालिका (Executive) की जिम्मेदारी होती है। इसलिए सही जवाब विकल्प 2 है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Agriculture",
+    "level": "Easy",
+    "q_en": "<p>Which of the following is a major wheat producing state of India?</p>",
+    "q_hi": "<p>निम्नलिखित में से कौन भारत का एक प्रमुख गेहूं उत्पादक राज्य है?</p>",
+    "op_en": [
+      "Uttar Pradesh",
+      "Tamil Nadu",
+      "Tripura",
+      "Manipur"
+    ],
+    "op_hi": [
+      "उत्तर प्रदेश",
+      "तमिलनाडु",
+      "त्रिपुरा",
+      "मणिपुर"
+    ],
+    "ans": "1",
+    "solution": "बच्चों, भारत में <b>Uttar Pradesh</b> गेहूं का सबसे बड़ा उत्पादक राज्य है। यहाँ की मिट्टी और जलवायु गेहूं की खेती के लिए बहुत अनुकूल है। विकल्प 2, 3 और 4 (दक्षिण और पूर्वोत्तर भारत के राज्य) मुख्य रूप से चावल (Rice) के उत्पादन के लिए जाने जाते हैं। उत्तर प्रदेश के अलावा पंजाब और हरियाणा भी गेहूं उत्पादन में आगे हैं, लेकिन कुल मात्रा में यूपी नंबर 1 पर है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Hard",
+    "q_en": "<p>Which Article of the Indian Constitution allows the Supreme Court to sit in Delhi or in any other place as approved by the President and the Chief Justice of India?</p>",
+    "q_hi": "<p>भारतीय संविधान का कौन सा अनुच्छेद सर्वोच्च न्यायालय को दिल्ली में या राष्ट्रपति और भारत के मुख्य न्यायाधीश द्वारा अनुमोदित किसी अन्य स्थान पर बैठने की अनुमति देता है?</p>",
+    "op_en": [
+      "Article 124",
+      "Article 130",
+      "Article 131",
+      "Article 136"
+    ],
+    "op_hi": [
+      "अनुच्छेद 124",
+      "अनुच्छेद 130",
+      "अनुच्छेद 131",
+      "अनुच्छेद 136"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, <b>Article 130</b> यह स्पष्ट करता है कि सुप्रीम कोर्ट की सीट दिल्ली में होगी, लेकिन CJI (Chief Justice) राष्ट्रपति की मंजूरी से इसे कहीं और भी स्थानांतरित कर सकते हैं। विकल्प 1 (Art 124) सुप्रीम कोर्ट के गठन और स्थापना की बात करता है। विकल्प 3 (Art 131) सुप्रीम कोर्ट के मूल अधिकार क्षेत्र (Original Jurisdiction) से संबंधित है। विकल्प 4 (Art 136) विशेष अनुमति याचिका (Special Leave Petition) के बारे में है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Chemistry",
+    "level": "Moderate",
+    "q_en": "<p>A chef mixes baking soda and vinegar together. His son sitting nearby, impressed him by writing down this in the form of a chemical reaction. Identify the correct chemical equation.</p>",
+    "q_hi": "<p>एक रसोइया बेकिंग सोडा और सिरका एक साथ मिलाता है। पास में बैठा उसका बेटा रासायनिक अभिक्रिया के रूप में इसे लिखकर उसे प्रभावित करता है। सही रासायनिक समीकरण की पहचान करें।</p>",
+    "op_en": [
+      "NaCO3(s) + CH3COOH(l) → CO3(g) + Na+(aq) + CH3COO-(aq)",
+      "NaHCO3(s) + CH3COOH(l) → 2CO(g) + 2H2O(l) + Na+(aq) + COO-(aq)",
+      "NaHCO3(s) + CH3CH(l) → CO2(g) + H2O(l) + Na+(aq) + C2H2(aq)",
+      "NaHCO3(s) + CH3COOH(l) → CO2(g) + H2O(l) + Na+(aq) + CH3COO-(aq)"
+    ],
+    "op_hi": [
+      "NaCO3(s) + CH3COOH(l) → CO3(g) + Na+(aq) + CH3COO-(aq)",
+      "NaHCO3(s) + CH3COOH(l) → 2CO(g) + 2H2O(l) + Na+(aq) + COO-(aq)",
+      "NaHCO3(s) + CH3CH(l) → CO2(g) + H2O(l) + Na+(aq) + C2H2(aq)",
+      "NaHCO3(s) + CH3COOH(l) → CO2(g) + H2O(l) + Na+(aq) + CH3COO-(aq)"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, बेकिंग सोडा ($NaHCO_3$) और सिरका (Acetic Acid - $CH_3COOH$) के मिलने से एक तेज बुदबुदाहट होती है। इसकी सही रिएक्शन है: $$NaHCO_3 + CH_3COOH \\rightarrow CH_3COONa + H_2O + CO_2$$. यहाँ पानी और कार्बन डाइऑक्साइड गैस ($CO_2$) निकलती है, जिसके कारण बुलबुले दिखते हैं। विकल्प 4 में आयनिक रूप में सही संतुलित समीकरण दिखाया गया है। याद रखें, इस रिएक्शन का उपयोग स्कूल प्रोजेक्ट्स में 'ज्वालामुखी' बनाने के लिए भी किया जाता है!"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Biology",
+    "level": "Easy",
+    "q_en": "<p>Which of the following types of cell in animals is very long in shape?</p>",
+    "q_hi": "<p>जानवरों में निम्नलिखित में से किस प्रकार की कोशिका आकार में बहुत लंबी होती है?</p>",
+    "op_en": [
+      "Fat cell",
+      "Muscle cell",
+      "Bone cell",
+      "Nerve cell"
+    ],
+    "op_hi": [
+      "वसा कोशिका",
+      "मांसपेशी कोशिका",
+      "अस्थि कोशिका",
+      "तंत्रिका कोशिका"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, मानव शरीर और जानवरों में <b>Nerve Cell</b> (तंत्रिका कोशिका या न्यूरॉन) सबसे लंबी कोशिका होती है। इनका काम शरीर के एक हिस्से से दूसरे हिस्से तक संकेत पहुँचाना होता है, इसलिए इनकी लंबाई 1 मीटर तक भी हो सकती है। विकल्प 1 (Fat cells) गोलाकार होती हैं। विकल्प 2 (Muscle cells) भी लंबी होती हैं लेकिन न्यूरॉन की तुलना में नहीं। विकल्प 3 (Bone cells) कठोर ऊतकों के अंदर छोटी होती हैं।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Moderate",
+    "q_en": "<p>From the constitution of which of the following countries is the feature of the federal system of the Indian Constitution inspired?</p>",
+    "q_hi": "<p>भारतीय संविधान की संघीय व्यवस्था (Federal system) की विशेषता निम्नलिखित में से किस देश के संविधान से प्रेरित है?</p>",
+    "op_en": [
+      "Canada",
+      "United Kingdom",
+      "Ireland",
+      "USA"
+    ],
+    "op_hi": [
+      "कनाडा",
+      "यूनाइटेड किंगडम",
+      "आयरलैंड",
+      "यूएसए"
+    ],
+    "ans": "1",
+    "solution": "बच्चों, भारत का संघीय ढांचा <b>Canada</b> के संविधान से प्रेरित है, जहाँ 'मजबूत केंद्र के साथ संघ' की अवधारणा ली गई है। विकल्प 2 (UK) से हमने संसदीय प्रणाली ली है। विकल्प 3 (Ireland) से राज्य के नीति निर्देशक तत्व (DPSP) लिए गए हैं। विकल्प 4 (USA) से मौलिक अधिकार और स्वतंत्र न्यायपालिका ली गई है। कनाडा और भारत दोनों में ही केंद्र राज्यों की तुलना में अधिक शक्तिशाली होता है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Art & Culture",
+    "level": "Hard",
+    "q_en": "<p>The Moidams of the Ahom Dynasty in Assam, listed as a World Heritage site by UNESCO in 2024, was used as a <u>__________</u>.</p>",
+    "q_hi": "<p>असम में अहोम राजवंश के 'मोइदम' (Moidams), जिन्हें 2024 में यूनेस्को द्वारा विश्व धरोहर स्थल के रूप में सूचीबद्ध किया गया है, का उपयोग <u>__________</u> के रूप में किया जाता था।</p>",
+    "op_en": [
+      "royal kitchen garden",
+      "royal burial ground",
+      "royal training ground",
+      "royal playground"
+    ],
+    "op_hi": [
+      "शाही रसोई उद्यान",
+      "शाही कब्रिस्तान (शाही समाधि स्थल)",
+      "शाही प्रशिक्षण मैदान",
+      "शाही खेल का मैदान"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, <b>Moidams</b> अहोम राजाओं और रानियों के पिरामिड नुमा समाधि स्थल (Tomb) हैं। इन्हें हाल ही में 2024 में UNESCO वर्ल्ड हेरिटेज साइट का दर्जा मिला है। इन्हें 'असम के पिरामिड' भी कहा जाता है। विकल्प 1, 3 और 4 गलत हैं क्योंकि ये जगहें मृत राजाओं के अंतिम संस्कार और उनकी याद में बनाई गई थीं। यह पूर्वोत्तर भारत की पहली 'सांस्कृतिक' श्रेणी की विश्व धरोहर है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Ancient History",
+    "level": "Hard",
+    "q_en": "<p>Which text mentions the construction of many stupas by Ashoka?</p>",
+    "q_hi": "<p>किस ग्रंथ में अशोक द्वारा अनेक स्तूपों के निर्माण का उल्लेख है?</p>",
+    "op_en": [
+      "Devanampriya",
+      "Tripataka ",
+      "Ashokavadana",
+      "Divyavadana"
+    ],
+    "op_hi": [
+      "देवानामप्रिय",
+      "त्रिपिटक",
+      "अशोकावदान",
+      "दिव्यावदान"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, <b>Ashokavadana</b> एक बौद्ध ग्रंथ है जो सम्राट अशोक के जीवन और उनके द्वारा बौद्ध धर्म के प्रचार के लिए किए गए कार्यों का वर्णन करता है। इसी ग्रंथ में उल्लेख है कि अशोक ने 84,000 स्तूप बनवाए थे। विकल्प 1 (Devanampriya) अशोक की उपाधि थी। विकल्प 2 (Tripitaka) बुद्ध की मुख्य शिक्षाओं का संग्रह है। विकल्प 4 (Divyavadana) भी एक महत्वपूर्ण बौद्ध ग्रंथ है, लेकिन स्तूपों के विस्तृत विवरण के लिए अशोकवदान सबसे प्रमुख है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Science History",
+    "level": "Hard",
+    "q_en": "<p>Who was the first person to demonstrate experimentally that fermented beverages are produced by the action of living yeast converting glucose into ethanol?</p>",
+    "q_hi": "<p>कौन वह पहला व्यक्ति था जिसने प्रयोगात्मक रूप से यह प्रदर्शित किया कि किण्वित पेय (fermented beverages) जीवित यीस्ट की क्रिया द्वारा ग्लूकोज को इथेनॉल में परिवर्तित करने से उत्पन्न होते हैं?</p>",
+    "op_en": [
+      "Victor Grignard",
+      "Antoine Lavoisier",
+      "Louis Pasteur",
+      "Henri Moissan"
+    ],
+    "op_hi": [
+      "विक्टर ग्रिगनार्ड",
+      "एंटोनी लेवोजियर",
+      "लुई पाश्चर",
+      "हेनरी मोइसन"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, महान सूक्ष्म जीवविज्ञानी <b>Louis Pasteur</b> ने 1850 के दशक में साबित किया था कि किण्वन (Fermentation) एक जैविक प्रक्रिया है जो जीवित यीस्ट के कारण होती है। इससे पहले लोग इसे केवल एक रासायनिक अभिक्रिया मानते थे। विकल्प 2 (Lavoisier) को आधुनिक रसायन विज्ञान का जनक कहा जाता है। विकल्प 1 और 4 क्रमशः ग्रिगनार्ड रिएजेंट और फ्लोरीन की खोज के लिए जाने जाते हैं। पाश्चर ने ही 'पाश्चुरीकरण' (Pasteurization) की विधि भी दी थी।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Moderate",
+    "q_en": "<p>‘Sovereignty’ in the Indian constitutional context generally means _______.</p>",
+    "q_hi": "<p>भारतीय संवैधानिक संदर्भ में 'संप्रभुता' (Sovereignty) का सामान्य अर्थ है _______।</p>",
+    "op_en": [
+      "promoting social change to end all forms of inequalities",
+      "complete political freedom and supreme authority",
+      "the spirit of common brotherhood",
+      "the Head of the State is an elected person"
+    ],
+    "op_hi": [
+      "सभी प्रकार की असमानताओं को समाप्त करने के लिए सामाजिक परिवर्तन को बढ़ावा देना",
+      "पूर्ण राजनीतिक स्वतंत्रता और सर्वोच्च अधिकार",
+      "सामान्य भाईचारे की भावना",
+      "राज्य का प्रमुख एक निर्वाचित व्यक्ति होता है"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, 'संप्रभुता' का सीधा मतलब है कि भारत अपने आंतरिक और बाहरी मामलों में निर्णय लेने के लिए पूरी तरह स्वतंत्र है और उस पर किसी विदेशी शक्ति का नियंत्रण नहीं है। विकल्प 4 (Elected Head) 'गणतंत्र' (Republic) की परिभाषा है। विकल्प 3 (Brotherhood) 'भाईचारे' (Fraternity) को दर्शाता है। विकल्प 1 'समानता' (Equality) की बात करता है। इसलिए विकल्प 2 सबसे सटीक है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity/Languages",
+    "level": "Easy",
+    "q_en": "<p>Dogri is used as the official language of which Union Territory?</p>",
+    "q_hi": "<p>डोगरी किस केंद्र शासित प्रदेश की आधिकारिक भाषा के रूप में उपयोग की जाती है?</p>",
+    "op_en": [
+      "Chandigarh",
+      "Jammu and Kashmir",
+      " Lakshadweep",
+      "Delhi"
+    ],
+    "op_hi": [
+      "चंडीगढ़",
+      "जम्मू और कश्मीर",
+      "लक्षद्वीप",
+      "दिल्ली"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, <b>Jammu and Kashmir</b> आधिकारिक भाषा अधिनियम, 2020 के अनुसार कश्मीरी, डोगरी, उर्दू, हिंदी और अंग्रेजी को केंद्र शासित प्रदेश की आधिकारिक भाषाएँ बनाया गया है। डोगरी मुख्य रूप से जम्मू क्षेत्र में बोली जाती है। विकल्प 1 (Chandigarh) में अंग्रेजी का ज्यादा उपयोग होता है। विकल्प 3 (Lakshadweep) में मलयालम और महल भाषाएं चलती हैं। विकल्प 4 (Delhi) में हिंदी प्रमुख है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Census 2011",
+    "level": "Hard",
+    "q_en": "<p>According to the 2011 Census, which of the following group of states / states and UTs had the lowest gap in literacy rates between males and females?</p>",
+    "q_hi": "<p>2011 की जनगणना के अनुसार, निम्नलिखित में से किस राज्यों/राज्यों और केंद्र शासित प्रदेशों के समूह में पुरुषों और महिलाओं के बीच साक्षरता दर में सबसे कम अंतर था?</p>",
+    "op_en": [
+      "Bihar, Arunachal Pradesh, Rajasthan",
+      "Rajasthan, Jharkhand, Dadra & Nagar Haveli",
+      "Kerala, Mizoram, Meghalaya",
+      "Jammu & Kashmir, Uttar Pradesh, Chhattisgarh"
+    ],
+    "op_hi": [
+      "बिहार, अरुणाचल प्रदेश, राजस्थान",
+      "राजस्थान, झारखंड, दादरा और नगर हवेली",
+      "केरल, मिजोरम, मेघालय",
+      "जम्मू और कश्मीर, उत्तर प्रदेश, छत्तीसगढ़"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, साक्षरता दर में अंतर (Gender Gap) वहां कम होता है जहाँ समग्र साक्षरता अधिक हो। <b>Kerala, Mizoram, and Meghalaya</b> में महिला साक्षरता बहुत अच्छी है, जिससे पुरुष-महिला साक्षरता का अंतर बहुत कम रह जाता है। इसके विपरीत विकल्प 1 और 2 वाले राज्यों (बिहार, राजस्थान) में यह अंतर काफी ज्यादा है क्योंकि वहां महिला साक्षरता की स्थिति ऐतिहासिक रूप से कमजोर रही है। मेघालय में तो यह अंतर भारत में सबसे कम में से एक है।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Environment",
+    "level": "Easy",
+    "q_en": "<p>Which of the following states in India is home to the Asiatic lion?</p>",
+    "q_hi": "<p>भारत का निम्नलिखित में से कौन सा राज्य एशियाई शेर (Asiatic lion) का घर है?</p>",
+    "op_en": [
+      "Uttarakhand",
+      "Gujarat",
+      "Rajasthan",
+      "Odisha"
+    ],
+    "op_hi": [
+      "उत्तराखंड",
+      "गुजरात",
+      "राजस्थान",
+      "ओडिशा"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, पूरी दुनिया में <b>Asiatic Lions</b> प्राकृतिक रूप से केवल भारत के <b>Gujarat</b> राज्य में पाए जाते हैं, विशेष रूप से 'गिर नेशनल पार्क' (Gir National Park) में। विकल्प 1 (Uttarakhand) जिम कॉर्बेट नेशनल पार्क के लिए प्रसिद्ध है जहाँ बाघ (Tigers) मिलते हैं। विकल्प 3 (Rajasthan) रणथंभौर के लिए जाना जाता है। ओडिशा में सिमलीपाल टाइगर रिजर्व है। याद रखें, एशियाई शेर गुजरात की पहचान हैं!"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Culture/Religion",
+    "level": "Moderate",
+    "q_en": "<p>In Buddhism, the Bodhi Day signifies ________.</p>",
+    "q_hi": "<p>बौद्ध धर्म में, बोधि दिवस (Bodhi Day) ________ का प्रतीक है।</p>",
+    "op_en": [
+      "the day when Buddha attained enlightenment",
+      "Gautam Buddha’s day of birth",
+      "the death of Buddha",
+      "the Buddhist New Year"
+    ],
+    "op_hi": [
+      "वह दिन जब बुद्ध ने ज्ञान प्राप्त किया था",
+      "गौतम बुद्ध के जन्म का दिन",
+      "बुद्ध की मृत्यु",
+      "बौद्ध नव वर्ष"
+    ],
+    "ans": "1",
+    "solution": "बच्चों, <b>Bodhi Day</b> उस दिन की याद में मनाया जाता है जब सिद्धार्थ गौतम ने बिहार के बोधगया में पीपल के पेड़ (बोधि वृक्ष) के नीचे बैठकर परम ज्ञान या 'निर्वाण' प्राप्त किया था। विकल्प 2 (Birth) बुद्ध पूर्णिमा के साथ मनाया जाता है। विकल्प 3 (Death) को 'महापरिनिर्वाण' कहा जाता है। ज्ञान प्राप्ति के बाद ही वे 'बुद्ध' कहलाए।"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Biology",
+    "level": "Easy",
+    "q_en": "<p>Photosynthesis is the primary responsibility of which part of the plant?</p>",
+    "q_hi": "<p>प्रकाश संश्लेषण (Photosynthesis) पौधे के किस भाग की प्राथमिक जिम्मेदारी है?</p>",
+    "op_en": [
+      "Flowers",
+      "Roots",
+      "Leaves",
+      "Stems"
+    ],
+    "op_hi": [
+      "फूल",
+      "जड़ें",
+      "पत्तियां",
+      "तने"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, <b>Leaves</b> (पत्तियां) पौधों का 'किचन' कहलाती हैं क्योंकि इन्हीं में 'क्लोरोफिल' (Chlorophyll) होता है जो सूरज की रोशनी की मदद से खाना बनाता है। विकल्प 1 (Flowers) प्रजनन के लिए होते हैं। विकल्प 2 (Roots) पानी और खनिज सोखते हैं। विकल्प 4 (Stems) सहारा देते हैं और भोजन का परिवहन करते हैं। हालाँकि कुछ रेगिस्तानी पौधों में तने भी प्रकाश संश्लेषण करते हैं, लेकिन सामान्यतः यह पत्तियों की जिम्मेदारी है।"
+  }
+]
