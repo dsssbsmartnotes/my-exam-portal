@@ -1,0 +1,422 @@
+[
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphanumeric Series",
+    "level": "Medium",
+    "q_en": "<p>Refer to the given number and symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) 3 1 7 7 5 1 @ # # 3 2 # 1 # (Right)<br><br>What is the maximum number of symbols that are placed together without being interrupted by a number?</p>",
+    "q_hi": "<p>दी गई संख्या और प्रतीक शृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं) 3 1 7 7 5 1 @ # # 3 2 # 1 # (दाएं)<br><br>बिना किसी संख्या के बीच में आए एक साथ रखे गए प्रतीकों की अधिकतम संख्या क्या है?</p>",
+    "op_en": [
+      "One",
+      "Three",
+      "Two",
+      "Zero"
+    ],
+    "op_hi": [
+      "एक",
+      "तीन",
+      "दो",
+      "शून्य"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें इस series (शृंखला) में ऐसे symbols (प्रतीकों) को खोजना है जो बिना किसी number (संख्या) के रुकावट के एक साथ आए हों।</p><p>आइए series को बाएँ से दाएँ देखते हैं:<br>3 1 7 7 5 1 <b>@ # #</b> 3 2 # 1 #</p><p>यहाँ हम स्पष्ट रूप से देख सकते हैं कि '@', '#' और '#' एक साथ आए हैं। कुल मिलाकर ये 3 symbols हैं जिनके बीच कोई number नहीं है। इसके अलावा बाकी symbols अलग-अलग हैं।</p><ul><li><b>Option 1 (One):</b> गलत है, क्योंकि हमारे पास एक से ज़्यादा symbols का समूह है।</li><li><b>Option 2 (Three):</b> बिल्कुल सही! अधिकतम 3 symbols एक साथ हैं।</li><li><b>Option 3 (Two):</b> गलत है, क्योंकि हमें 3 का समूह मिल चुका है, जो 2 से ज़्यादा है।</li><li><b>Option 4 (Zero):</b> गलत है, क्योंकि series में symbols मौजूद हैं।</li></ul><p><b>Short Trick:</b> ऐसी series में सीधे symbols पर नज़र दौड़ाएं और उनके groups को count करें, numbers को पूरी तरह ignore करें।</p>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "level": "Medium",
+    "q_en": "<p>Five persons, A, B, C, D and E are sitting in a row, facing north. Only two people are sitting between B and C. C sits to the left of B. C is not sitting at any of the ends of the row. A is not the immediate neighbour of C or E. What is the position of B from the left end of row?</p>",
+    "q_hi": "<p>पांच व्यक्ति, A, B, C, D और E एक पंक्ति में उत्तर की ओर मुख करके बैठे हैं। B और C के बीच केवल दो व्यक्ति बैठे हैं। C, B के बाईं ओर बैठा है। C पंक्ति के किसी भी छोर पर नहीं बैठा है। A, C या E का निकटतम पड़ोसी नहीं है। पंक्ति के बाएं छोर से B का स्थान क्या है?</p>",
+    "op_en": [
+      "Fifth",
+      "Fourth",
+      "Second",
+      "First"
+    ],
+    "op_hi": [
+      "पांचवां",
+      "चौथा",
+      "दूसरा",
+      "पहला"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह linear seating arrangement (रैखिक बैठने की व्यवस्था) का एक बेहतरीन प्रश्न है।</p><p><b>Step-by-step logic:</b><br>1. कुल 5 लोग हैं (1, 2, 3, 4, 5)।<br>2. C, B के बाईं (left) ओर है और उनके बीच 2 लोग हैं। इसका मतलब क्रम ऐसा होगा: C _ _ B<br>3. क्योंकि C किसी भी end (छोर) पर नहीं है, इसलिए C पहली position पर नहीं हो सकता। तो C दूसरी position पर होगा: _ C _ _ B (जिससे B 5वीं position पर आ जाएगा)।<br>4. अब A, C का पड़ोसी नहीं है, इसलिए A पहली या तीसरी position पर नहीं आ सकता। तो A चौथी position पर बैठेगा: _ C _ A B<br>5. A, E का भी पड़ोसी नहीं है। अगर E तीसरी position पर बैठेगा तो A का पड़ोसी बन जाएगा। इसलिए E पहली position पर बैठेगा: E C _ A B<br>6. बची हुई तीसरी position पर D बैठेगा।<br><b>Final Arrangement:</b> E, C, D, A, B</p><p>प्रश्न में पूछा गया है कि बाएँ छोर (left end) से B का स्थान क्या है? B 5वें स्थान पर है।</p><ul><li><b>Option 1 (Fifth):</b> सही उत्तर है।</li><li><b>Option 2 (Fourth):</b> गलत है, यहाँ A बैठा है।</li><li><b>Option 3 (Second):</b> गलत है, यहाँ C बैठा है।</li><li><b>Option 4 (First):</b> गलत है, यहाँ E बैठा है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Puzzle",
+    "level": "Hard",
+    "q_en": "<p>Each of A, B, C, W, X, U, and V has an exam on a different day of the week, starting from Monday and ending on Sunday of the same week.<br>X has an exam on Wednesday. U has an exam on one of the days before X but not before A. Only V has an exam between X and B. W has an exam immediately after B.<br>Who among the following has an exam on the last day of the week?</p>",
+    "q_hi": "<p>A, B, C, W, X, U और V में से प्रत्येक की परीक्षा सप्ताह के अलग-अलग दिन, उसी सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होती है।<br>X की परीक्षा बुधवार को है। U की परीक्षा X से पहले किसी एक दिन होती है लेकिन A से पहले नहीं। X और B के बीच केवल V की परीक्षा होती है। W की परीक्षा B के ठीक बाद होती है।<br>निम्नलिखित में से किसकी परीक्षा सप्ताह के अंतिम दिन होती है?</p>",
+    "op_en": [
+      "B",
+      "C",
+      "V",
+      "U"
+    ],
+    "op_hi": [
+      "B",
+      "C",
+      "V",
+      "U"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हम Monday से Sunday तक का एक schedule तैयार करेंगे।</p><p><b>जानकारी के अनुसार:</b><br>1. X की परीक्षा Wednesday (बुधवार) को है।<br>2. U की परीक्षा X से पहले है, लेकिन A से पहले नहीं (यानी A पहले, फिर U)। चूँकि X बुधवार को है, तो Monday को A और Tuesday को U की परीक्षा होगी।<br>3. X और B के बीच केवल V है। इसलिए X (बुधवार), V (गुरुवार), B (शुक्रवार)।<br>4. W की परीक्षा B के ठीक बाद है। इसलिए W (शनिवार)।<br>5. अब सिर्फ Sunday बचा है और व्यक्तियों में से C बचा है। इसलिए C की परीक्षा Sunday (रविवार) को होगी।</p><p>अंतिम दिन (Sunday) को C की परीक्षा है।</p><ul><li><b>Option 1 (B):</b> गलत है, इसकी परीक्षा Friday को है।</li><li><b>Option 2 (C):</b> बिल्कुल सही! C की परीक्षा Sunday को है।</li><li><b>Option 3 (V):</b> गलत है, इसकी परीक्षा Thursday को है।</li><li><b>Option 4 (U):</b> गलत है, इसकी परीक्षा Tuesday को है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphanumeric Series",
+    "level": "Medium",
+    "q_en": "<p>Refer to the following letter, number and symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) % £ W @ D 7 8 R 4 G 3 E 8 & S A J 6 @ 1 A 5 K ^ L 3 ¥ D 4 Ꝭ (Right)<br><br>How many such numbers are there which are immediately followed by a symbol and also immediately preceded by a letter?</p>",
+    "q_hi": "<p>निम्नलिखित अक्षर, संख्या और प्रतीक शृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं) % £ W @ D 7 8 R 4 G 3 E 8 & S A J 6 @ 1 A 5 K ^ L 3 ¥ D 4 Ꝭ (दाएं)<br><br>ऐसी कितनी संख्याएं हैं जिनके ठीक बाद एक प्रतीक है और ठीक पहले एक अक्षर है?</p>",
+    "op_en": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "op_hi": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें एक specific pattern (विशेष क्रम) खोजना है: <b>Letter (अक्षर) &rarr; Number (संख्या) &rarr; Symbol (प्रतीक)</b>।</p><p>आइए series को ध्यान से scan करते हैं:<br>1. E 8 &amp; (E अक्षर है, 8 संख्या है, &amp; प्रतीक है) - यह पहला group है।<br>2. J 6 @ (J अक्षर है, 6 संख्या है, @ प्रतीक है) - यह दूसरा group है।<br>3. L 3 ¥ (L अक्षर है, 3 संख्या है, ¥ प्रतीक है) - यह तीसरा group है।<br>4. D 4 Ꝭ (D अक्षर है, 4 संख्या है, Ꝭ प्रतीक है) - यह चौथा group है।</p><p>इस प्रकार, हमें कुल 4 ऐसे groups मिले हैं।</p><ul><li><b>Option 1 (4):</b> बिल्कुल सही उत्तर है।</li><li><b>Option 2 (3):</b> गलत है, हमने 4 groups खोजे हैं।</li><li><b>Option 3 (5):</b> गलत है, 5वाँ group मौजूद नहीं है।</li><li><b>Option 4 (2):</b> गलत है, क्योंकि संख्या 4 है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "level": "Easy",
+    "q_en": "<p>In a certain code language, ‘sky is white’ is coded as ‘ch gk rw’, ‘how is film’ is coded as ‘sx bz gk’ and ‘blue is water’ is coded as ‘gk dq jl’. How is ‘is’ coded in the given language?</p>",
+    "q_hi": "<p>एक निश्चित कूट भाषा में, ‘sky is white’ को ‘ch gk rw’ के रूप में कूटबद्ध किया जाता है, ‘how is film’ को ‘sx bz gk’ के रूप में और ‘blue is water’ को ‘gk dq jl’ के रूप में कूटबद्ध किया जाता है। दी गई भाषा में ‘is’ को कैसे कूटबद्ध किया जाएगा?</p>",
+    "op_en": [
+      "rw",
+      "jl",
+      "gk",
+      "dq"
+    ],
+    "op_hi": [
+      "rw",
+      "jl",
+      "gk",
+      "dq"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Substitution Coding का बहुत ही सरल प्रश्न है।</p><p>हमें 'is' का code पता करना है। आइए दिए गए वाक्यों को देखते हैं:<br>1) sky <b>is</b> white = ch <b>gk</b> rw<br>2) how <b>is</b> film = sx bz <b>gk</b><br>3) blue <b>is</b> water = <b>gk</b> dq jl</p><p>जैसा कि आप देख सकते हैं, शब्द 'is' तीनों वाक्यों में common (सामान्य) है। उसी तरह, उनके codes में केवल 'gk' ऐसा code है जो तीनों में common है। इसलिए, 'is' का code निश्चित रूप से 'gk' होगा।</p><ul><li><b>Option 1 (rw):</b> गलत है, यह 'sky' या 'white' का code हो सकता है।</li><li><b>Option 2 (jl):</b> गलत है, यह 'blue' या 'water' का code हो सकता है।</li><li><b>Option 3 (gk):</b> सही उत्तर है!</li><li><b>Option 4 (dq):</b> गलत है, यह भी 'blue' या 'water' का code हो सकता है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "level": "Medium",
+    "q_en": "<p>In a certain code language, ‘FOIL’ is coded as ‘7539’ and ‘ICED’ is coded as ‘4768’. What is the code for ‘I’ in the given code language?</p>",
+    "q_hi": "<p>एक निश्चित कूट भाषा में, ‘FOIL’ को ‘7539’ के रूप में कूटबद्ध किया जाता है और ‘ICED’ को ‘4768’ के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में ‘I’ का कूट क्या है?</p>",
+    "op_en": [
+      "4",
+      "6",
+      "7",
+      "3"
+    ],
+    "op_hi": [
+      "4",
+      "6",
+      "7",
+      "3"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह direct letter coding का सवाल है, जहाँ प्रत्येक अक्षर को एक विशिष्ट अंक (digit) से दर्शाया गया है, लेकिन ज़रूरी नहीं कि वे उसी क्रम में हों।</p><p>आइए दोनों शब्दों को compare (तुलना) करते हैं:<br><b>FOIL</b> = 7, 5, 3, 9<br><b>ICED</b> = 4, 7, 6, 8</p><p>इन दोनों शब्दों 'FOIL' और 'ICED' में केवल एक ही अक्षर common है: <b>'I'</b>।<br>अब उनके codes में देखिए, कौन सा अंक दोनों में मौजूद है? वह है <b>'7'</b>।<br>इसलिए, 'I' का code 7 होगा।</p><ul><li><b>Option 1 (4):</b> गलत है, यह C, E या D का code हो सकता है।</li><li><b>Option 2 (6):</b> गलत है, यह भी ICED के किसी अन्य अक्षर का code है।</li><li><b>Option 3 (7):</b> बिल्कुल सही! दोनों में 7 common है।</li><li><b>Option 4 (3):</b> गलत है, यह F, O या L का code हो सकता है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Puzzle",
+    "level": "Medium",
+    "q_en": "<p>Each of T, U, V, W, X, Y and Z has an exam on a different day of the week starting from Monday and ending on Sunday of the same week. W has an exam on the first day of the week. Only 3 people have an exam between W and Z. T has an exam immediately before V. X has an exam immediately after Y. U has an exam on Thursday and immediately after X. On which day V has the exam?</p>",
+    "q_hi": "<p>T, U, V, W, X, Y और Z में से प्रत्येक की परीक्षा सप्ताह के अलग-अलग दिन, उसी सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होती है। W की परीक्षा सप्ताह के पहले दिन है। W और Z के बीच केवल 3 लोगों की परीक्षा है। T की परीक्षा V से ठीक पहले है। X की परीक्षा Y के ठीक बाद है। U की परीक्षा गुरुवार को है और X के ठीक बाद है। V की परीक्षा किस दिन है?</p>",
+    "op_en": [
+      "Saturday",
+      "Tuesday",
+      "Sunday",
+      "Thursday"
+    ],
+    "op_hi": [
+      "शनिवार",
+      "मंगलवार",
+      "रविवार",
+      "गुरुवार"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हम Monday से Sunday तक का chart बनाते हैं।</p><p><b>Step-by-step logic:</b><br>1. सप्ताह Monday से शुरू होता है। W की परीक्षा पहले दिन (Monday) है।<br>2. W और Z के बीच 3 लोग हैं। (Tuesday, Wednesday, Thursday छोड़कर Z Friday को होगा)।<br>3. U की परीक्षा Thursday को है।<br>4. U, X के ठीक बाद है। इसका मतलब X Wednesday को होगा।<br>5. X, Y के ठीक बाद है। इसका मतलब Y Tuesday को होगा।<br>6. अब हमारे पास Saturday और Sunday बचे हैं। T, V से ठीक पहले है। तो T Saturday को और V Sunday को होगा।</p><p>Schedule: Mon(W), Tue(Y), Wed(X), Thu(U), Fri(Z), Sat(T), Sun(V).</p><ul><li><b>Option 1 (Saturday):</b> गलत है, इस दिन T की परीक्षा है।</li><li><b>Option 2 (Tuesday):</b> गलत है, इस दिन Y की परीक्षा है।</li><li><b>Option 3 (Sunday):</b> सही उत्तर है! V की परीक्षा Sunday को है।</li><li><b>Option 4 (Thursday):</b> गलत है, इस दिन U की परीक्षा है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Ranking and Order",
+    "level": "Easy",
+    "q_en": "<p>In a row of 99 people, Mr. D is 29<sup>th</sup> from the right end. What is his position from the left end?</p>",
+    "q_hi": "<p>99 लोगों की एक पंक्ति में, Mr. D दाएं छोर से 29वें स्थान पर हैं। बाएं छोर से उनका स्थान क्या है?</p>",
+    "op_en": [
+      "69<sup>th</sup>",
+      "72<sup>nd</sup>",
+      "71<sup>st</sup>",
+      "70<sup>th</sup>"
+    ],
+    "op_hi": [
+      "69वां",
+      "72वां",
+      "71वां",
+      "70वां"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Ranking का बहुत ही basic और महत्वपूर्ण concept है।</p><p><b>Formula:</b> Total People = (Position from Left) + (Position from Right) - 1</p><p>यहाँ हमें दिया गया है:<br>Total People = 99<br>Position from Right = 29<br>Position from Left = ?</p><p>Formula में values रखने पर:<br>99 = Left + 29 - 1<br>99 = Left + 28<br>Left = 99 - 28 = 71</p><p>इसलिए Mr. D का बाएँ से 71वाँ स्थान है।</p><ul><li><b>Option 1 (69th):</b> गलत Calculation।</li><li><b>Option 2 (72nd):</b> गलत Calculation, (99-28)+1 करने पर गलती से आ सकता है।</li><li><b>Option 3 (71st):</b> बिल्कुल सही उत्तर है।</li><li><b>Option 4 (70th):</b> गलत Calculation, (99-29) करने की आम गलती।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphabet Test",
+    "level": "Easy",
+    "q_en": "<p>The position(s) of how many letters will remain unchanged if each of the letters in the word RAINBOW is arranged in the English alphabetical order?</p>",
+    "q_hi": "<p>यदि शब्द RAINBOW के प्रत्येक अक्षर को अंग्रेजी वर्णमाला के क्रम में व्यवस्थित किया जाए तो कितने अक्षरों का स्थान अपरिवर्तित रहेगा?</p>",
+    "op_en": [
+      "Four",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "op_hi": [
+      "चार",
+      "दो",
+      "एक",
+      "तीन"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें शब्द 'RAINBOW' के अक्षरों को A से Z (वर्णमाला क्रम) में व्यवस्थित करना है और देखना है कि कौन से अक्षर अपनी मूल जगह पर ही रहते हैं।</p><p>मूल शब्द: R A <b>I</b> <b>N</b> B O <b>W</b><br>व्यवस्थित: A B <b>I</b> <b>N</b> O R <b>W</b></p><p>अगर हम ध्यान से देखें, तो 'I' तीसरे स्थान पर, 'N' चौथे स्थान पर, और 'W' सातवें स्थान पर पहले भी थे और अब भी वहीं हैं। कुल मिलाकर 3 अक्षरों का स्थान नहीं बदला है।</p><ul><li><b>Option 1 (Four):</b> गलत है।</li><li><b>Option 2 (Two):</b> गलत है।</li><li><b>Option 3 (One):</b> गलत है।</li><li><b>Option 4 (Three):</b> बिल्कुल सही! 3 अक्षर (I, N, W) अपनी जगह नहीं बदलते।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "level": "Easy",
+    "q_en": "<p>In a certain code language, ‘HAIR’ is coded as ‘4628’ and ‘BRED’ is coded as ‘5932’. What is the code for ‘R’ in the given code language?</p>",
+    "q_hi": "<p>एक निश्चित कूट भाषा में, ‘HAIR’ को ‘4628’ के रूप में कूटबद्ध किया जाता है और ‘BRED’ को ‘5932’ के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में ‘R’ का कूट क्या है?</p>",
+    "op_en": [
+      "5",
+      "8",
+      "9",
+      "2"
+    ],
+    "op_hi": [
+      "5",
+      "8",
+      "9",
+      "2"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह भी एक प्रकार का direct substitution coding है जहाँ अक्षरों को अंकों से दर्शाया गया है।</p><p>दिए गए शब्द हैं:<br><b>HAIR</b> = 4, 6, 2, 8<br><b>BRED</b> = 5, 9, 3, 2</p><p>इन दोनों शब्दों में कौन सा अक्षर common है? वह है <b>'R'</b>।<br>अब अंकों में देखिए, कौन सा अंक common है? वह है <b>'2'</b>।<br>अतः, 'R' का code स्पष्ट रूप से '2' होगा।</p><ul><li><b>Option 1 (5):</b> गलत है, यह B, E या D का code हो सकता है।</li><li><b>Option 2 (8):</b> गलत है, यह H, A या I का code हो सकता है।</li><li><b>Option 3 (9):</b> गलत है, यह B, E या D का code हो सकता है।</li><li><b>Option 4 (2):</b> बिल्कुल सही उत्तर है!</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphanumeric Series",
+    "level": "Medium",
+    "q_en": "<p>Refer to the following letter, number and symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) 9 J W ! 5 A & Ꝭ 3 X 5 € A W 7 £ F 4 4 E © (Right)<br><br>How many such letters are there which are immediately followed by a symbol and also immediately preceded by a number?</p>",
+    "q_hi": "<p>निम्नलिखित अक्षर, संख्या और प्रतीक शृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं) 9 J W ! 5 A & Ꝭ 3 X 5 € A W 7 £ F 4 4 E © (दाएं)<br><br>ऐसे कितने अक्षर हैं जिनके ठीक बाद एक प्रतीक है और ठीक पहले एक संख्या है?</p>",
+    "op_en": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "op_hi": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें इस series में ऐसा pattern खोजना है: <b>Number (संख्या) &rarr; Letter (अक्षर) &rarr; Symbol (प्रतीक)</b></p><p>आइए series को खंगालते हैं:<br>1. 5 A &amp; (5 संख्या है, A अक्षर है, &amp; प्रतीक है) - यह पहला group है।<br>2. 4 E &copy; (4 संख्या है, E अक्षर है, &copy; प्रतीक है) - यह दूसरा group है।</p><p>इनके अलावा कोई और समूह इस pattern का पालन नहीं करता (उदाहरण के लिए 9 J W में W अक्षर है, प्रतीक नहीं)।</p><ul><li><b>Option 1 (3):</b> गलत है, क्योंकि केवल 2 group मिले हैं।</li><li><b>Option 2 (4):</b> गलत है।</li><li><b>Option 3 (2):</b> बिल्कुल सही! हमें ठीक 2 ऐसे groups मिले हैं।</li><li><b>Option 4 (1):</b> गलत है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Blood Relation",
+    "level": "Medium",
+    "q_en": "<p>In a certain code language,<br>'A + B' means ‘A is the husband of B’,<br>'A – B' means ‘A is the sister of B’,<br>'A × B' means ‘A is the mother of B’ and<br>'A ÷ B' means ‘A is the daughter of B’.<br><br>How is P related to N if ‘P + O ÷ M × N’?</p>",
+    "q_hi": "<p>एक निश्चित कूट भाषा में,<br>'A + B' का अर्थ है 'A, B का पति है',<br>'A – B' का अर्थ है 'A, B की बहन है',<br>'A × B' का अर्थ है 'A, B की माता है' और<br>'A ÷ B' का अर्थ है 'A, B की पुत्री है'।<br><br>यदि ‘P + O ÷ M × N’ है, तो P, N से किस प्रकार संबंधित है?</p>",
+    "op_en": [
+      "Son",
+      "Sister's husband",
+      "Father",
+      "Brother"
+    ],
+    "op_hi": [
+      "पुत्र",
+      "बहन का पति (जीजा)",
+      "पिता",
+      "भाई"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Coded Blood Relation (सांकेतिक रक्त संबंध) का प्रश्न है। समीकरण ‘P + O &divide; M &times; N’ को टुकड़ों में हल करते हैं:</p><p>1. <b>P + O:</b> P, O का पति है (P पुरुष है, O महिला है)।<br>2. <b>O &divide; M:</b> O, M की पुत्री है।<br>3. <b>M &times; N:</b> M, N की माता है।</p><p><b>निष्कर्ष:</b> चूँकि O और N दोनों की माता M है, इसका अर्थ है कि O और N भाई-बहन हैं (O बहन है)। P, O का पति है। इसलिए, P, N की बहन का पति (Brother-in-law / जीजा) हुआ।</p><ul><li><b>Option 1 (Son):</b> गलत है।</li><li><b>Option 2 (Sister's husband):</b> बिल्कुल सही उत्तर है! P, N की बहन का पति है।</li><li><b>Option 3 (Father):</b> गलत है।</li><li><b>Option 4 (Brother):</b> गलत है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Letter Series",
+    "level": "Medium",
+    "q_en": "<p>In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.<br><br>BEAT - TBEA - ATBE<br>RICE - ERIC - CERI</p>",
+    "q_hi": "<p>निम्नलिखित त्रिक (triads) में, अक्षरों का प्रत्येक समूह एक निश्चित तर्क का पालन करते हुए अगले समूह से संबंधित है। दिए गए विकल्पों में से उसका चयन करें जो समान तर्क का पालन करता है।<br><br>BEAT - TBEA - ATBE<br>RICE - ERIC - CERI</p>",
+    "op_en": [
+      "TRAP - APRT - PATR",
+      "TRAP - PTRA - APTR",
+      "TRAP - RTPA - ARTP",
+      "TRAP - PRAT - APTR"
+    ],
+    "op_hi": [
+      "TRAP - APRT - PATR",
+      "TRAP - PTRA - APTR",
+      "TRAP - RTPA - ARTP",
+      "TRAP - PRAT - APTR"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें pattern को समझना होगा।</p><p>Pattern: हर अगले शब्द में, पिछले शब्द का <b>अंतिम अक्षर (last letter) उठकर सबसे आगे (first) आ जाता है</b> और बाकी अक्षर वैसे ही खिसक जाते हैं।<br>जैसे: <b>B E A <u>T</u></b> &rarr; <b><u>T</u> B E A</b> &rarr; <b><u>A</u> T B E</b><br>उसी तरह: <b>R I C <u>E</u></b> &rarr; <b><u>E</u> R I C</b> &rarr; <b><u>C</u> E R I</b></p><p>आइए 'TRAP' पर यही pattern लागू करते हैं:<br>1. <b>T R A <u>P</u></b> &rarr; P को आगे लाएँ &rarr; <b>P T R A</b><br>2. <b>P T R <u>A</u></b> &rarr; A को आगे लाएँ &rarr; <b>A P T R</b></p><p>तो सही त्रिक होगा: TRAP - PTRA - APTR</p><ul><li><b>Option 1:</b> गलत pattern.</li><li><b>Option 2 (TRAP - PTRA - APTR):</b> बिल्कुल सही! यह हमारे निकाले गए pattern से पूरी तरह match करता है।</li><li><b>Option 3:</b> गलत pattern.</li><li><b>Option 4:</b> गलत pattern.</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Puzzle",
+    "level": "Hard",
+    "q_en": "<p>Each of O, J, Y, R, C, N and L has an appointment on a different day of a week, starting from Monday and ending on Sunday of the same week.<br>Only two people have appointments between C and R. Y has an appointment immediately after L. Only one person has an appointment after R. O has an appointment on Tuesday. N does not have an appointment on the last day of the week.<br>How many people have appointments between N and Y?</p>",
+    "q_hi": "<p>O, J, Y, R, C, N और L में से प्रत्येक की नियुक्ति सप्ताह के अलग-अलग दिन, उसी सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होती है।<br>C और R के बीच केवल दो लोगों की नियुक्ति है। Y की नियुक्ति L के ठीक बाद है। R के बाद केवल एक व्यक्ति की नियुक्ति है। O की नियुक्ति मंगलवार को है। N की नियुक्ति सप्ताह के अंतिम दिन नहीं है।<br>N और Y के बीच कितने लोगों की नियुक्ति है?</p>",
+    "op_en": [
+      "None",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "op_hi": [
+      "कोई नहीं",
+      "दो",
+      "एक",
+      "तीन"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हम Monday से Sunday तक दिनों का चार्ट बनाते हैं।</p><p><b>Step-by-step logic:</b><br>1. R के बाद केवल एक व्यक्ति है, यानी R शनिवार (Saturday) को है।<br>2. C और R के बीच 2 लोग हैं। चूँकि R शनिवार है, तो C को बुधवार (Wednesday) होना चाहिए (Thu और Fri बीच में)।<br>3. O की नियुक्ति मंगलवार (Tuesday) को है।<br>अब तक: Mon(?), Tue(O), Wed(C), Thu(?), Fri(?), Sat(R), Sun(?)<br>4. Y की नियुक्ति L के ठीक बाद है। लगातार 2 खाली जगह केवल Thursday और Friday की हैं। अतः L(Thu) और Y(Fri)।<br>5. N की नियुक्ति अंतिम दिन (Sunday) नहीं है। इसलिए N सोमवार (Monday) को होगा।<br>6. बचा हुआ व्यक्ति J रविवार (Sunday) को होगा।</p><p><b>Final Sequence:</b> N(Mon), O(Tue), C(Wed), L(Thu), Y(Fri), R(Sat), J(Sun)</p><p>प्रश्न है: N (Mon) और Y (Fri) के बीच कितने लोग हैं? बीच में O, C और L (कुल 3 लोग) हैं।</p><ul><li><b>Option 1 (None):</b> गलत है।</li><li><b>Option 2 (Two):</b> गलत है।</li><li><b>Option 3 (One):</b> गलत है।</li><li><b>Option 4 (Three):</b> बिल्कुल सही उत्तर है!</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphabet Test",
+    "level": "Easy",
+    "q_en": "<p>The position(s) of how many letters will remain unchanged if each of the letters in the word CAPTION is arranged in the English alphabetical order?</p>",
+    "q_hi": "<p>यदि शब्द CAPTION के प्रत्येक अक्षर को अंग्रेजी वर्णमाला के क्रम में व्यवस्थित किया जाए तो कितने अक्षरों का स्थान अपरिवर्तित रहेगा?</p>",
+    "op_en": [
+      "Three",
+      "Two",
+      "One",
+      "None"
+    ],
+    "op_hi": [
+      "तीन",
+      "दो",
+      "एक",
+      "कोई नहीं"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें 'CAPTION' शब्द के अक्षरों को alphabetical order (A-Z) में लगाना है।</p><p>मूल शब्द: C A P T I O N<br>वर्णमाला क्रम: A C I N O P T</p><p>आइए तुलना करें:<br>1. C &rarr; A (बदल गया)<br>2. A &rarr; C (बदल गया)<br>3. P &rarr; I (बदल गया)<br>4. T &rarr; N (बदल गया)<br>5. I &rarr; O (बदल गया)<br>6. O &rarr; P (बदल गया)<br>7. N &rarr; T (बदल गया)</p><p>जैसा कि आप देख सकते हैं, एक भी अक्षर अपनी पुरानी जगह पर नहीं रहा।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (Two):</b> गलत है।</li><li><b>Option 3 (One):</b> गलत है।</li><li><b>Option 4 (None):</b> बिल्कुल सही! किसी भी अक्षर का स्थान समान नहीं रहा।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Alphabet Test",
+    "level": "Easy",
+    "q_en": "<p>If each letter in the word TRAINED is changed to the letter following it in the English alphabetical order, which of the following letters will be third from the right in the new group of letters thus formed?</p>",
+    "q_hi": "<p>यदि शब्द TRAINED के प्रत्येक अक्षर को अंग्रेजी वर्णमाला में उसके बाद आने वाले अक्षर से बदल दिया जाए, तो इस प्रकार बने अक्षरों के नए समूह में दाईं ओर से तीसरा अक्षर निम्नलिखित में से कौन सा होगा?</p>",
+    "op_en": [
+      "J",
+      "E",
+      "S",
+      "O"
+    ],
+    "op_hi": [
+      "J",
+      "E",
+      "S",
+      "O"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें शब्द 'TRAINED' के हर अक्षर को वर्णमाला (alphabet) में उसके ठीक <b>अगले अक्षर (+1)</b> से बदलना है।</p><p>T (+1) = U<br>R (+1) = S<br>A (+1) = B<br>I (+1) = J<br>N (+1) = O<br>E (+1) = F<br>D (+1) = E</p><p>नया शब्द बना: <b>U S B J O F E</b></p><p>अब पूछा गया है कि दाएँ छोर (right end) से तीसरा अक्षर कौन सा है?<br>दाएँ से पहला: E<br>दाएँ से दूसरा: F<br>दाएँ से तीसरा: <b>O</b></p><ul><li><b>Option 1 (J):</b> गलत है, यह बाएँ से चौथा है।</li><li><b>Option 2 (E):</b> गलत है, यह दाएँ से पहला है।</li><li><b>Option 3 (S):</b> गलत है, यह बाएँ से दूसरा है।</li><li><b>Option 4 (O):</b> बिल्कुल सही उत्तर है!</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "level": "Medium",
+    "q_en": "<p>A, B, C, D, E and F are six members of a family sitting around a circular table for dinner, facing each other. E is sitting immediately to the right of B. C and D are not neighbours of E. A is an immediate neighbour of both D and C. Who is sitting second to the right of B?</p>",
+    "q_hi": "<p>A, B, C, D, E और F एक परिवार के छह सदस्य हैं जो रात के खाने के लिए एक गोलाकार मेज के चारों ओर एक-दूसरे की ओर मुख करके बैठे हैं। E, B के ठीक दाईं ओर बैठा है। C और D, E के पड़ोसी नहीं हैं। A, D और C दोनों का निकटतम पड़ोसी है। B के दाईं ओर दूसरे स्थान पर कौन बैठा है?</p>",
+    "op_en": [
+      "E",
+      "C",
+      "A",
+      "F"
+    ],
+    "op_hi": [
+      "E",
+      "C",
+      "A",
+      "F"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Circular Seating Arrangement (वृत्ताकार बैठने की व्यवस्था) का सवाल है जहाँ सभी का मुख केंद्र (center) की ओर है।</p><p><b>Step-by-step logic:</b><br>1. 6 लोग हैं। E, B के ठीक दाईं (right) ओर है। क्रम: B &rarr; E<br>2. C और D, E के पड़ोसी नहीं हैं। इसका मतलब E के तुरंत बाद C या D नहीं आ सकते। तो E के बाद F बैठेगा। क्रम: B &rarr; E &rarr; F<br>3. A, D और C दोनों का पड़ोसी है। इसका मतलब A, D और C के बीच में है (D-A-C या C-A-D)।<br>4. अब पूरे वृत्त (circle) को जोड़ दें तो क्रम बनता है: B &rarr; E &rarr; F &rarr; C/D &rarr; A &rarr; D/C</p><p>सवाल में पूछा गया है: B के दाईं ओर दूसरे स्थान पर (second to the right of B) कौन है?<br>B के ठीक दाईं ओर (first right) E है, और उसके बाद (second right) <b>F</b> है।</p><ul><li><b>Option 1 (E):</b> गलत है, यह ठीक दाईं ओर (first right) है।</li><li><b>Option 2 (C):</b> गलत है।</li><li><b>Option 3 (A):</b> गलत है।</li><li><b>Option 4 (F):</b> बिल्कुल सही उत्तर है!</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Blood Relation",
+    "level": "Hard",
+    "q_en": "<p>In a certain code language,<br><br>'A = B' means 'A is the mother of B',<br>'A ＄ B' means 'A is the brother of B',<br>'A @ B' means 'A is the wife of B' and<br>'A * B' means 'A is the father of B'.<br><br>How is P related to T if 'P ＄ F = K @ S * T'?</p>",
+    "q_hi": "<p>एक निश्चित कूट भाषा में,<br><br>'A = B' का अर्थ है 'A, B की माता है',<br>'A ＄ B' का अर्थ है 'A, B का भाई है',<br>'A @ B' का अर्थ है 'A, B की पत्नी है' और<br>'A * B' का अर्थ है 'A, B का पिता है'।<br><br>यदि 'P ＄ F = K @ S * T' है, तो P, T से किस प्रकार संबंधित है?</p>",
+    "op_en": [
+      "Mother's mother's brother",
+      "Mother's father",
+      "Mother's mother's father",
+      "Mother's brother"
+    ],
+    "op_hi": [
+      "माता की माता का भाई",
+      "माता का पिता",
+      "माता की माता का पिता",
+      "माता का भाई"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Coded Blood Relation (सांकेतिक रक्त संबंध) का एक बेहतरीन प्रश्न है।</p><p>हम समीकरण <b>P ＄ F = K @ S * T</b> को दाईं ओर से (right to left) हल करेंगे:</p><p>1. <b>S * T:</b> S, T का पिता है।<br>2. <b>K @ S:</b> K, S की पत्नी है। (यानी K, T की माता है)।<br>3. <b>F = K:</b> F, K की माता है। (यानी F, T की माता की माता, या नानी है)।<br>4. <b>P ＄ F:</b> P, F का भाई है।</p><p><b>निष्कर्ष:</b> T की माता K है, K की माता F है, और F का भाई P है। इसलिए, P, T की <b>माता की माता का भाई</b> (Mother's mother's brother) है।</p><ul><li><b>Option 1 (Mother's mother's brother):</b> बिल्कुल सही उत्तर है! P, नानी का भाई है।</li><li><b>Option 2 (Mother's father):</b> गलत है, यह तो नाना होता है।</li><li><b>Option 3 (Mother's mother's father):</b> गलत है, यह परनाना होता है।</li><li><b>Option 4 (Mother's brother):</b> गलत है, यह मामा होता है।</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Analogy",
+    "level": "Medium",
+    "q_en": "<p>Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. <br><br>WAC − FJL<br>OSU − XBD</p>",
+    "q_hi": "<p>उस युग्म का चयन करें जो नीचे दिए गए दो युग्मों द्वारा अनुसरण किए गए समान पैटर्न का पालन करता है। दोनों युग्म समान पैटर्न का पालन करते हैं。<br><br>WAC − FJL<br>OSU − XBD</p>",
+    "op_en": [
+      "AEG − INO",
+      "ADE − JNP",
+      "ADE − IMO",
+      "GKM − PTV"
+    ],
+    "op_hi": [
+      "AEG − INO",
+      "ADE − JNP",
+      "ADE − IMO",
+      "GKM − PTV"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें Letters की Position values (A=1 ... Z=26) के आधार पर Pattern खोजना है।</p><p><br><b>Pattern 1: WAC &rarr; FJL</b><br>W (23) + 9 = 32 (32-26 = 6) &rarr; F<br>A (1) + 9 = 10 &rarr; J<br>C (3) + 9 = 12 &rarr; L<br>सबमें <b>+9</b> हो रहा है।</p><p><b>Pattern 2: OSU &rarr; XBD</b><br>O (15) + 9 = 24 &rarr; X<br>S (19) + 9 = 28 (28-26 = 2) &rarr; B<br>U (21) + 9 = 30 (30-26 = 4) &rarr; D<br>यहाँ भी <b>+9</b> का pattern है।</p><p>आइए Options check करते हैं:<br>Option 1: A+8=I (गलत)<br>Option 2: A+9=J, D(4)+10=14=N (गलत)<br>Option 3: A+8=I (गलत)<br>Option 4: <b>GKM &rarr; PTV</b><br>G (7) + 9 = 16 &rarr; P<br>K (11) + 9 = 20 &rarr; T<br>M (13) + 9 = 22 &rarr; V<br>यह पूरी तरह से <b>+9</b> के pattern को follow कर रहा है।</p><ul><li><b>Option 4 (GKM − PTV):</b> बिल्कुल सही उत्तर है!</li></ul>"
+  },
+  {
+    "section": "General intelligence and Reasoning Ability",
+    "topic": "Analogy",
+    "level": "Medium",
+    "q_en": "<p>KYUD is related to MBSA in a certain way based on the English alphabetical order. In the same way, OEQX is related to QHOU. To which of the given options is SKMR related, following the same logic?</p>",
+    "q_hi": "<p>अंग्रेजी वर्णमाला के क्रम के आधार पर KYUD एक निश्चित तरीके से MBSA से संबंधित है। उसी तरह, OEQX, QHOU से संबंधित है। समान तर्क का पालन करते हुए SKMR दिए गए विकल्पों में से किससे संबंधित है?</p>",
+    "op_en": [
+      "UNKO",
+      "VOKN",
+      "VMLO",
+      "TOLP"
+    ],
+    "op_hi": [
+      "UNKO",
+      "VOKN",
+      "VMLO",
+      "TOLP"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें यहाँ Letters में हो रहे बदलाव (shift) का logic पकड़ना है।</p><p><b>Pattern 1: KYUD &rarr; MBSA</b><br>K (11) + 2 = 13 (M)<br>Y (25) + 3 = 28 (B) (28-26=2)<br>U (21) - 2 = 19 (S)<br>D (4) - 3 = 1 (A)<br>Logic: <b>+2, +3, -2, -3</b></p><p><b>Pattern 2: OEQX &rarr; QHOU</b><br>O (15) + 2 = 17 (Q)<br>E (5) + 3 = 8 (H)<br>Q (17) - 2 = 15 (O)<br>X (24) - 3 = 21 (U)<br>Logic: <b>+2, +3, -2, -3</b></p><p><b>अब SKMR पर लागू करते हैं:</b><br>S (19) + 2 = 21 (U)<br>K (11) + 3 = 14 (N)<br>M (13) - 2 = 11 (K)<br>R (18) - 3 = 15 (O)<br>तो हमें मिलता है: <b>UNKO</b></p><ul><li><b>Option 1 (UNKO):</b> बिल्कुल सही उत्तर है!</li><li><b>Option 2 (VOKN):</b> गलत है।</li><li><b>Option 3 (VMLO):</b> गलत है।</li><li><b>Option 4 (TOLP):</b> गलत है।</li></ul>"
+  }
+]
