@@ -1,0 +1,422 @@
+[
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Error Spotting",
+    "level": "Intermediate",
+    "q_en": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.</p><p>I have bought / a book about / the mysteries / of world.</p>",
+    "q_hi": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.</p><p>I have bought / a book about / the mysteries / of world.</p>",
+    "op_en": [
+      "a book about",
+      "the mysteries",
+      "I have bought",
+      "of world"
+    ],
+    "op_hi": [
+      "a book about",
+      "the mysteries",
+      "I have bought",
+      "of world"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, इस सवाल में error segment 4 यानी <b>'of world'</b> में है। अंग्रेज़ी व्याकरण के नियम के अनुसार, जब हम 'world', 'universe', या 'environment' जैसे शब्दों का उपयोग करते हैं, तो उनके पहले definite article <b>'the'</b> लगाना ज़रूरी होता है। इसलिए सही वाक्य होना चाहिए: \"...the mysteries of <u>the</u> world.\"<br><ul><li><b>Option 1 &amp; 3:</b> 'I have bought' (Present Perfect) और 'a book about' बिल्कुल सही हैं।</li><li><b>Option 2:</b> 'the mysteries' भी सही है क्योंकि यहाँ खास रहस्यों की बात हो रही है।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Error Spotting",
+    "level": "Intermediate",
+    "q_en": "<p>Parts of the following sentence are given as options. Select the part that contains a grammatical error.</p><p>She is studying at a Delhi University and will graduate next year.</p>",
+    "q_hi": "<p>Parts of the following sentence are given as options. Select the part that contains a grammatical error.</p><p>She is studying at a Delhi University and will graduate next year.</p>",
+    "op_en": [
+      "at a Delhi University",
+      "and will graduate",
+      "She is studying",
+      "next year"
+    ],
+    "op_hi": [
+      "at a Delhi University",
+      "and will graduate",
+      "She is studying",
+      "next year"
+    ],
+    "ans": "1",
+    "solution": "नमस्ते बच्चों! यहाँ गलती segment 1 में है। 'Delhi University' एक <b>Proper Noun</b> (किसी खास संस्थान का नाम) है। Proper names के पहले 'a' या 'an' का प्रयोग नहीं किया जाता। सही sentence होगा: \"She is studying at Delhi University...\"<br><ul><li><b>Option 2, 3 &amp; 4:</b> 'She is studying', 'and will graduate', और 'next year' व्याकरण के हिसाब से एकदम सटीक हैं।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Vocabulary (Fill in the blanks)",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate verb to fill in the blank.</p><p>The company has introduced some new measures to ________ the organisation.</p>",
+    "q_hi": "<p>Select the most appropriate verb to fill in the blank.</p><p>The company has introduced some new measures to ________ the organisation.</p>",
+    "op_en": [
+      "resurge",
+      "retrograde",
+      "rejuvenate",
+      "impede"
+    ],
+    "op_hi": [
+      "resurge",
+      "retrograde",
+      "rejuvenate",
+      "impede"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, सही शब्द <b>'rejuvenate'</b> है। Rejuvenate का अर्थ होता है किसी चीज़ में फिर से नई जान फूँकना या उसे फिर से युवा/ऊर्जावान बनाना (to make young or energetic again)।<br><ul><li><b>Resurge:</b> इसका मतलब है फिर से उभरना (reappear), यह आमतौर पर 'to resurge the organisation' की तरह use नहीं होता।</li><li><b>Retrograde:</b> इसका मतलब है पीछे की ओर जाना या बदतर होना (moving backward/worse), जो यहाँ logical नहीं है।</li><li><b>Impede:</b> इसका मतलब है बाधा डालना (to delay or prevent), कंपनी अपनी ही प्रोग्रेस में बाधा नहीं डालेगी।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Verbs & Infinitives",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.</p><p>Manas seems to __________ the trip to Maldives.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.</p><p>Manas seems to __________ the trip to Maldives.</p>",
+    "op_en": [
+      "had enjoyed",
+      "have enjoyed",
+      "has enjoyed",
+      "be enjoyed"
+    ],
+    "op_hi": [
+      "had enjoyed",
+      "have enjoyed",
+      "has enjoyed",
+      "be enjoyed"
+    ],
+    "ans": "2",
+    "solution": "बच्चों, यहाँ <b>'have enjoyed'</b> (Perfect Infinitive) का उपयोग होगा। जब हम वर्तमान में किसी ऐसी बात का अंदाज़ा लगाते हैं जो पहले हो चुकी है, तो 'seem to' के साथ 'have + V3' का इस्तेमाल करते हैं।<br><ul><li><b>Option 1 (had enjoyed):</b> Grammatically गलत है क्योंकि 'to' के बाद base form 'have' आता है, 'had' नहीं।</li><li><b>Option 3 (has enjoyed):</b> 'To' के बाद 'has' कभी नहीं आता।</li><li><b>Option 4 (be enjoyed):</b> यह passive voice हो जाएगा, जबकि मानस खुद एन्जॉय कर रहा है।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Articles",
+    "level": "Basic",
+    "q_en": "<p>Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.</p><p>A curious student brought an interesting book to _____ science fair and impressed the judges.</p>",
+    "q_hi": "<p>Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.</p><p>A curious student brought an interesting book to _____ science fair and impressed the judges.</p>",
+    "op_en": [
+      "No article required",
+      "a",
+      "the",
+      "an"
+    ],
+    "op_hi": [
+      "No article required",
+      "a",
+      "the",
+      "an"
+    ],
+    "ans": "3",
+    "solution": "यहाँ <b>'the'</b> सही उत्तर है। जब हम किसी विशिष्ट (specific) आयोजन या जगह की बात करते हैं जहाँ कर्ता (student) गया है, तो Definite article 'the' का प्रयोग होता है।<br><ul><li><b>A/An:</b> इनका उपयोग सामान्य या अनिर्धारित (indefinite) चीज़ों के लिए होता है, लेकिन यहाँ एक खास साइंस फेयर की बात हो रही है जहाँ जज मौजूद थे।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Sentence Rearrangement (Para Jumbles)",
+    "level": "Intermediate",
+    "q_en": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.</p><p>A. had vanished<br />B. when she turned back,<br />C. into the swirling mist<br />D. the figure she had been chasing</p>",
+    "q_hi": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.</p><p>A. had vanished<br />B. when she turned back,<br />C. into the swirling mist<br />D. the figure she had been chasing</p>",
+    "op_en": [
+      "BDAC",
+      "BADC",
+      "ADBC",
+      "CBDA"
+    ],
+    "op_hi": [
+      "BDAC",
+      "BADC",
+      "ADBC",
+      "CBDA"
+    ],
+    "ans": "1",
+    "solution": "बच्चों, इस सवाल में हमें वाक्य के हिस्सों को सही क्रम में जोड़कर एक अर्थपूर्ण (meaningful) वाक्य बनाना है। सही क्रम <b>Option 1 (BDAC)</b> है। आइए इसे जोड़कर देखते हैं: \"When she turned back (B), the figure she had been chasing (D) had vanished (A) into the swirling mist (C).\" यह क्रम एक logical flow बनाता है—पहले एक action हुआ (मुड़ना), फिर subject (आकृति) के बारे में बताया गया, और अंत में उसके साथ क्या हुआ (गायब होना) उसे जोड़ा गया।<br><ul><li><b>Option 2 (BADC):</b> इसमें 'had vanished' (verb) सब्जेक्ट 'the figure' से पहले आ रहा है, जो गलत है।</li><li><b>Option 3 (ADBC):</b> यह अधूरा सा लगता है क्योंकि इसकी शुरुआत क्रिया से हो रही है।</li><li><b>Option 4 (CBDA):</b> यह 'into the swirling mist' से शुरू हो रहा है, जो सुनने में और व्याकरण के हिसाब से फिट नहीं बैठता।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Articles",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate option to fill in the blanks.</p><p>An audacious traveller decided to discover _____ hidden trail deep in _____ forest.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blanks.</p><p>An audacious traveller decided to discover _____ hidden trail deep in _____ forest.</p>",
+    "op_en": [
+      "an, a",
+      "no article required, a",
+      "the, no article required",
+      "a, the"
+    ],
+    "op_hi": [
+      "an, a",
+      "no article required, a",
+      "the, no article required",
+      "a, the"
+    ],
+    "ans": "4",
+    "solution": "सही उत्तर <b>'a, the'</b> है।<br><ul><li><b>'a' hidden trail:</b> यहाँ यात्री एक अनजान या नई पगडंडी ढूंढ रहा है, जो पहली बार mention हो रही है।</li><li><b>'the' forest:</b> यहाँ उस जंगल को specific माना गया है जिसमें वह यात्री है।</li><li><b>Note:</b> 'Hidden' एक व्यंजन ध्वनि (consonant sound - 'ह') से शुरू होता है, इसलिए 'an' गलत होगा।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Vocabulary",
+    "level": "Hard",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.</p><p>The ___________ talent for playing the piano left the audience spellbound, earning her a standing ovation at the concert.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.</p><p>The ___________ talent for playing the piano left the audience spellbound, earning her a standing ovation at the concert.</p>",
+    "op_en": [
+      "basal",
+      "shoddy",
+      "prodigious",
+      "floundering"
+    ],
+    "op_hi": [
+      "basal",
+      "shoddy",
+      "prodigious",
+      "floundering"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, यहाँ <b>'prodigious'</b> (विलक्षण या अद्भुत) सबसे सटीक शब्द है क्योंकि टैलेंट इतना ज़बरदस्त था कि लोग मंत्रमुग्ध (spellbound) हो गए।<br><ul><li><b>Basal:</b> इसका मतलब है आधारभूत (basic)।</li><li><b>Shoddy:</b> इसका मतलब है बहुत ही खराब या घटिया क्वालिटी का।</li><li><b>Floundering:</b> इसका मतलब है संघर्ष करना या लड़खड़ाना।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Sentence Improvement",
+    "level": "Basic",
+    "q_en": "<p>Select the option that will improve the underlined part of the given sentence.</p><p>She was the <u>most fastest</u> runner on the track.</p>",
+    "q_hi": "<p>Select the option that will improve the underlined part of the given sentence.</p><p>She was the <u>most fastest</u> runner on the track.</p>",
+    "op_en": [
+      "faster",
+      "fast",
+      "much fast",
+      "fastest"
+    ],
+    "op_hi": [
+      "faster",
+      "fast",
+      "much fast",
+      "fastest"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, याद रखिये अंग्रेज़ी में <b>Double Superlative</b> का उपयोग गलत है। 'Fastest' खुद में ही superlative degree है, इसके साथ 'most' लगाने की ज़रूरत नहीं होती। इसलिए सही उत्तर 'fastest' होगा।<br><ul><li><b>Faster:</b> Comparative degree है, जो दो लोगों की तुलना के लिए होती है।</li><li><b>Fast:</b> Positive degree है।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Adjectives (Degrees of Comparison)",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.</p><p>Among all cities, Delhi experiences ____________ traffic congestion.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.</p><p>Among all cities, Delhi experiences ____________ traffic congestion.</p>",
+    "op_en": [
+      "more heavy",
+      "heavier",
+      "much heavy",
+      "the heaviest"
+    ],
+    "op_hi": [
+      "more heavy",
+      "heavier",
+      "much heavy",
+      "the heaviest"
+    ],
+    "ans": "4",
+    "solution": "जब हम 'Among all' (सबके बीच) की बात करते हैं, तो हम <b>Superlative Degree</b> का इस्तेमाल करते हैं। 'Heavy' की superlative degree <b>'the heaviest'</b> होती है।<br><ul><li><b>Heavier:</b> यह तब आता जब सिर्फ दो शहरों की तुलना होती।</li><li><b>More heavy:</b> यह गलत formation है, 'heavy' के लिए 'er/est' लगता है।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Sentence Rearrangement",
+    "level": "Intermediate",
+    "q_en": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.</p><p>A. that reshaped the coastline permanently<br />B. unleashed a massive storm surge<br />C. the hurricane, which made landfall overnight,<br />D. and caused unprecedented flooding</p>",
+    "q_hi": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.</p><p>A. that reshaped the coastline permanently<br />B. unleashed a massive storm surge<br />C. the hurricane, which made landfall overnight,<br />D. and caused unprecedented flooding</p>",
+    "op_en": [
+      "DBAC",
+      "CBDA",
+      "BCDA",
+      "BCAD"
+    ],
+    "op_hi": [
+      "DBAC",
+      "CBDA",
+      "BCDA",
+      "BCAD"
+    ],
+    "ans": "2",
+    "solution": "सही क्रम <b>CBDA</b> है।<br>वाक्य इस प्रकार बनेगा: \"The hurricane, which made landfall overnight (C), unleashed a massive storm surge (B) and caused unprecedented flooding (D) that reshaped the coastline permanently (A).\"<br>यहाँ (C) subject introduce कर रहा है, (B) और (D) उसके द्वारा किये गए कार्य बता रहे हैं, और (A) परिणाम (result) बता रहा है।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Prepositions",
+    "level": "Basic",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.</p><p>I need someone I can rely ______.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.</p><p>I need someone I can rely ______.</p>",
+    "op_en": [
+      "at",
+      "of",
+      "on",
+      "about"
+    ],
+    "op_hi": [
+      "at",
+      "of",
+      "on",
+      "about"
+    ],
+    "ans": "3",
+    "solution": "बच्चों, 'Rely' के साथ हमेशा <b>'on'</b> या <b>'upon'</b> का प्रयोग होता है। <b>Rely on</b> का मतलब होता है किसी पर भरोसा करना (to depend on someone)।<br><ul><li><b>At, Of, About:</b> ये Prepositions 'rely' के साथ सही अर्थ नहीं देते।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Sentence Improvement (Adjectives)",
+    "level": "Hard",
+    "q_en": "<p>Select the most appropriate option that can substitute the underlined segment in the given sentence.</p><p>The sunny day made the otherwise snowy weather feel <u>scorchy and swelter hot</u> and uncomfortable, causing confusion among the residents who had dressed for colder temperatures.</p>",
+    "q_hi": "<p>Select the most appropriate option that can substitute the underlined segment in the given sentence.</p><p>The sunny day made the otherwise snowy weather feel <u>scorchy and swelter hot</u> and uncomfortable, causing confusion among the residents who had dressed for colder temperatures.</p>",
+    "op_en": [
+      "scorcher and sweltering hot",
+      "scorcher and swelter hot",
+      "scorching and sweltering hot",
+      "scorchy and sweltering hot"
+    ],
+    "op_hi": [
+      "scorcher and sweltering hot",
+      "scorcher and swelter hot",
+      "scorching and sweltering hot",
+      "scorchy and sweltering hot"
+    ],
+    "ans": "3",
+    "solution": "सही उत्तर <b>'scorching and sweltering hot'</b> है।<br><ul><li><b>Scorching:</b> तपता हुआ (extremely hot)।</li><li><b>Sweltering:</b> उमस भरा और बहुत गर्म।</li><li>वाक्य में 'feel' के बाद adjectives की ज़रूरत है। 'Scorchy' और 'Swelter' मानक (standard) adjectives नहीं हैं।</li></ul>"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Absolute Adjectives",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate option that can substitute the underlined segment in the given sentence.</p><p>With her eccentric fashion sense and captivating personality, she felt <u>very unique</u> and stood apart from everyone else in the room.</p>",
+    "q_hi": "<p>Select the most appropriate option that can substitute the underlined segment in the given sentence.</p><p>With her eccentric fashion sense and captivating personality, she felt <u>very unique</u> and stood apart from everyone else in the room.</p>",
+    "op_en": [
+      "more unique",
+      "much unique",
+      "most unique",
+      "unique"
+    ],
+    "op_hi": [
+      "more unique",
+      "much unique",
+      "most unique",
+      "unique"
+    ],
+    "ans": "4",
+    "solution": "बच्चों, <b>'Unique'</b> एक absolute adjective है। इसका मतलब होता है 'एकमात्र' या 'सबसे अलग'। कोई चीज़ या तो unique होती है या नहीं होती; वह 'कम', 'ज़्यादा' या 'बहुत' unique नहीं हो सकती। इसलिए <b>'unique'</b> के साथ 'very', 'more' या 'most' नहीं लगता।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Conditionals",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate form of the verb to fill in the blank.</p><p>If she ___________ the train on time, she will reach the meeting by noon.</p>",
+    "q_hi": "<p>Select the most appropriate form of the verb to fill in the blank.</p><p>If she ___________ the train on time, she will reach the meeting by noon.</p>",
+    "op_en": [
+      "had caught",
+      "catching",
+      "catches",
+      "caught"
+    ],
+    "op_hi": [
+      "had caught",
+      "catching",
+      "catches",
+      "caught"
+    ],
+    "ans": "3",
+    "solution": "यह एक <b>First Conditional</b> वाक्य है (If + Present Simple, will + V1)। यहाँ 'she will reach' भविष्य की बात कर रहा है, तो 'if' क्लॉज़ में Present Simple का उपयोग होगा। She (singular) के साथ <b>'catches'</b> आएगा।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Reading Comprehension",
+    "level": "Intermediate",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage carefully and answer the questions that follow.<br /><br />Charles Darwin's theory of evolution says that living things change slowly over time. These changes happen because of small differences between individuals. Some of these differences help them live better in their surroundings. The ones that survive can have babies and pass these helpful traits to them.<br /><br />Darwin wrote about this idea in his famous book 'On the Origin of Species'. His thoughts were new at the time and different from what most people believed. He said that new species are formed when groups of animals or plants live in different places or face different problems. Over time, these changes add up and create new types of living things.<br /><br />Scientists have found proof of this theory in fossils, genes, and how living things are built. Darwin’s idea is a big part of modern science. It helps us understand how all living things are connected and how they keep changing with time.<p> </p><br />Select the most appropriate title for the passage.</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage carefully and answer the questions that follow.<br /><br />Charles Darwin's theory of evolution says that living things change slowly over time. These changes happen because of small differences between individuals. Some of these differences help them live better in their surroundings. The ones that survive can have babies and pass these helpful traits to them.<br /><br />Darwin wrote about this idea in his famous book 'On the Origin of Species'. His thoughts were new at the time and different from what most people believed. He said that new species are formed when groups of animals or plants live in different places or face different problems. Over time, these changes add up and create new types of living things.<br /><br />Scientists have found proof of this theory in fossils, genes, and how living things are built. Darwin’s idea is a big part of modern science. It helps us understand how all living things are connected and how they keep changing with time.<p> </p><br />Select the most appropriate title for the passage.</p>",
+    "op_en": [
+      "Life and Death in the Animal World",
+      "Understanding Genes in Science",
+      "Darwin’s Theory of Evolution",
+      "Charles Darwin’s Journey to Africa"
+    ],
+    "op_hi": [
+      "Life and Death in the Animal World",
+      "Understanding Genes in Science",
+      "Darwin’s Theory of Evolution",
+      "Charles Darwin’s Journey to Africa"
+    ],
+    "ans": "3",
+    "solution": "पैसेज मुख्य रूप से डार्विन के विकासवाद के सिद्धांत (Theory of Evolution) के बारे में बात करता है, इसलिए <b>'Darwin’s Theory of Evolution'</b> सबसे उपयुक्त शीर्षक है।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Vocabulary (Antonyms)",
+    "level": "Intermediate",
+    "q_en": "<p>Select the most appropriate ANTONYM for the word 'connected' as used in the passage.</p>",
+    "q_hi": "<p>Select the most appropriate ANTONYM for the word 'connected' as used in the passage.</p>",
+    "op_en": [
+      "Joined",
+      "Determined",
+      "Limited",
+      "Separate"
+    ],
+    "op_hi": [
+      "Joined",
+      "Determined",
+      "Limited",
+      "Separate"
+    ],
+    "ans": "4",
+    "solution": "<b>'Connected'</b> का अर्थ होता है जुड़ा हुआ। इसका विलोम (Antonym) होगा <b>'Separate'</b> यानी अलग-अलग। 'Joined' इसका पर्यायवाची (Synonym) है।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Reading Comprehension (Inference)",
+    "level": "Intermediate",
+    "q_en": "<p>Which of the following can be inferred from the passage about living things?</p>",
+    "q_hi": "<p>Which of the following can be inferred from the passage about living things?</p>",
+    "op_en": [
+      "Living things cannot survive outside their homes.",
+      "Living things can slowly change and adapt.",
+      "All living things are perfect and cannot change.",
+      "Living things have always been the same."
+    ],
+    "op_hi": [
+      "Living things cannot survive outside their homes.",
+      "Living things can slowly change and adapt.",
+      "All living things are perfect and cannot change.",
+      "Living things have always been the same."
+    ],
+    "ans": "2",
+    "solution": "पैसेज स्पष्ट कहता है कि 'living things change slowly over time' और वे अपनी परिस्थितियों के अनुसार ढलते हैं, जिसका अर्थ है <b>'Living things can slowly change and adapt'</b>।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Tone of Passage",
+    "level": "Intermediate",
+    "q_en": "<p>What is the tone of the passage?</p>",
+    "q_hi": "<p>What is the tone of the passage?</p>",
+    "op_en": [
+      "Informative",
+      "Sarcastic",
+      "Humorous",
+      "Persuasive"
+    ],
+    "op_hi": [
+      "Informative",
+      "Sarcastic",
+      "Humorous",
+      "Persuasive"
+    ],
+    "ans": "1",
+    "solution": "लेखक तथ्यों और डार्विन के सिद्धांतों की जानकारी दे रहा है, बिना किसी मज़ाक (Humor) या आलोचना (Sarcasm) के। इसलिए टोन <b>Informative</b> (जानकारीपूर्ण) है।"
+  },
+  {
+    "section": "Test of English Language and Comprehension",
+    "topic": "Reading Comprehension (Fact Retrieval)",
+    "level": "Basic",
+    "q_en": "<p>According to the passage, how do helpful traits pass on?</p>",
+    "q_hi": "<p>According to the passage, how do helpful traits pass on?</p>",
+    "op_en": [
+      "From parents to children",
+      "By changing body structure quickly",
+      "By copying other species",
+      "Through teaching"
+    ],
+    "op_hi": [
+      "From parents to children",
+      "By changing body structure quickly",
+      "By copying other species",
+      "Through teaching"
+    ],
+    "ans": "1",
+    "solution": "पैसेज में लिखा है, \"The ones that survive can have babies and pass these helpful traits to them.\" इसका अर्थ है कि ये लक्षण <b>माता-पिता से बच्चों (parents to children)</b> में जाते हैं।"
+  }
+]
