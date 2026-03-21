@@ -1,0 +1,422 @@
+[
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Profit and Loss",
+    "level": "Hard",
+    "q_en": "<p>Ramesh sold a chair at a profit of 16%. If the cost price of the chair had been 12% less and its selling price had been &#8377;288 more, there would have been a profit of 40%. At what price should Ramesh have sold the chair to make a profit of 32%?</p>",
+    "q_hi": "<p>रमेश ने एक कुर्सी 16% के लाभ पर बेची। यदि कुर्सी का क्रय मूल्य 12% कम होता और उसका विक्रय मूल्य &#8377;288 अधिक होता, तो 40% का लाभ होता। 32% का लाभ कमाने के लिए रमेश को कुर्सी किस कीमत पर बेचनी चाहिए थी?</p>",
+    "op_en": [
+      "&#8377;5,860",
+      "&#8377;5,030",
+      "&#8377;4,840",
+      "&#8377;5,280"
+    ],
+    "op_hi": [
+      "&#8377;5,860",
+      "&#8377;5,030",
+      "&#8377;4,840",
+      "&#8377;5,280"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए Profit and Loss के इस शानदार सवाल को समझते हैं।</p><p><b>Step 1:</b> मान लीजिए कुर्सी का प्रारंभिक क्रय मूल्य (CP) = $100x$<br>16% लाभ पर प्रारंभिक विक्रय मूल्य (SP) = $116x$</p><p><b>Step 2:</b> नई शर्तें लागू करते हैं:<br>नया क्रय मूल्य (New CP) = 12% कम = $88x$<br>नया विक्रय मूल्य (New SP) = $116x + 288$</p><p><b>Step 3:</b> नए क्रय मूल्य पर 40% का लाभ होता है:<br>लाभ = $88x \\times \\frac{40}{100} = 35.2x$<br>तो नया विक्रय मूल्य होना चाहिए = $88x + 35.2x = 123.2x$</p><p><b>Step 4:</b> समीकरण हल करते हैं:<br>$123.2x - 116x = 288$<br>$7.2x = 288 \\Rightarrow x = 40$<br>प्रारंभिक क्रय मूल्य (CP) = $100 \\times 40$ = &#8377;4000</p><p><b>Step 5:</b> 32% लाभ के लिए नया विक्रय मूल्य:<br>SP = $4000 \\times \\frac{132}{100}$ = &#8377;5280</p><ul><li><b>विकल्प 1, 2, 3:</b> गलत गणनाओं के परिणाम हैं।</li><li><b>विकल्प 4 (&#8377;5,280):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Percentages",
+    "level": "Medium",
+    "q_en": "<p>Amit's income in 2019 was &#8377;22,100. He gets an increment of 10% every year. What was his income (in &#8377;) in 2021?</p>",
+    "q_hi": "<p>2019 में अमित की आय &#8377;22,100 थी। उसे हर साल 10% की वेतन वृद्धि (increment) मिलती है। 2021 में उसकी आय (&#8377; में) क्या थी?</p>",
+    "op_en": [
+      "22,100",
+      "24,310",
+      "26,520",
+      "26,741"
+    ],
+    "op_hi": [
+      "22,100",
+      "24,310",
+      "26,520",
+      "26,741"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, यह Percentage का Successive Increase वाला सवाल है। आइए इसे हल करते हैं।</p><p><b>Step 1:</b> 2019 में प्रारंभिक आय = &#8377;22,100<br>वृद्धि दर (Rate) = 10% प्रति वर्ष<br>समय (Time) = 2019 से 2021 = 2 वर्ष</p><p><b>Step 2:</b> 2 वर्ष बाद आय का फॉर्मूला:<br>अंतिम आय = प्रारंभिक आय $\\times (1 + \\frac{R}{100})^T$<br>अंतिम आय = $22100 \\times \\frac{110}{100} \\times \\frac{110}{100}$</p><p><b>Step 3:</b> गणना (Calculation):<br>$= 22100 \\times 1.1 \\times 1.1$<br>$= 22100 \\times 1.21 = 26741$</p><ul><li><b>विकल्प 1:</b> यह 2019 की ही आय है।</li><li><b>विकल्प 2:</b> यह केवल 1 साल बाद (2020) की आय है।</li><li><b>विकल्प 3:</b> यह Simple Interest लगाकर की गई गलत गणना है।</li><li><b>विकल्प 4 (26,741):</b> यह 2 साल बाद की एकदम सही आय है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Simplification",
+    "level": "Medium",
+    "q_en": "<p>The value of $36 - 8[5 + 2(4 - 3 (6 - 4) + 4) - 8] \\div 4$ is:</p>",
+    "q_hi": "<p>$36 - 8[5 + 2(4 - 3 (6 - 4) + 4) - 8] \\div 4$ का मान ज्ञात कीजिए:</p>",
+    "op_en": [
+      "11",
+      "7",
+      "34",
+      "38"
+    ],
+    "op_hi": [
+      "11",
+      "7",
+      "34",
+      "38"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, Simplification के इस सवाल में हम <b>BODMAS</b> नियम का पालन करेंगे।</p><p><b>Step 1:</b> सबसे पहले सबसे छोटे Bracket () को हल करें:<br>$(6 - 4) = 2$</p><p><b>Step 2:</b> अब अगले हिस्से को हल करें:<br>$(4 - 3 \\times 2 + 4) = (4 - 6 + 4) = 2$</p><p><b>Step 3:</b> अब Square Bracket [] के अंदर के हिस्से को हल करें:<br>$[5 + 2(2) - 8] = [5 + 4 - 8] = [9 - 8] = 1$</p><p><b>Step 4:</b> अब पूरी equation में मान रखें:<br>$36 - 8 \\times 1 \\div 4$</p><p><b>Step 5:</b> BODMAS के अनुसार पहले Divide (भाग), फिर Multiply (गुणा) और अंत में Subtract (घटाव):<br>$8 \\div 4 = 2$<br>$36 - 2 = 34$</p><ul><li><b>विकल्प 1, 2, 4:</b> BODMAS नियम के गलत प्रयोग के कारण आते हैं।</li><li><b>विकल्प 3 (34):</b> एकदम सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Average",
+    "level": "Medium",
+    "q_en": "<p>The average of the squares of the first 28 natural numbers is:</p>",
+    "q_hi": "<p>प्रथम 28 प्राकृत संख्याओं के वर्गों का औसत है:</p>",
+    "op_en": [
+      "277.5",
+      "274.5",
+      "275.5",
+      "276.5"
+    ],
+    "op_hi": [
+      "277.5",
+      "274.5",
+      "275.5",
+      "276.5"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, प्राकृत संख्याओं के वर्गों के औसत (Average of squares) का सीधा फॉर्मूला होता है।</p><p><b>सूत्र (Formula):</b><br>प्रथम $n$ प्राकृत संख्याओं के वर्गों का योग = $\\frac{n(n+1)(2n+1)}{6}$<br>अतः उनका औसत (Average) = $\\frac{(n+1)(2n+1)}{6}$</p><p><b>Step 1:</b> यहाँ $n = 28$ दिया गया है।<br>फॉर्मूले में $n$ का मान रखें:<br>Average = $\\frac{(28+1)(2 \\times 28 + 1)}{6}$</p><p><b>Step 2:</b> इसे हल करें:<br>$= \\frac{29 \\times 57}{6}$<br>$= \\frac{29 \\times 19}{2}$ (चूंकि $57 \\div 3 = 19$ और $6 \\div 3 = 2$)<br>$= \\frac{551}{2} = 275.5$</p><ul><li><b>विकल्प 1, 2, 4:</b> ये नजदीकी गलत उत्तर (Close options) हैं जो गणना में छोटी सी गलती होने पर आ सकते हैं।</li><li><b>विकल्प 3 (275.5):</b> यह पूर्णतः सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Average",
+    "level": "Medium",
+    "q_en": "<p>The average of the squares of the first 23 natural numbers is:</p>",
+    "q_hi": "<p>प्रथम 23 प्राकृत संख्याओं के वर्गों का औसत है:</p>",
+    "op_en": [
+      "189",
+      "187",
+      "188",
+      "190"
+    ],
+    "op_hi": [
+      "189",
+      "187",
+      "188",
+      "190"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, पिछले सवाल की तरह यहाँ भी प्रथम $n$ प्राकृत संख्याओं के वर्गों का औसत निकालना है।</p><p><b>सूत्र (Formula):</b><br>औसत (Average) = $\\frac{(n+1)(2n+1)}{6}$</p><p><b>Step 1:</b> यहाँ $n = 23$ दिया गया है।<br>फॉर्मूले में $n$ का मान रखें:<br>Average = $\\frac{(23+1)(2 \\times 23 + 1)}{6}$</p><p><b>Step 2:</b> इसे हल करें:<br>$= \\frac{24 \\times 47}{6}$<br>$= 4 \\times 47$ (चूंकि $24 \\div 6 = 4$)<br>$= 188$</p><ul><li><b>विकल्प 1, 2, 4:</b> ये गलत उत्तर हैं।</li><li><b>विकल्प 3 (188):</b> फॉर्मूले के सही उपयोग से प्राप्त एकदम सटीक उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Ratio and Proportion",
+    "level": "Easy",
+    "q_en": "<p>The average price of three items of furniture is &#8377;5,095. If their prices are in the ratio 3:5:7, the price of the cheapest item (in &#8377;) is:</p>",
+    "q_hi": "<p>फर्नीचर की तीन वस्तुओं का औसत मूल्य &#8377;5,095 है। यदि उनके मूल्य 3:5:7 के अनुपात में हैं, तो सबसे सस्ती वस्तु का मूल्य (&#8377; में) है:</p>",
+    "op_en": [
+      "7,133",
+      "3,057",
+      "1,019",
+      "5,095"
+    ],
+    "op_hi": [
+      "7,133",
+      "3,057",
+      "1,019",
+      "5,095"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, Ratio और Average के इस बेहतरीन सवाल को समझते हैं।</p><p><b>Step 1:</b> तीनों वस्तुओं का औसत &#8377;5,095 दिया गया है।<br>तीनों वस्तुओं का कुल मूल्य (Total Price) = $5095 \\times 3$ = &#8377;15,285</p><p><b>Step 2:</b> मूल्यों का अनुपात $3:5:7$ है।<br>मान लीजिए मूल्य $3x, 5x$ और $7x$ हैं।<br>अनुपातों का योग = $3 + 5 + 7 = 15$ यूनिट्स।</p><p><b>Step 3:</b> 15 यूनिट्स का मान &#8377;15,285 है।<br>तो 1 यूनिट का मान = $\\frac{15285}{15} = 1019$</p><p><b>Step 4:</b> हमें सबसे सस्ती वस्तु (Cheapest item) का मूल्य निकालना है, जिसका अनुपात सबसे कम (3) है।<br>सबसे सस्ती वस्तु का मूल्य = $3 \\times 1019$ = &#8377;3,057</p><ul><li><b>विकल्प 1 (7,133):</b> यह सबसे महंगी वस्तु (7 यूनिट) का मूल्य है।</li><li><b>विकल्प 2 (3,057):</b> यह सबसे सस्ती वस्तु का मूल्य है, जो बिलकुल सही है।</li><li><b>विकल्प 3 (1,019):</b> यह केवल 1 यूनिट का मान है।</li><li><b>विकल्प 4 (5,095):</b> यह दी गई औसत है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Income and Expenditure",
+    "level": "Medium",
+    "q_en": "<p>Atul’s salary is &#8377;10,000 per month. He spends &#8377;6,000 on house rent, &#8377;2,000 on bills and the rest of the amount is his monthly savings. Find his savings (in &#8377;) in a year, if in the month of his birthday he spent his complete monthly savings for his birthday celebration.</p>",
+    "q_hi": "<p>अतुल का वेतन &#8377;10,000 प्रति माह है। वह &#8377;6,000 घर के किराए पर और &#8377;2,000 बिलों पर खर्च करता है, और शेष राशि उसकी मासिक बचत है। एक वर्ष में उसकी बचत (&#8377; में) ज्ञात कीजिए, यदि अपने जन्मदिन वाले महीने में उसने अपनी पूरी मासिक बचत अपने जन्मदिन के जश्न पर खर्च कर दी।</p>",
+    "op_en": [
+      "24,000",
+      "18,000",
+      "22,000",
+      "20,000"
+    ],
+    "op_hi": [
+      "24,000",
+      "18,000",
+      "22,000",
+      "20,000"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, Income और Savings का यह एक बहुत ही practical सवाल है।</p><p><b>Step 1:</b> अतुल की मासिक आय (Monthly Income) = &#8377;10,000<br>मासिक खर्च (Monthly Expenses) = &#8377;6,000 (किराया) + &#8377;2,000 (बिल) = &#8377;8,000</p><p><b>Step 2:</b> अतुल की मासिक बचत (Monthly Savings) = आय - खर्च<br>$= 10000 - 8000 = 2000$ (अर्थात &#8377;2,000)</p><p><b>Step 3:</b> सामान्यतः 1 वर्ष (12 महीने) में कुल बचत $12 \\times 2000$ = &#8377;24,000 होनी चाहिए थी।<br>लेकिन प्रश्न में शर्त है कि जन्मदिन वाले महीने में उसने अपनी <b>उस महीने की पूरी बचत</b> खर्च कर दी।<br>इसका मतलब है कि उसने वर्ष में केवल 11 महीने ही बचत की।</p><p><b>Step 4:</b> 1 वर्ष में कुल वास्तविक बचत = $11 \\times 2000$ = &#8377;22,000</p><ul><li><b>विकल्प 1 (24,000):</b> यह बिना जन्मदिन के खर्च को घटाए कुल 12 महीने की बचत है।</li><li><b>विकल्प 2, 4:</b> यह गलत गणना है।</li><li><b>विकल्प 3 (22,000):</b> यह बिल्कुल सही उत्तर है क्योंकि उसने 1 महीने की बचत खर्च कर दी थी।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Percentages",
+    "level": "Easy",
+    "q_en": "<p>A person's salary has increased from &#8377;8,000 to &#8377;9,900. What is the percentage increase in his salary?</p>",
+    "q_hi": "<p>एक व्यक्ति का वेतन &#8377;8,000 से बढ़कर &#8377;9,900 हो गया है। उसके वेतन में प्रतिशत वृद्धि ज्ञात कीजिए।</p>",
+    "op_en": [
+      "$22 \\frac{3}{4}$%",
+      "$21 \\frac{3}{4}$%",
+      "$23 \\frac{3}{4}$%",
+      "$24 \\frac{3}{4}$%"
+    ],
+    "op_hi": [
+      "$22 \\frac{3}{4}$%",
+      "$21 \\frac{3}{4}$%",
+      "$23 \\frac{3}{4}$%",
+      "$24 \\frac{3}{4}$%"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए Salary में Percentage Increase निकालते हैं।</p><p><b>Step 1:</b> प्रारंभिक वेतन (Original Salary) = &#8377;8,000<br>नया वेतन (New Salary) = &#8377;9,900</p><p><b>Step 2:</b> वेतन में वृद्धि (Increase in Salary) = नया वेतन - प्रारंभिक वेतन<br>$= 9900 - 8000 = 1900$ (अर्थात &#8377;1,900)</p><p><b>Step 3:</b> प्रतिशत वृद्धि (Percentage Increase) का सूत्र:<br>Percentage Increase = $\\frac{\\text{Increase}}{\\text{Original Value}} \\times 100$</p><p><b>Step 4:</b> मान रखें और हल करें:<br>$= \\frac{1900}{8000} \\times 100$<br>$= \\frac{190}{8} = \\frac{95}{4}$</p><p><b>Step 5:</b> इसे मिश्रित भिन्न (Mixed Fraction) में बदलें:<br>$\\frac{95}{4} = 23 \\frac{3}{4}$%</p><ul><li><b>विकल्प 1, 2, 4:</b> गलत भाग करने के कारण प्राप्त भिन्न हैं।</li><li><b>विकल्प 3 ($23 \\frac{3}{4}$%):</b> यह एकदम सटीक और सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Algebra",
+    "level": "Medium",
+    "q_en": "<p>Find the value of $x^2+y^2$, given that $x=2+\\sqrt{3}$ and $y=2-\\sqrt{3}$.</p>",
+    "q_hi": "<p>$x^2+y^2$ का मान ज्ञात कीजिए, यदि $x=2+\\sqrt{3}$ और $y=2-\\sqrt{3}$ दिया गया है।</p>",
+    "op_en": [
+      "33",
+      "35",
+      "47",
+      "14"
+    ],
+    "op_hi": [
+      "33",
+      "35",
+      "47",
+      "14"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, Algebra के इस सवाल को हम बीजगणितीय सर्वसमिका (Algebraic Identity) का उपयोग करके बहुत आसानी से हल कर सकते हैं।</p><p><b>Step 1:</b> दी गई जानकारी:<br>$x=2+\\sqrt{3}$<br>$y=2-\\sqrt{3}$</p><p><b>Step 2:</b> हमें $x+y$ और $xy$ का मान निकालना है।<br>$x+y=(2+\\sqrt{3})+(2-\\sqrt{3})=4$<br>$xy=(2+\\sqrt{3})(2-\\sqrt{3})$</p><p>यहाँ $(a+b)(a-b)=a^2-b^2$ का सूत्र लगेगा:<br>$xy=(2)^2-(\\sqrt{3})^2=4-3=1$</p><p><b>Step 3:</b> अब $x^2+y^2$ का सूत्र लगाएँ:<br>$x^2+y^2=(x+y)^2-2xy$</p><p><b>Step 4:</b> मान रखें:<br>$x^2+y^2=(4)^2-2(1)$<br>$=16-2=14$</p><ul><li><b>विकल्प 1, 2, 3:</b> गलत गणनाओं के परिणाम हैं।</li><li><b>विकल्प 4 (14):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Simple Interest",
+    "level": "Easy",
+    "q_en": "<p>The time taken for an amount of &#8377;1,45,000 to yield &#8377;52,200 as interest at 6% per annum of simple interest is _____ .</p>",
+    "q_hi": "<p>साधारण ब्याज की 6% वार्षिक दर से &#8377;1,45,000 की राशि पर &#8377;52,200 ब्याज के रूप में प्राप्त करने में कितना समय लगेगा?</p>",
+    "op_en": [
+      "5 years",
+      "3 years",
+      "6 years",
+      "4 years"
+    ],
+    "op_hi": [
+      "5 वर्ष",
+      "3 वर्ष",
+      "6 वर्ष",
+      "4 वर्ष"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, Simple Interest (साधारण ब्याज) का यह सीधा सवाल है।</p><p><b>Step 1:</b> दी गई जानकारी लिखें:<br>मूलधन (Principal, P) = &#8377;1,45,000<br>साधारण ब्याज (SI) = &#8377;52,200<br>दर (Rate, R) = 6% वार्षिक</p><p><b>Step 2:</b> समय (Time, T) निकालने का सूत्र:<br>$T = \\frac{SI \\times 100}{P \\times R}$</p><p><b>Step 3:</b> सूत्र में मान रखें:<br>$T = \\frac{52200 \\times 100}{145000 \\times 6}$</p><p><b>Step 4:</b> गणना करें:<br>शून्य (Zeros) काट दें: $T = \\frac{5220}{145 \\times 6}$<br>$T = \\frac{5220}{870} = 6$ वर्ष</p><ul><li><b>विकल्प 1, 2, 4:</b> गलत गणना के कारण दिए गए विकल्प हैं।</li><li><b>विकल्प 3 (6 वर्ष):</b> एकदम सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Simplification",
+    "level": "Easy",
+    "q_en": "<p>Simplify the following.</p><p>$31 + 52 \\div 13 - 6 \\times 18$</p>",
+    "q_hi": "<p>निम्नलिखित को सरल कीजिए।</p><p>$31 + 52 \\div 13 - 6 \\times 18$</p>",
+    "op_en": [
+      "-73",
+      "-71",
+      "-76",
+      "-68"
+    ],
+    "op_hi": [
+      "-73",
+      "-71",
+      "-76",
+      "-68"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, गणित में जब भी एक साथ कई operations हों, तो हमेशा <b>BODMAS</b> (Bracket, Of, Divide, Multiply, Add, Subtract) नियम का प्रयोग करते हैं।</p><p><b>Step 1:</b> सबसे पहले Divide (भाग) करें:<br>$52 \\div 13 = 4$<br>अब equation बनी: $31 + 4 - 6 \\times 18$</p><p><b>Step 2:</b> इसके बाद Multiply (गुणा) करें:<br>$6 \\times 18 = 108$<br>अब equation बनी: $31 + 4 - 108$</p><p><b>Step 3:</b> अब Add (जोड़) करें:<br>$31 + 4 = 35$<br>अब equation बनी: $35 - 108$</p><p><b>Step 4:</b> अंत में Subtract (घटाव) करें:<br>$35 - 108 = -73$</p><ul><li><b>विकल्प 1 (-73):</b> BODMAS का सही क्रम अपनाने पर बिल्कुल सही उत्तर है।</li><li><b>विकल्प 2, 3, 4:</b> BODMAS नियम तोड़ने पर आने वाले गलत उत्तर हैं।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Ratio and Proportion",
+    "level": "Easy",
+    "q_en": "<p>The average price of three items of furniture is &#8377;5,070. If their prices are in the ratio 3:5:7, the price of the cheapest item (in &#8377;) is:</p>",
+    "q_hi": "<p>फर्नीचर की तीन वस्तुओं का औसत मूल्य &#8377;5,070 है। यदि उनके मूल्य 3:5:7 के अनुपात में हैं, तो सबसे सस्ती वस्तु का मूल्य (&#8377; में) है:</p>",
+    "op_en": [
+      "1,014",
+      "3,042",
+      "7,098",
+      "5,070"
+    ],
+    "op_hi": [
+      "1,014",
+      "3,042",
+      "7,098",
+      "5,070"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, यह सवाल बिल्कुल Q86 जैसा है। आइए इसे जल्दी से हल करते हैं।</p><p><b>Step 1:</b> तीनों वस्तुओं का औसत &#8377;5,070 है।<br>कुल मूल्य = $5070 \\times 3$ = &#8377;15,210</p><p><b>Step 2:</b> अनुपातों का योग = $3 + 5 + 7 = 15$ यूनिट्स।</p><p><b>Step 3:</b> 15 यूनिट्स = &#8377;15,210<br>1 यूनिट = $\\frac{15210}{15} = 1014$</p><p><b>Step 4:</b> सबसे सस्ती वस्तु का अनुपात 3 है।<br>मूल्य = $3 \\times 1014$ = &#8377;3,042</p><ul><li><b>विकल्प 1 (1,014):</b> यह 1 यूनिट का मान है।</li><li><b>विकल्प 2 (3,042):</b> यह सबसे सस्ती वस्तु का सटीक मूल्य है।</li><li><b>विकल्प 3 (7,098):</b> यह सबसे महंगी वस्तु (7 यूनिट) का मूल्य है।</li><li><b>विकल्प 4 (5,070):</b> यह औसत है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Percentages",
+    "level": "Medium",
+    "q_en": "<p>In a medium, bacteria increased by 20% in the first hour, then decreased by 10% in the second hour and then again increased by 30% in the third hour. If the original count of the bacteria was 12,000, then find the count of the bacteria at the end of 3 hours from the beginning.</p>",
+    "q_hi": "<p>एक माध्यम में, पहले घंटे में बैक्टीरिया में 20% की वृद्धि हुई, फिर दूसरे घंटे में 10% की कमी हुई और फिर तीसरे घंटे में 30% की वृद्धि हुई। यदि बैक्टीरिया की मूल संख्या 12,000 थी, तो शुरुआत से 3 घंटे के अंत में बैक्टीरिया की संख्या ज्ञात कीजिए।</p>",
+    "op_en": [
+      "14400",
+      "16848",
+      "16800",
+      "12960"
+    ],
+    "op_hi": [
+      "14400",
+      "16848",
+      "16800",
+      "12960"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, Successive Percentage Change का यह सवाल बहुत महत्वपूर्ण है। इसे हम Multiplier Method से बहुत आसानी से कर सकते हैं।</p><p><b>Step 1:</b> प्रारंभिक संख्या = 12,000<br>पहला बदलाव: 20% वृद्धि &rarr; गुणांक = $\\frac{120}{100} = 1.2$<br>दूसरा बदलाव: 10% कमी &rarr; गुणांक = $\\frac{90}{100} = 0.9$<br>तीसरा बदलाव: 30% वृद्धि &rarr; गुणांक = $\\frac{130}{100} = 1.3$</p><p><b>Step 2:</b> अंतिम संख्या निकालने के लिए सबको गुणा कर दें:<br>अंतिम संख्या = $12000 \\times 1.2 \\times 0.9 \\times 1.3$</p><p><b>Step 3:</b> गणना (Calculation):<br>$= 12000 \\times (1.2 \\times 0.9) \\times 1.3$<br>$= 12000 \\times 1.08 \\times 1.3$<br>$= 12960 \\times 1.3$<br>$= 16848$</p><ul><li><b>विकल्प 1 (14400):</b> केवल 20% वृद्धि का परिणाम है।</li><li><b>विकल्प 2 (16848):</b> बिल्कुल सही उत्तर है।</li><li><b>विकल्प 3 (16800):</b> यह $20 - 10 + 30 = 40$% सीधे जोड़ने की गलती है।</li><li><b>विकल्प 4 (12960):</b> यह केवल 2 घंटे के अंत की संख्या है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Profit and Loss",
+    "level": "Medium",
+    "q_en": "<p>Ramesh sells a table to Mukesh at a profit of 12% and Mukesh sells it to Jaybind at a profit of 25%. If Jaybind pays &#8377;4,480 for it, then the cost price (in &#8377;) for Ramesh is:</p>",
+    "q_hi": "<p>रमेश 12% के लाभ पर मुकेश को एक मेज बेचता है और मुकेश इसे 25% के लाभ पर जयबिंद को बेचता है। यदि जयबिंद इसके लिए &#8377;4,480 का भुगतान करता है, तो रमेश के लिए क्रय मूल्य (&#8377; में) है:</p>",
+    "op_en": [
+      "2,400",
+      "3,200",
+      "3,170",
+      "2,550"
+    ],
+    "op_hi": [
+      "2,400",
+      "3,200",
+      "3,170",
+      "2,550"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, Successive Profit का यह शानदार सवाल है। इसे हम Chain Method से करेंगे।</p><p><b>Step 1:</b> मान लीजिए रमेश के लिए मेज का क्रय मूल्य (CP) = $x$<br>रमेश ने इसे 12% लाभ पर बेचा, तो मुकेश का CP = $x \\times \\frac{112}{100}$</p><p><b>Step 2:</b> मुकेश ने इसे 25% लाभ पर जयबिंद को बेचा, तो जयबिंद का CP:<br>$= (x \\times \\frac{112}{100}) \\times \\frac{125}{100}$</p><p><b>Step 3:</b> प्रश्न के अनुसार, जयबिंद ने &#8377;4,480 का भुगतान किया।<br>अतः $x \\times \\frac{112}{100} \\times \\frac{125}{100} = 4480$</p><p><b>Step 4:</b> इसे सरल करते हैं ($\\frac{125}{100} = \\frac{5}{4}$):<br>$x \\times \\frac{112}{100} \\times \\frac{5}{4} = 4480$<br>$x \\times \\frac{560}{400} = 4480$<br>$x \\times 1.4 = 4480$<br>$x = \\frac{4480}{1.4} = 3200$</p><ul><li><b>विकल्प 1, 3, 4:</b> गलत गणनाओं के परिणाम हैं।</li><li><b>विकल्प 2 (3,200):</b> यह रमेश के लिए बिल्कुल सही क्रय मूल्य है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Data Interpretation",
+    "level": "Easy",
+    "q_en": "<p>The given table shows the expenditure (in thousand rupees) of a coaching institute from 2019 to 2023. Study the table and answer the question that follows.</p><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width: 125px;\">Year</td><td style=\"width: 125px;\">Salary</td><td style=\"width: 125px;\">Furniture</td><td style=\"width: 125px;\">Advertisement</td><td style=\"width: 125px;\">Conveyance</td></tr><tr><td style=\"width: 125px;\">2019</td><td style=\"width: 125px;\">280</td><td style=\"width: 125px;\">180</td><td style=\"width: 125px;\">90</td><td style=\"width: 125px;\">70</td></tr><tr><td style=\"width: 125px;\">2020</td><td style=\"width: 125px;\">300</td><td style=\"width: 125px;\">240</td><td style=\"width: 125px;\">150</td><td style=\"width: 125px;\">80</td></tr><tr><td style=\"width: 125px;\">2021</td><td style=\"width: 125px;\">350</td><td style=\"width: 125px;\">220</td><td style=\"width: 125px;\">120</td><td style=\"width: 125px;\">100</td></tr><tr><td style=\"width: 125px;\">2022</td><td style=\"width: 125px;\">310</td><td style=\"width: 125px;\">240</td><td style=\"width: 125px;\">180</td><td style=\"width: 125px;\">120</td></tr><tr><td style=\"width: 125px;\">2023</td><td style=\"width: 125px;\">290</td><td style=\"width: 125px;\">210</td><td style=\"width: 125px;\">200</td><td style=\"width: 125px;\">150</td></tr></tbody></table><br /><p>Find the average amount of advertisement expenditure (in &#8377;) per year that the coaching institute had to pay during the years 2019 to 2023.</p>",
+    "q_hi": "<p>दी गई तालिका 2019 से 2023 तक एक कोचिंग संस्थान के व्यय (हजार रुपये में) को दर्शाती है। तालिका का अध्ययन करें और नीचे दिए गए प्रश्न का उत्तर दें।</p><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td style=\"width: 125px;\">वर्ष</td><td style=\"width: 125px;\">वेतन</td><td style=\"width: 125px;\">फर्नीचर</td><td style=\"width: 125px;\">विज्ञापन</td><td style=\"width: 125px;\">परिवहन</td></tr><tr><td style=\"width: 125px;\">2019</td><td style=\"width: 125px;\">280</td><td style=\"width: 125px;\">180</td><td style=\"width: 125px;\">90</td><td style=\"width: 125px;\">70</td></tr><tr><td style=\"width: 125px;\">2020</td><td style=\"width: 125px;\">300</td><td style=\"width: 125px;\">240</td><td style=\"width: 125px;\">150</td><td style=\"width: 125px;\">80</td></tr><tr><td style=\"width: 125px;\">2021</td><td style=\"width: 125px;\">350</td><td style=\"width: 125px;\">220</td><td style=\"width: 125px;\">120</td><td style=\"width: 125px;\">100</td></tr><tr><td style=\"width: 125px;\">2022</td><td style=\"width: 125px;\">310</td><td style=\"width: 125px;\">240</td><td style=\"width: 125px;\">180</td><td style=\"width: 125px;\">120</td></tr><tr><td style=\"width: 125px;\">2023</td><td style=\"width: 125px;\">290</td><td style=\"width: 125px;\">210</td><td style=\"width: 125px;\">200</td><td style=\"width: 125px;\">150</td></tr></tbody></table><br /><p>2019 से 2023 के दौरान कोचिंग संस्थान को प्रति वर्ष चुकाने वाले विज्ञापन व्यय का औसत (&#8377; में) ज्ञात कीजिए।</p>",
+    "op_en": [
+      "136 thousand",
+      "113 thousand",
+      "148 thousand",
+      "128 thousand"
+    ],
+    "op_hi": [
+      "136 हजार",
+      "113 हजार",
+      "148 हजार",
+      "128 हजार"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, Data Interpretation (Table) का यह बहुत ही सरल सवाल है। हमें सिर्फ 'Advertisement' कॉलम के डेटा का औसत निकालना है।</p><p><b>Step 1:</b> Advertisement (विज्ञापन) पर सभी 5 वर्षों का खर्च जोड़ें:<br>2019 = 90<br>2020 = 150<br>2021 = 120<br>2022 = 180<br>2023 = 200</p><p><b>Step 2:</b> कुल खर्च (Total) = $90 + 150 + 120 + 180 + 200 = 740$ (हज़ार में)</p><p><b>Step 3:</b> औसत (Average) निकालने के लिए कुल खर्च को 5 (वर्षों की संख्या) से भाग दें:<br>Average = $\\frac{740}{5} = 148$</p><ul><li><b>विकल्प 1, 2, 4:</b> जोड़ने या भाग करने में गलती के परिणाम हो सकते हैं।</li><li><b>विकल्प 3 (148 thousand):</b> यह बिल्कुल सही औसत है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Simple Interest",
+    "level": "Medium",
+    "q_en": "<p>Pallavi borrowed &#8377;22,00,000 on simple interest for a number of years equal to the numerical value of the rate of interest. If she paid &#8377;10,78,000 as interest by the end of the loan term, what was the annual rate of interest?</p>",
+    "q_hi": "<p>पल्लवी ने साधारण ब्याज पर ब्याज की दर के संख्यात्मक मान के बराबर वर्षों के लिए &#8377;22,00,000 उधार लिए। यदि उसने ऋण अवधि के अंत में ब्याज के रूप में &#8377;10,78,000 का भुगतान किया, तो वार्षिक ब्याज दर क्या थी?</p>",
+    "op_en": [
+      "6%",
+      "7%",
+      "5%",
+      "8%"
+    ],
+    "op_hi": [
+      "6%",
+      "7%",
+      "5%",
+      "8%"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, Simple Interest का यह एक special case है जहाँ दर (Rate) और समय (Time) का संख्यात्मक मान बराबर है ($R = T$)।</p><p><b>Step 1:</b> दी गई जानकारी:<br>मूलधन (Principal, P) = &#8377;22,00,000<br>साधारण ब्याज (SI) = &#8377;10,78,000<br>शर्त: Rate (R) = Time (T)</p><p><b>Step 2:</b> साधारण ब्याज का सूत्र लगाएँ:<br>$SI = \\frac{P \\times R \\times T}{100}$<br>चूंकि $R = T$ है, हम लिख सकते हैं:<br>$1078000 = \\frac{2200000 \\times R \\times R}{100}$</p><p><b>Step 3:</b> इसे हल करें:<br>$1078000 = 22000 \\times R^2$<br>$R^2 = \\frac{1078000}{22000} = \\frac{1078}{22}$</p><p><b>Step 4:</b> भाग देने पर:<br>$R^2 = 49$<br>$R = \\sqrt{49} = 7$</p><p>अतः दर 7% है।</p><ul><li><b>विकल्प 1, 3, 4:</b> गलत गणना के कारण दिए गए हैं।</li><li><b>विकल्प 2 (7%):</b> यह बिल्कुल सही दर (Rate) है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Percentages",
+    "level": "Easy",
+    "q_en": "<p>Vipul spends 40% of his income. If he saves &#8377;96,000, then his income (in &#8377;) is:</p>",
+    "q_hi": "<p>विपुल अपनी आय का 40% खर्च करता है। यदि वह &#8377;96,000 बचाता है, तो उसकी आय (&#8377; में) है:</p>",
+    "op_en": [
+      "38,400",
+      "1,59,000",
+      "1,61,000",
+      "1,60,000"
+    ],
+    "op_hi": [
+      "38,400",
+      "1,59,000",
+      "1,61,000",
+      "1,60,000"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, Income, Expenditure और Savings का यह बहुत ही basic concept है।</p><p><b>Step 1:</b> हम जानते हैं कि कुल आय (Total Income) हमेशा 100% होती है।<br>खर्च (Expenditure) = 40%</p><p><b>Step 2:</b> बचत (Savings) का प्रतिशत निकालें:<br>बचत = कुल आय - खर्च<br>बचत = 100% - 40% = 60%</p><p><b>Step 3:</b> प्रश्न में दिया है कि उसकी बचत &#8377;96,000 है।<br>अर्थात, आय का 60% = &#8377;96,000</p><p><b>Step 4:</b> कुल आय (100%) निकालें:<br>1% = $\\frac{96000}{60} = 1600$<br>100% = $1600 \\times 100$ = &#8377;1,60,000</p><ul><li><b>विकल्प 1 (38,400):</b> यह 96000 का 40% निकाल दिया गया है, जो गलत है।</li><li><b>विकल्प 2, 3:</b> कन्फ्यूज़ करने के लिए करीबी विकल्प हैं।</li><li><b>विकल्प 4 (1,60,000):</b> यह एकदम सटीक और सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Data Interpretation",
+    "level": "Medium",
+    "q_en": "<p>The given table shows the stock of 5 types of items in a shop with the average cost of each type of item. Refer to the following data table and answer the question that follows.</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\"><tbody><tr><td style=\"text-align: center;\"> </td><td style=\"text-align: center;\"><b>Quantity of Stock</b></td><td style=\"text-align: center;\"><b>Average Cost (in &#8377;)</b></td></tr><tr><td style=\"text-align: center;\">Mobile Phones</td><td style=\"text-align: center;\">48</td><td style=\"text-align: center;\">13,000</td></tr><tr><td style=\"text-align: center;\">Cameras</td><td style=\"text-align: center;\">52</td><td style=\"text-align: center;\">22,000</td></tr><tr><td style=\"text-align: center;\">TVs</td><td style=\"text-align: center;\">65</td><td style=\"text-align: center;\">44,000</td></tr><tr><td style=\"text-align: center;\">Refrigerators</td><td style=\"text-align: center;\">76</td><td style=\"text-align: center;\">52,000</td></tr><tr><td style=\"text-align: center;\">ACs</td><td style=\"text-align: center;\">41</td><td style=\"text-align: center;\">24,000</td></tr></tbody></table><br /><p>What is the value of the total stock (in &#8377; lakh)?</p>",
+    "q_hi": "<p>दी गई तालिका एक दुकान में 5 प्रकार की वस्तुओं के स्टॉक और प्रत्येक प्रकार की वस्तु की औसत लागत को दर्शाती है। निम्नलिखित डेटा तालिका का संदर्भ लें और नीचे दिए गए प्रश्न का उत्तर दें।</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\"><tbody><tr><td style=\"text-align: center;\"> </td><td style=\"text-align: center;\"><b>स्टॉक की मात्रा</b></td><td style=\"text-align: center;\"><b>औसत लागत (&#8377; में)</b></td></tr><tr><td style=\"text-align: center;\">मोबाइल फोन</td><td style=\"text-align: center;\">48</td><td style=\"text-align: center;\">13,000</td></tr><tr><td style=\"text-align: center;\">कैमरा</td><td style=\"text-align: center;\">52</td><td style=\"text-align: center;\">22,000</td></tr><tr><td style=\"text-align: center;\">टीवी</td><td style=\"text-align: center;\">65</td><td style=\"text-align: center;\">44,000</td></tr><tr><td style=\"text-align: center;\">रेफ्रिजरेटर</td><td style=\"text-align: center;\">76</td><td style=\"text-align: center;\">52,000</td></tr><tr><td style=\"text-align: center;\">एसी (AC)</td><td style=\"text-align: center;\">41</td><td style=\"text-align: center;\">24,000</td></tr></tbody></table><br /><p>कुल स्टॉक का मूल्य (&#8377; लाख में) क्या है?</p>",
+    "op_en": [
+      "89.58",
+      "95.64",
+      "87.23",
+      "98.12"
+    ],
+    "op_hi": [
+      "89.58",
+      "95.64",
+      "87.23",
+      "98.12"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, इस Table से हमें Total Stock की Value निकालनी है। इसके लिए हर Item की मात्रा (Quantity) को उसकी औसत लागत (Average Cost) से गुणा करना होगा।</p><p><b>Step 1:</b> प्रत्येक आइटम का मूल्य (हज़ार को छोड़कर गुणा आसान करते हैं):<br>Mobile: $48 \\times 13 = 624$ (हज़ार)<br>Camera: $52 \\times 22 = 1144$ (हज़ार)<br>TV: $65 \\times 44 = 2860$ (हज़ार)<br>Fridge: $76 \\times 52 = 3952$ (हज़ार)<br>AC: $41 \\times 24 = 984$ (हज़ार)</p><p><b>Step 2:</b> इन सभी को जोड़ें:<br>Total Value = $624 + 1144 + 2860 + 3952 + 984 = 9564$ (हज़ार में)</p><p><b>Step 3:</b> लाख में बदलें:<br>9564 हज़ार का मतलब है 95,64,000<br>लाख में = $\\frac{9564000}{100000} = 95.64$ लाख</p><ul><li><b>विकल्प 1, 3, 4:</b> जोड़ने या गुणा करने में हुई गलती के परिणाम हैं।</li><li><b>विकल्प 2 (95.64):</b> यह बिल्कुल सटीक और सही उत्तर है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "LCM and HCF",
+    "level": "Medium",
+    "q_en": "<p>The sum of two numbers is 85 and their difference is $\\frac{1}{17}$ of their sum. Find the LCM of the two numbers.</p>",
+    "q_hi": "<p>दो संख्याओं का योग 85 है और उनका अंतर उनके योग का $\\frac{1}{17}$ है। दोनों संख्याओं का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।</p>",
+    "op_en": [
+      "340",
+      "350",
+      "370",
+      "360"
+    ],
+    "op_hi": [
+      "340",
+      "350",
+      "370",
+      "360"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए LCM और Number System के इस बेहतरीन सवाल को समझते हैं।</p><p><b>Step 1:</b> मान लीजिए दो संख्याएँ $x$ और $y$ हैं।<br>दिया गया है कि उनका योग (Sum) $x + y = 85$ है।</p><p><b>Step 2:</b> प्रश्न के अनुसार, उनका अंतर (Difference) उनके योग का $\\frac{1}{17}$ है।<br>तो अंतर $x - y = \\frac{1}{17} \\times 85 = 5$</p><p><b>Step 3:</b> अब हमारे पास दो सरल समीकरण (Linear Equations) हैं:<br>$x + y = 85$<br>$x - y = 5$<br>दोनों को जोड़ने पर: $2x = 90 \\Rightarrow x = 45$<br>दोनों को घटाने पर: $2y = 80 \\Rightarrow y = 40$<br>तो हमारी संख्याएँ 45 और 40 हैं।</p><p><b>Step 4:</b> अब हमें 45 और 40 का लघुत्तम समापवर्त्य (LCM) निकालना है।<br>गुणनखंड (Factors) करने पर:<br>$45 = 9 \\times 5$<br>$40 = 8 \\times 5$<br>LCM = $8 \\times 9 \\times 5 = 360$</p><ul><li><b>विकल्प 1 (340):</b> यह 85 का गुणज है, लेकिन 45 और 40 का LCM नहीं है।</li><li><b>विकल्प 2, 3:</b> गलत उत्तर हैं।</li><li><b>विकल्प 4 (360):</b> यह एकदम सही LCM है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Compound Interest",
+    "level": "Easy",
+    "q_en": "<p>Find the compound interest on &#8377;12,500 in one year at the rate of 2% per annum, the interest being compounded half-yearly.</p>",
+    "q_hi": "<p>&#8377;12,500 पर 2% वार्षिक दर से एक वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए, यदि ब्याज अर्ध-वार्षिक (half-yearly) रूप से संयोजित होता है।</p>",
+    "op_en": [
+      "&#8377;205.25",
+      "&#8377;1,020.00",
+      "&#8377;1,060.00",
+      "&#8377;251.25"
+    ],
+    "op_hi": [
+      "&#8377;205.25",
+      "&#8377;1,020.00",
+      "&#8377;1,060.00",
+      "&#8377;251.25"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, Compound Interest (चक्रवृद्धि ब्याज) का यह सवाल Half-yearly compounding पर आधारित है।</p><p><b>Step 1:</b> दी गई जानकारी:<br>मूलधन (P) = &#8377;12,500<br>वार्षिक दर (R) = 2% प्रति वर्ष<br>समय (T) = 1 वर्ष</p><p><b>Step 2:</b> चूँकि ब्याज अर्ध-वार्षिक (Half-yearly) है:<br>नई दर ($R_1$) = $\\frac{2}{2} = 1$% प्रति छमाही<br>नया समय ($T_1$) = $1 \\times 2 = 2$ छमाही (Half-years)</p><p><b>Step 3:</b> मिश्रधन (Amount) का सूत्र:<br>$A = P(1 + \\frac{R_1}{100})^{T_1}$<br>$A = 12500 \\times (1 + \\frac{1}{100})^2$<br>$A = 12500 \\times 1.01 \\times 1.01$</p><p><b>Step 4:</b> गणना करें:<br>$1.01 \\times 1.01 = 1.0201$<br>$A = 12500 \\times 1.0201 = 12751.25$</p><p><b>Step 5:</b> चक्रवृद्धि ब्याज (CI) = मिश्रधन - मूलधन<br>$CI = 12751.25 - 12500$ = &#8377;251.25</p><p><i>Short Trick: Effective Rate = $x + y + \\frac{xy}{100} = 1 + 1 + \\frac{1}{100}$ = 2.01%<br>CI = 12500 का 2.01% = &#8377;251.25</i></p><ul><li><b>विकल्प 1, 2, 3:</b> ये गलत उत्तर हैं।</li><li><b>विकल्प 4 (&#8377;251.25):</b> यह बिल्कुल सही चक्रवृद्धि ब्याज है।</li></ul>"
+  }
+]
