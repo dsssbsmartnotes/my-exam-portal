@@ -1,0 +1,443 @@
+[
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Mensuration",
+    "level": "Medium",
+    "q_en": "Find the volume of a cylinder if the diameter of the base is 8 cm and height 21 cm (use $\\pi = 22/7$).",
+    "q_hi": "एक बेलन का आयतन ज्ञात कीजिए यदि आधार का व्यास 8 सेमी और ऊँचाई 21 सेमी है ($\\pi = 22/7$ का उपयोग करें)।",
+    "op_en": [
+      "986 cm<sup>3</sup>",
+      "528 cm<sup>3</sup>",
+      "1056 cm<sup>3</sup>",
+      "4224 cm<sup>3</sup>"
+    ],
+    "op_hi": [
+      "986 cm<sup>3</sup>",
+      "528 cm<sup>3</sup>",
+      "1056 cm<sup>3</sup>",
+      "4224 cm<sup>3</sup>"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें एक बेलन (Cylinder) का आयतन (Volume) निकालना है।</p><p><b>Step 1:</b> सबसे पहले दी गई जानकारी को लिखते हैं:<br>व्यास (Diameter) d = 8 cm, तो त्रिज्या (Radius) r = d / 2 = 4 cm<br>ऊँचाई (Height) h = 21 cm</p><p><b>Step 2:</b> बेलन के आयतन का फॉर्मूला होता है:<br>$V = \\pi r^2 h$</p><p><b>Step 3:</b> अब values पुट करें:<br>$V = \\frac{22}{7} \\times 4 \\times 4 \\times 21$<br>$V = 22 \\times 16 \\times 3$<br>$V = 66 \\times 16 = 1056$</p><p>अतः आयतन 1056 cm<sup>3</sup> है।</p><b>Short Trick:</b> आयतन में $\\pi$ (यानी 22/7) है, तो उत्तर 11 का गुणज (multiple) होना चाहिए। 1056 को चेक करें: (1+5) - (0+6) = 0, जो 11 से विभाज्य है!"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time, Speed and Distance",
+    "level": "Medium",
+    "q_en": "A jeep travels 80 km at the speed of 40 km/hr and the next 32 km at the speed of 16 km/hr. What is its average speed (in km/hr)?",
+    "q_hi": "एक जीप 40 किमी/घंटा की गति से 80 किमी और अगले 32 किमी 16 किमी/घंटा की गति से यात्रा करती है। इसकी औसत गति (किमी/घंटा में) क्या है?",
+    "op_en": [
+      "22",
+      "28",
+      "34",
+      "32"
+    ],
+    "op_hi": [
+      "22",
+      "28",
+      "34",
+      "32"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें औसत गति (Average Speed) निकालनी है।</p><p><b>Formula:</b> औसत गति = कुल दूरी / कुल समय</p><p><b>Step 1:</b> कुल दूरी (Total Distance) ज्ञात करें:<br>दूरी 1 = 80 km<br>दूरी 2 = 32 km<br>कुल दूरी = 80 + 32 = 112 km</p><p><b>Step 2:</b> कुल समय (Total Time) ज्ञात करें:<br>समय = दूरी / गति<br>समय 1 = 80 / 40 = 2 घंटे<br>समय 2 = 32 / 16 = 2 घंटे<br>कुल समय = 2 + 2 = 4 घंटे</p><p><b>Step 3:</b> औसत गति निकालें:<br>औसत गति = 112 / 4 = 28 km/hr</p><p>अतः सही उत्तर 28 है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Ratio and Proportion",
+    "level": "Easy",
+    "q_en": "If 352 bananas were distributed among three monkeys in the ratio $\\frac{1}{3} : \\frac{1}{1} : \\frac{1}{2}$, then how many bananas did the first monkey get?",
+    "q_hi": "यदि 352 केले तीन बंदरों के बीच $\\frac{1}{3} : \\frac{1}{1} : \\frac{1}{2}$ के अनुपात में बांटे गए, तो पहले बंदर को कितने केले मिले?",
+    "op_en": [
+      "54",
+      "94",
+      "84",
+      "64"
+    ],
+    "op_hi": [
+      "54",
+      "94",
+      "84",
+      "64"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को हल करते हैं।</p><p><b>Step 1:</b> सबसे पहले दिए गए भिन्न (fraction) अनुपात को सरल (simple) अनुपात में बदलें:<br>अनुपात = $\\frac{1}{3} : \\frac{1}{1} : \\frac{1}{2}$<br>हर (denominators) 3, 1 और 2 का LCM 6 होगा।<br>अनुपात को 6 से गुणा करने पर: 2 : 6 : 3</p><p><b>Step 2:</b> कुल हिस्सों (Total parts) की गणना करें:<br>कुल हिस्से = 2 + 6 + 3 = 11 हिस्से</p><p><b>Step 3:</b> पहले बंदर का हिस्सा निकालें:<br>पहले बंदर का हिस्सा 2 है।<br>कुल केले = 352<br>पहले बंदर को मिले केले = $\\frac{2}{11} \\times 352$<br>= 2 &times; 32 = 64 केले।</p><p>अतः विकल्प 4 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Pipes and Cisterns",
+    "level": "Hard",
+    "q_en": "Pipes A and B together can fill an empty tank in 2 minutes. If A takes 3 minutes more than B to fill the tank, then the time (in minutes) in which A alone would fill $\\frac{2}{3}$ of the tank, is:",
+    "q_hi": "पाइप A और B एक साथ एक खाली टैंक को 2 मिनट में भर सकते हैं। यदि A टैंक को भरने में B से 3 मिनट अधिक लेता है, तो A अकेले टैंक का $\\frac{2}{3}$ भाग भरने में कितना समय (मिनटों में) लेगा?",
+    "op_en": [
+      "2",
+      "6",
+      "3",
+      "4"
+    ],
+    "op_hi": [
+      "2",
+      "6",
+      "3",
+      "4"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, यह Pipes and Cisterns का एक बेहतरीन सवाल है। आइए इसे समझते हैं।</p><p><b>Step 1:</b> मान लीजिए पाइप B अकेले टैंक को x मिनट में भरता है।<br>प्रश्न के अनुसार, पाइप A को B से 3 मिनट ज्यादा लगते हैं, यानी A को (x + 3) मिनट लगेंगे।</p><p><b>Step 2:</b> दोनों मिलकर 2 मिनट में भरते हैं। इसका मतलब उनकी एक मिनट की क्षमता का योग:<br>$\\frac{1}{x} + \\frac{1}{x+3} = \\frac{1}{2}$<br>$\\frac{x + 3 + x}{x(x+3)} = \\frac{1}{2}$<br>$2(2x + 3) = x^2 + 3x$<br>$4x + 6 = x^2 + 3x$<br>$x^2 - x - 6 = 0$</p><p><b>Step 3:</b> द्विघात समीकरण (Quadratic Equation) हल करें:<br>$(x - 3)(x + 2) = 0$<br>चूँकि समय ऋणात्मक (negative) नहीं हो सकता, इसलिए x = 3 मिनट।<br>अतः, B को 3 मिनट और A को 3 + 3 = 6 मिनट लगते हैं।</p><p><b>Step 4:</b> हमें A द्वारा टैंक का $\\frac{2}{3}$ हिस्सा भरने का समय निकालना है:<br>A द्वारा लिया गया समय = $\\frac{2}{3} \\times 6$<br>= 4 मिनट।</p><p>अतः सही उत्तर 4 है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Mensuration",
+    "level": "Hard",
+    "q_en": "The surface area of a sphere is $452\\frac{4}{7}$ cm<sup>2</sup>. Find its volume. (Take $\\pi = \\frac{22}{7}$)",
+    "q_hi": "एक गोले का पृष्ठीय क्षेत्रफल $452\\frac{4}{7}$ cm<sup>2</sup> है। इसका आयतन ज्ञात कीजिए। ($\\pi = \\frac{22}{7}$ लें)",
+    "op_en": [
+      "$905\\frac{4}{7}$ cm<sup>3</sup>",
+      "$905\\frac{6}{7}$ cm<sup>3</sup>",
+      "905 cm<sup>3</sup>",
+      "$905\\frac{1}{7}$ cm<sup>3</sup>"
+    ],
+    "op_hi": [
+      "$905\\frac{4}{7}$ cm<sup>3</sup>",
+      "$905\\frac{6}{7}$ cm<sup>3</sup>",
+      "905 cm<sup>3</sup>",
+      "$905\\frac{1}{7}$ cm<sup>3</sup>"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस मेंसुरेशन (Mensuration) के प्रश्न को हल करें।</p><p><b>Step 1:</b> गोले (Sphere) के पृष्ठीय क्षेत्रफल का फॉर्मूला $4\\pi r^2$ होता है।<br>दिया गया है: $4\\pi r^2 = 452\\frac{4}{7}$<br>मिश्रित भिन्न को बदलें: $\\frac{452 \\times 7 + 4}{7} = \\frac{3168}{7}$</p><p><b>Step 2:</b> त्रिज्या (r) का मान निकालें:<br>$4 \\times \\frac{22}{7} \\times r^2 = \\frac{3168}{7}$<br>$88 \\times r^2 = 3168$<br>$r^2 = \\frac{3168}{88} = 36$<br>यहाँ से r = 6 cm मिल गया।</p><p><b>Step 3:</b> गोले का आयतन (Volume) निकालें:<br>$V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3} \\times \\frac{22}{7} \\times 6^3$<br>$V = \\frac{4}{3} \\times \\frac{22}{7} \\times 216$<br>$V = 4 \\times \\frac{22}{7} \\times 72$<br>$V = \\frac{6336}{7}$</p><p><b>Step 4:</b> इसे मिश्रित भिन्न (Mixed Fraction) में बदलें:<br>$6336 \\div 7 = 905$ (भागफल) और 1 (शेषफल)।<br>तो आयतन = $905\\frac{1}{7}$ cm<sup>3</sup> होगा।</p><p>अतः विकल्प 4 बिल्कुल सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time, Speed and Distance",
+    "level": "Easy",
+    "q_en": "How many seconds will a boy take to run one complete round around a square field of side 100 metres, if he runs at a speed of 6 km/hr?",
+    "q_hi": "एक लड़का 100 मीटर भुजा वाले एक वर्गाकार मैदान का एक पूरा चक्कर लगाने में कितने सेकंड लेगा, यदि वह 6 किमी/घंटा की गति से दौड़ता है?",
+    "op_en": [
+      "220",
+      "250",
+      "230",
+      "240"
+    ],
+    "op_hi": [
+      "220",
+      "250",
+      "230",
+      "240"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं।</p><p><b>Step 1:</b> सबसे पहले वर्गाकार मैदान (Square Field) का परिमाप (Perimeter) निकालते हैं, जो कुल दूरी होगी।<br>परिमाप = 4 &times; भुजा = 4 &times; 100 = 400 मीटर</p><p><b>Step 2:</b> अब लड़के की गति को km/hr से m/s में बदलते हैं:<br>गति = 6 km/hr = $6 \\times \\frac{5}{18} = \\frac{5}{3}$ m/s</p><p><b>Step 3:</b> लिया गया समय निकालें:<br>समय = दूरी / गति = $400 \\div \\frac{5}{3}$<br>समय = $400 \\times \\frac{3}{5} = 80 \\times 3 = 240$ सेकंड</p><p>अतः वह लड़का पूरा चक्कर लगाने में 240 सेकंड लेगा। विकल्प 4 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Profit and Loss",
+    "level": "Medium",
+    "q_en": "A shopkeeper earns a profit of 50% by selling a laptop at a 25% discount on the marked price. Find the ratio of the marked price to the cost price of the laptop.",
+    "q_hi": "एक दुकानदार एक लैपटॉप को अंकित मूल्य पर 25% की छूट पर बेचकर 50% का लाभ कमाता है। लैपटॉप के अंकित मूल्य और क्रय मूल्य का अनुपात ज्ञात कीजिए।",
+    "op_en": [
+      "3 : 2",
+      "5 : 3",
+      "2 : 1",
+      "7 : 4"
+    ],
+    "op_hi": [
+      "3 : 2",
+      "5 : 3",
+      "2 : 1",
+      "7 : 4"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, Profit & Loss के इस सवाल को हल करने की एक बहुत ही शानदार और तेज़ (Short Trick) विधि है।</p><p><b>Short Trick:</b><br>MP (अंकित मूल्य) और CP (क्रय मूल्य) का सीधा अनुपात होता है:<br>$\\frac{MP}{CP} = \\frac{100 + \\text{Profit}}{100 - \\text{Discount}}$</p><p><b>Step-by-step:</b><br>यहाँ Profit = 50 और Discount = 25 है।<br>$\\frac{MP}{CP} = \\frac{100 + 50}{100 - 25}$<br>$\\frac{MP}{CP} = \\frac{150}{75}$</p><p>जब हम इसे सरल (simplify) करते हैं, तो:<br>$\\frac{150}{75} = \\frac{2}{1}$</p><p>अतः अंकित मूल्य और क्रय मूल्य का अनुपात 2 : 1 होगा। विकल्प 3 सही है!</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Profit and Loss",
+    "level": "Medium",
+    "q_en": "When the selling price of a guitar is ₹19,000, the shopkeeper incurs a loss of 5%. What should be the selling price (in ₹) of that guitar so as to gain 24%?",
+    "q_hi": "जब एक गिटार का विक्रय मूल्य ₹19,000 होता है, तो दुकानदार को 5% की हानि होती है। 24% का लाभ प्राप्त करने के लिए उस गिटार का विक्रय मूल्य (₹ में) क्या होना चाहिए?",
+    "op_en": [
+      "20,000",
+      "24,800",
+      "21,404",
+      "21,304"
+    ],
+    "op_hi": [
+      "20,000",
+      "24,800",
+      "21,404",
+      "21,304"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस प्रश्न को एक आसान तरीके से हल करते हैं।</p><p><b>Step 1:</b> जब गिटार को ₹19,000 में बेचा गया, तो 5% की हानि हुई। इसका अर्थ है कि विक्रय मूल्य क्रय मूल्य (CP) का 95% है।<br>यानी, 95% = ₹19,000<br>तो 1% = 19000 / 95 = ₹200</p><p><b>Step 2:</b> हमें 24% का लाभ चाहिए, यानी नया विक्रय मूल्य (SP) क्रय मूल्य का 124% होना चाहिए।<br>नया SP = 124% = 124 &times; 200<br>नया SP = ₹24,800</p><p>अतः 24% लाभ कमाने के लिए गिटार को ₹24,800 में बेचना होगा। विकल्प 2 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Profit and Loss",
+    "level": "Medium",
+    "q_en": "A shopkeeper allows a discount of 20% on the marked price of shirts in his shop and gains 60%. The marked price of a shirt is ₹6,400. Find the cost price of the shirt.",
+    "q_hi": "एक दुकानदार अपनी दुकान में शर्ट के अंकित मूल्य पर 20% की छूट देता है और 60% का लाभ कमाता है। एक शर्ट का अंकित मूल्य ₹6,400 है। शर्ट का क्रय मूल्य ज्ञात कीजिए।",
+    "op_en": [
+      "₹3,600",
+      "₹4,000",
+      "₹3,200",
+      "₹4,200"
+    ],
+    "op_hi": [
+      "₹3,600",
+      "₹4,000",
+      "₹3,200",
+      "₹4,200"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, इस प्रश्न में भी हम MP और CP वाले शानदार फॉर्मूले का उपयोग कर सकते हैं!</p><p><b>Formula:</b> $\\frac{MP}{CP} = \\frac{100 + \\text{Profit}}{100 - \\text{Discount}}$</p><p><b>Step-by-step:</b><br>Profit = 60, Discount = 20<br>$\\frac{MP}{CP} = \\frac{100 + 60}{100 - 20} = \\frac{160}{80} = \\frac{2}{1}$</p><p>इसका मतलब है कि अंकित मूल्य (MP) क्रय मूल्य (CP) का दोगुना है।<br>हमें प्रश्न में MP = ₹6,400 दिया गया है।<br>तो 6400 / CP = 2 / 1<br>2 &times; CP = 6400<br>CP = ₹3,200</p><p>अतः शर्ट का क्रय मूल्य ₹3,200 है। विकल्प 3 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time and Work",
+    "level": "Hard",
+    "q_en": "P alone can complete a work in 24 days and Q alone in 42 days. If R takes 11 times as long as P and Q together, how long will Q and R together take to complete the same work?",
+    "q_hi": "P अकेले एक काम को 24 दिनों में और Q अकेले 42 दिनों में पूरा कर सकता है। यदि R, P और Q द्वारा मिलकर लिए गए समय का 11 गुना समय लेता है, तो Q और R मिलकर उसी काम को पूरा करने में कितना समय लेंगे?",
+    "op_en": [
+      "$33\\frac{2}{5}$ days",
+      "$33\\frac{1}{5}$ days",
+      "$33\\frac{4}{5}$ days",
+      "$33\\frac{3}{5}$ days"
+    ],
+    "op_hi": [
+      "$33\\frac{2}{5}$ दिन",
+      "$33\\frac{1}{5}$ दिन",
+      "$33\\frac{4}{5}$ दिन",
+      "$33\\frac{3}{5}$ दिन"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस Time and Work के सवाल को LCM Method से सुलझाते हैं।</p><p><b>Step 1:</b> P का समय = 24 दिन, Q का समय = 42 दिन।<br>कुल कार्य (Total Work) = LCM(24, 42) = 168 यूनिट्स।</p><p><b>Step 2:</b> कार्य क्षमता (Efficiency) निकालें:<br>P की क्षमता = 168 / 24 = 7<br>Q की क्षमता = 168 / 42 = 4<br>P + Q की क्षमता = 7 + 4 = 11 यूनिट्स प्रतिदिन।</p><p><b>Step 3:</b> P और Q को मिलकर लगने वाला समय = $\\frac{168}{11}$ दिन।<br>प्रश्न के अनुसार, R को P+Q का 11 गुना समय लगता है।<br>R का समय = $11 \\times \\frac{168}{11} = 168$ दिन।<br>तो R की क्षमता = 168 / 168 = 1 यूनिट प्रतिदिन।</p><p><b>Step 4:</b> Q और R को मिलकर काम करने में लगा समय:<br>Q + R की कुल क्षमता = 4 (Q) + 1 (R) = 5 यूनिट्स प्रतिदिन।<br>समय = कुल कार्य / क्षमता = $\\frac{168}{5} = 33\\frac{3}{5}$ दिन।</p><p>अतः विकल्प 4 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time and Work",
+    "level": "Medium",
+    "q_en": "Work done by 3 skilled people in one day is equal to the work done by 4 semi-skilled people in one day. 10 skilled people can finish a piece of work in 2 days. The same work can be finished in ______ days by 3 skilled and 4 semi-skilled people together.",
+    "q_hi": "3 कुशल लोगों द्वारा एक दिन में किया गया कार्य 4 अर्ध-कुशल लोगों द्वारा एक दिन में किए गए कार्य के बराबर है। 10 कुशल लोग किसी कार्य को 2 दिनों में पूरा कर सकते हैं। उसी कार्य को 3 कुशल और 4 अर्ध-कुशल लोग एक साथ मिलकर ______ दिनों में पूरा कर सकते हैं।",
+    "op_en": [
+      "$\\frac{8}{3}$",
+      "$\\frac{11}{3}$",
+      "$\\frac{10}{3}$",
+      "$\\frac{11}{4}$"
+    ],
+    "op_hi": [
+      "$\\frac{8}{3}$",
+      "$\\frac{11}{3}$",
+      "$\\frac{10}{3}$",
+      "$\\frac{11}{4}$"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को हल करते हैं।</p><p><b>Step 1:</b> सबसे पहले कार्यक्षमताओं (Efficiencies) का अनुपात निकालते हैं।<br>मान लीजिए कुशल (Skilled) व्यक्ति की क्षमता S है और अर्ध-कुशल (Semi-skilled) की SS है।<br>दिया गया है: 3S = 4SS (अर्थात 4 अर्ध-कुशल लोग 3 कुशल लोगों के बराबर काम करते हैं)</p><p><b>Step 2:</b> कुल कार्य (Total Work) ज्ञात करें:<br>10 कुशल लोग कार्य को 2 दिनों में करते हैं।<br>कुल कार्य = 10S &times; 2 = 20S यूनिट्स।</p><p><b>Step 3:</b> नए समूह की क्षमता निकालें:<br>हमें 3 कुशल + 4 अर्ध-कुशल लोगों से काम कराना है।<br>चूंकि 4SS = 3S है, तो: 3S + 4SS = 3S + 3S = 6S</p><p><b>Step 4:</b> लगने वाला समय:<br>समय = कुल कार्य / कुल क्षमता = $\\frac{20S}{6S} = \\frac{10}{3}$ दिन।</p><p>अतः सही उत्तर $\\frac{10}{3}$ दिन होगा।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time and Work",
+    "level": "Medium",
+    "q_en": "Work done by 3 skilled people in one day is equal to the work done by 4 semi-skilled people in one day. 10 skilled people can finish a piece of work in 2 days. The same work can be finished in ______ days by 3 skilled and 4 semi-skilled people together.",
+    "q_hi": "3 कुशल लोगों द्वारा एक दिन में किया गया कार्य 4 अर्ध-कुशल लोगों द्वारा एक दिन में किए गए कार्य के बराबर है। 10 कुशल लोग किसी कार्य को 2 दिनों में पूरा कर सकते हैं। उसी कार्य को 3 कुशल और 4 अर्ध-कुशल लोग एक साथ मिलकर ______ दिनों में पूरा कर सकते हैं।",
+    "op_en": [
+      "$\\frac{8}{3}$",
+      "$\\frac{11}{3}$",
+      "$\\frac{10}{3}$",
+      "$\\frac{11}{4}$"
+    ],
+    "op_hi": [
+      "$\\frac{8}{3}$",
+      "$\\frac{11}{3}$",
+      "$\\frac{10}{3}$",
+      "$\\frac{11}{4}$"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए Time and Work के इस शानदार सवाल को समझते हैं।</p><p><b>Step 1:</b> सबसे पहले कार्यक्षमताओं (Efficiencies) का अनुपात निकालते हैं।<br>मान लीजिए कुशल (Skilled) व्यक्ति की क्षमता $S$ है और अर्ध-कुशल (Semi-skilled) की $SS$ है।<br>दिया गया है: $3S = 4SS$ (अर्थात 4 अर्ध-कुशल लोग 3 कुशल लोगों के बराबर काम करते हैं)</p><p><b>Step 2:</b> कुल कार्य (Total Work) ज्ञात करें:<br>10 कुशल लोग कार्य को 2 दिनों में करते हैं।<br>कुल कार्य = $10S \\times 2 = 20S$ यूनिट्स।</p><p><b>Step 3:</b> नए समूह की कुल क्षमता निकालें:<br>हमें 3 कुशल + 4 अर्ध-कुशल लोगों से काम कराना है।<br>चूंकि $4SS = 3S$ है, तो: $3S + 4SS = 3S + 3S = 6S$</p><p><b>Step 4:</b> लगने वाला समय:<br>समय = $\\frac{\\text{Total Work}}{\\text{Total Efficiency}} = \\frac{20S}{6S} = \\frac{10}{3}$ दिन।</p><br><p><b>आइए अब विकल्पों (Options) का विश्लेषण करें:</b></p><ul><li><b>विकल्प 1 व 2 (8/3 और 11/3):</b> ये गलत गणना (Calculation mistake) करने पर आते हैं।</li><li><b>विकल्प 3 (10/3):</b> यह बिल्कुल सही उत्तर है।</li><li><b>विकल्प 4 (11/4):</b> यह तब आता है जब आप क्षमताओं (Efficiencies) को उल्टा जोड़ देते हैं, जो कि एक्ज़ामिनर का एक ट्रैप (Trap) है!</li></ul><br><p><b>Short Trick:</b> सीधे $M_1 D_1 = M_2 D_2$ लगाएँ। $10 \\times 2 = (3 + 3) \\times D_2 \\Rightarrow 20 = 6 \\times D_2 \\Rightarrow D_2 = \\frac{10}{3}$.</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Mensuration",
+    "level": "Hard",
+    "q_en": "A ball of copper with radius 3 cm is to be gold plated. If the volume of copper and gold is the same, then what will be the thickness of the gold plating? (Take $\\sqrt[3]{2} = 1.26$)",
+    "q_hi": "3 सेमी त्रिज्या वाली तांबे की एक गेंद पर सोने की परत चढ़ाई जानी है। यदि तांबे और सोने का आयतन समान है, तो सोने की परत की मोटाई क्या होगी? ($\\sqrt[3]{2} = 1.26$ लें)",
+    "op_en": [
+      "0.78 cm",
+      "3.78 cm",
+      "1.26 cm",
+      "2.52 cm"
+    ],
+    "op_hi": [
+      "0.78 cm",
+      "3.78 cm",
+      "1.26 cm",
+      "2.52 cm"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए Mensuration के इस बेहतरीन सवाल को समझते हैं।</p><p><b>Step 1:</b> तांबे (Copper) की गेंद की त्रिज्या ($r_1$) = 3 cm<br>तांबे का आयतन ($V_c$) = $\\frac{4}{3}\\pi r_1^3$</p><p><b>Step 2:</b> मान लीजिए सोने की परत (Gold plating) की मोटाई $t$ है।<br>परत चढ़ने के बाद कुल त्रिज्या ($r_2$) = $3 + t$<br>सोने का आयतन ($V_g$) = बाहरी गोले का आयतन - आंतरिक गोले का आयतन<br>$V_g = \\frac{4}{3}\\pi r_2^3 - \\frac{4}{3}\\pi r_1^3$</p><p><b>Step 3:</b> प्रश्न के अनुसार दोनों का आयतन समान है ($V_c = V_g$):<br>$\\frac{4}{3}\\pi r_1^3 = \\frac{4}{3}\\pi r_2^3 - \\frac{4}{3}\\pi r_1^3$<br>दोनों तरफ से $\\frac{4}{3}\\pi$ कॉमन लेकर काट दें:<br>$r_1^3 = r_2^3 - r_1^3$<br>$2r_1^3 = r_2^3$<br>दोनों तरफ का घनमूल (Cube root) लेने पर:<br>$r_2 = r_1 \\sqrt[3]{2}$</p><p><b>Step 4:</b> अब दी गई values रखें:<br>$\\sqrt[3]{2} = 1.26$ (प्रश्न में दिया है)<br>$r_2 = 3 \\times 1.26 = 3.78$ cm<br>चूँकि $r_2 = 3 + t$ है, इसलिए मोटाई $t = 3.78 - 3 = 0.78$ cm</p><br><p><b>आइए अब विकल्पों (Options) का विश्लेषण करें:</b></p><ul><li><b>विकल्प 1 (0.78 cm):</b> यह बिल्कुल सही उत्तर है, जो परत की मोटाई (Thickness) है।</li><li><b>विकल्प 2 (3.78 cm):</b> यह परत चढ़ने के बाद की <b>कुल त्रिज्या (Total Radius)</b> है, मोटाई नहीं! यह आपको कन्फ्यूज़ करने के लिए रखा गया है।</li><li><b>विकल्प 3 (1.26 cm):</b> यह केवल $\\sqrt[3]{2}$ की value है, जिसे कई बच्चे जल्दबाजी में उत्तर मान लेते हैं।</li><li><b>विकल्प 4 (2.52 cm):</b> यह $1.26 \\times 2$ है, जो गलत Calculation का नतीजा है।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Ratio and Proportion",
+    "level": "Easy",
+    "q_en": "If 19, 57, 81, and y are in proportion, then the value of y is:",
+    "q_hi": "यदि 19, 57, 81, और y समानुपात में हैं, तो y का मान है:",
+    "op_en": [
+      "248",
+      "249",
+      "243",
+      "252"
+    ],
+    "op_hi": [
+      "248",
+      "249",
+      "243",
+      "252"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, जब चार संख्याएँ a, b, c, d समानुपात (Proportion) में होती हैं, तो इसका अर्थ है कि:<br>$\\frac{a}{b} = \\frac{c}{d}$</p><p><b>Step 1:</b> यहाँ a = 19, b = 57, c = 81 और d = y है। मान रखिए:<br>$\\frac{19}{57} = \\frac{81}{y}$</p><p><b>Step 2:</b> इसे सरल (simplify) करते हैं:<br>$\\frac{1}{3} = \\frac{81}{y}$</p><p><b>Step 3:</b> क्रॉस गुणा (Cross-multiply) करें:<br>$y = 81 \\times 3$<br>$y = 243$</p><p>अतः सही उत्तर 243 है। विकल्प 3 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Ratio and Proportion",
+    "level": "Easy",
+    "q_en": "Find the mean proportional of 18 and 50.",
+    "q_hi": "18 और 50 का मध्यानुपाती (Mean Proportional) ज्ञात कीजिए।",
+    "op_en": [
+      "29",
+      "28",
+      "30",
+      "33"
+    ],
+    "op_hi": [
+      "29",
+      "28",
+      "30",
+      "33"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, मध्यानुपाती (Mean Proportional) निकालना बहुत आसान होता है।</p><p><b>Formula:</b> किन्हीं दो संख्याओं a और b का मध्यानुपाती $\\sqrt{a \\times b}$ होता है।</p><p><b>Step-by-step:</b><br>यहाँ a = 18 और b = 50 है।<br>मध्यानुपाती = $\\sqrt{18 \\times 50}$<br>= $\\sqrt{900}$</p><p>900 का वर्गमूल (square root) 30 होता है।<br>अतः सही उत्तर 30 है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Pipes and Cisterns",
+    "level": "Medium",
+    "q_en": "Pipes A and B can fill a tank in 15 minutes and 20 minutes, respectively. Both pipes are opened together, but after 5 minutes, pipe A is turned off. What is the total time taken to fill the tank?",
+    "q_hi": "पाइप A और B एक टैंक को क्रमशः 15 मिनट और 20 मिनट में भर सकते हैं। दोनों पाइप एक साथ खोले जाते हैं, लेकिन 5 मिनट बाद, पाइप A को बंद कर दिया जाता है। टैंक को भरने में लगने वाला कुल समय क्या है?",
+    "op_en": [
+      "13 min 40 sec",
+      "12 min 20 sec",
+      "13 min 20 sec",
+      "12 min 40 sec"
+    ],
+    "op_hi": [
+      "13 min 40 sec",
+      "12 min 20 sec",
+      "13 min 20 sec",
+      "12 min 40 sec"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस प्रश्न को LCM Method से हल करते हैं।</p><p><b>Step 1:</b> कुल क्षमता (Total Capacity) निकालें:<br>A लेता है 15 मिनट, B लेता है 20 मिनट।<br>LCM(15, 20) = 60 यूनिट्स।</p><p><b>Step 2:</b> कार्य क्षमता (Efficiency) निकालें:<br>A की क्षमता = 60 / 15 = 4 यूनिट/मिनट<br>B की क्षमता = 60 / 20 = 3 यूनिट/मिनट</p><p><b>Step 3:</b> 5 मिनट तक दोनों ने साथ काम किया:<br>एक मिनट में A+B का काम = 4 + 3 = 7 यूनिट<br>5 मिनट में काम हुआ = 7 &times; 5 = 35 यूनिट</p><p><b>Step 4:</b> शेष कार्य और B द्वारा लिया गया समय:<br>बचा हुआ कार्य = 60 - 35 = 25 यूनिट<br>अब A बंद है, तो यह काम B अकेले करेगा।<br>B को लगा समय = $\\frac{25}{3}$ मिनट = $8\\frac{1}{3}$ मिनट = 8 मिनट 20 सेकंड।</p><p><b>Step 5:</b> कुल समय = शुरुआत के 5 मिनट + बाद के 8 मिनट 20 सेकंड = 13 मिनट 20 सेकंड।</p><p>अतः विकल्प 3 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Profit and Loss",
+    "level": "Hard",
+    "q_en": "During a sale, 50% of the goods are sold at 27% profit, 40% of the remaining goods are sold at 32% profit and the rest of the goods are sold at a loss of 23%. If there is an overall profit of x%, then what is the value of x?",
+    "q_hi": "एक सेल के दौरान, 50% माल 27% लाभ पर बेचा जाता है, शेष माल का 40% 32% लाभ पर बेचा जाता है और बाकी का माल 23% की हानि पर बेचा जाता है। यदि कुल मिलाकर x% का लाभ होता है, तो x का मान क्या है?",
+    "op_en": [
+      "13",
+      "13.5",
+      "12.5",
+      "14"
+    ],
+    "op_hi": [
+      "13",
+      "13.5",
+      "12.5",
+      "14"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, इस सवाल को हम बहुत ही सरल तरीके से '100' मानकर हल कर सकते हैं।</p><p><b>Step 1:</b> मान लीजिए कुल माल (Total goods) 100 है।<br>1. <b>पहला भाग:</b> 50% माल = 50 वस्तुएँ। इन्हें 27% लाभ पर बेचा गया।<br>लाभ = 50 &times; 27% = +13.5</p><p><b>Step 2:</b> <b>दूसरा भाग:</b> शेष माल = 100 - 50 = 50 वस्तुएँ।<br>इसका 40% हिस्सा = 50 &times; 40% = 20 वस्तुएँ।<br>इन्हें 32% लाभ पर बेचा गया।<br>लाभ = 20 &times; 32% = +6.4</p><p><b>Step 3:</b> <b>तीसरा भाग:</b> बचा हुआ माल = 100 - (50 + 20) = 30 वस्तुएँ।<br>इन्हें 23% हानि पर बेचा गया।<br>हानि = 30 &times; (-23%) = -6.9</p><p><b>Step 4:</b> कुल लाभ या हानि:<br>कुल (Net) = +13.5 + 6.4 - 6.9<br>कुल = 19.9 - 6.9 = +13</p><p>चूँकि हमने कुल माल 100 माना था, इसलिए 13 का कुल लाभ 13% के बराबर है। अतः x = 13। विकल्प 1 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Time, Speed and Distance",
+    "level": "Medium",
+    "q_en": "I walk at a speed of 10 km/hr and reach my destination in 2 hours. If I were to increase my speed by 2 km/hr, by how much time would I reach the destination earlier?",
+    "q_hi": "मैं 10 किमी/घंटा की गति से चलता हूँ और 2 घंटे में अपने गंतव्य पर पहुँच जाता हूँ। यदि मैं अपनी गति 2 किमी/घंटा बढ़ा दूँ, तो मैं कितने समय पहले गंतव्य पर पहुँच जाऊँगा?",
+    "op_en": [
+      "39 min",
+      "29 min",
+      "35 min",
+      "20 min"
+    ],
+    "op_hi": [
+      "39 min",
+      "29 min",
+      "35 min",
+      "20 min"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सरल से सवाल को स्टेप-बाय-स्टेप समझते हैं।</p><p><b>Step 1:</b> सबसे पहले कुल दूरी (Distance) निकालते हैं:<br>दूरी = गति &times; समय<br>दूरी = 10 km/hr &times; 2 hours = 20 km</p><p><b>Step 2:</b> नई गति से लगने वाला नया समय निकालें:<br>नई गति = 10 + 2 = 12 km/hr<br>नया समय = दूरी / नई गति = $\\frac{20}{12}$ घंटे = $\\frac{5}{3}$ घंटे।</p><p><b>Step 3:</b> इसे मिनटों में बदलें:<br>$\\frac{5}{3}$ घंटे = $\\frac{5}{3} \\times 60 = 100$ मिनट।<br>पुराना समय = 2 घंटे = 120 मिनट था।</p><p><b>Step 4:</b> समय में बचत:<br>बचा हुआ समय = 120 - 100 = 20 मिनट।</p><p>अतः मैं 20 मिनट पहले गंतव्य पर पहुँच जाऊँगा। विकल्प 4 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Mensuration",
+    "level": "Medium",
+    "q_en": "The surface areas of 3 faces of a cuboid sharing a vertex are 120 cm<sup>2</sup>, 90 cm<sup>2</sup> and 48 cm<sup>2</sup>, respectively. What is the volume of the cuboid?",
+    "q_hi": "एक घनाभ के एक ही शीर्ष (vertex) को साझा करने वाले 3 फलकों का पृष्ठीय क्षेत्रफल क्रमशः 120 cm<sup>2</sup>, 90 cm<sup>2</sup> और 48 cm<sup>2</sup> है। घनाभ का आयतन क्या है?",
+    "op_en": [
+      "840 cm<sup>3</sup>",
+      "640 cm<sup>3</sup>",
+      "720 cm<sup>3</sup>",
+      "520 cm<sup>3</sup>"
+    ],
+    "op_hi": [
+      "840 cm<sup>3</sup>",
+      "640 cm<sup>3</sup>",
+      "720 cm<sup>3</sup>",
+      "520 cm<sup>3</sup>"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, जब भी घनाभ (Cuboid) के तीन संलग्न फलकों (adjacent faces) का क्षेत्रफल दिया हो, तो आयतन निकालने की एक शानदार <b>Short Trick</b> होती है।</p><p><b>Formula:</b> आयतन $V = \\sqrt{A_1 \\times A_2 \\times A_3}$<br>जहाँ $A_1, A_2, A_3$ तीनों फलकों के क्षेत्रफल हैं।</p><p><b>Step-by-step:</b><br>यहाँ $A_1 = 120$, $A_2 = 90$, $A_3 = 48$ है।<br>$V = \\sqrt{120 \\times 90 \\times 48}$</p><p>इसे आसान बनाने के लिए गुणनखंड (factors) कर लें:<br>120 = 12 &times; 10<br>90 = 9 &times; 10<br>48 = 12 &times; 4</p><p>तो $V = \\sqrt{12 \\times 10 \\times 9 \\times 10 \\times 12 \\times 4}$<br>$V = \\sqrt{12^2 \\times 10^2 \\times 3^2 \\times 2^2}$<br>अब वर्गमूल से बाहर निकालें:<br>$V = 12 \\times 10 \\times 3 \\times 2 = 720$</p><p>अतः घनाभ का आयतन 720 cm<sup>3</sup> होगा। विकल्प 3 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Trains",
+    "level": "Hard",
+    "q_en": "A 180 m long train overtakes a man moving at a speed of 7 km/hr (in same direction) in 36 seconds. How much time (in seconds) will it take this train to completely cross another 220 m long train, moving in the opposite direction at a speed of 47 km/hr?",
+    "q_hi": "180 मीटर लंबी एक ट्रेन 7 किमी/घंटा की गति से (उसी दिशा में) चल रहे एक आदमी को 36 सेकंड में पार करती है। विपरीत दिशा में 47 किमी/घंटा की गति से आ रही 220 मीटर लंबी दूसरी ट्रेन को पूरी तरह से पार करने में इस ट्रेन को कितना समय (सेकंड में) लगेगा?",
+    "op_en": [
+      "38",
+      "19",
+      "31",
+      "20"
+    ],
+    "op_hi": [
+      "38",
+      "19",
+      "31",
+      "20"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस Relative Speed के प्रश्न को हल करें।</p><p><b>Step 1:</b> पहली ट्रेन की गति ज्ञात करें।<br>जब ट्रेन उसी दिशा में चल रहे आदमी को पार करती है, तो सापेक्ष गति (Relative Speed) = (ट्रेन की गति - आदमी की गति)।<br>मान लीजिए ट्रेन की गति v km/hr है।<br>सापेक्ष गति = दूरी / समय = $\\frac{180}{36} = 5$ m/s</p><p>इसे km/hr में बदलें: $5 \\times \\frac{18}{5} = 18$ km/hr<br>तो, (v - 7) = 18 इसलिए v = 25 km/hr</p><p><b>Step 2:</b> दूसरी ट्रेन को पार करने में लगा समय निकालें।<br>विपरीत दिशा में होने के कारण दोनों ट्रेनों की गतियाँ जुड़ जाएँगी।<br>नई सापेक्ष गति = 25 + 47 = 72 km/hr<br>इसे m/s में बदलें: $72 \\times \\frac{5}{18} = 20$ m/s</p><p><b>Step 3:</b> कुल दूरी और समय:<br>कुल दूरी = दोनों ट्रेनों की लंबाई का योग = 180 + 220 = 400 m<br>समय = कुल दूरी / सापेक्ष गति = $\\frac{400}{20} = 20$ सेकंड</p><p>अतः सही उत्तर 20 सेकंड है। विकल्प 4 सही है।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability1",
+    "topic": "Partnership",
+    "level": "Hard",
+    "q_en": "P, Q and R enter into a partnership and their shares are in the ratio $\\frac{1}{3}:\\frac{1}{4}:\\frac{1}{5}$. After 2 months, P withdraws one-fourth of his capital and R withdraws half of his capital. After one year from the first day of partnership, a profit of ₹ 1,816 is divided among them. What is R's share (in ₹) in the profit?",
+    "q_hi": "P, Q और R एक साझेदारी में प्रवेश करते हैं और उनके शेयर $\\frac{1}{3}:\\frac{1}{4}:\\frac{1}{5}$ के अनुपात में हैं। 2 महीने बाद, P अपनी पूंजी का एक-चौथाई वापस ले लेता है और R अपनी पूंजी का आधा वापस ले लेता है। साझेदारी के पहले दिन से एक वर्ष बाद, ₹ 1,816 का लाभ उनके बीच विभाजित किया जाता है। लाभ में R का हिस्सा (₹ में) क्या है?",
+    "op_en": [
+      "336",
+      "227",
+      "368",
+      "299"
+    ],
+    "op_hi": [
+      "336",
+      "227",
+      "368",
+      "299"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, Partnership के सवाल में Profit का अनुपात = निवेश &times; समय होता है। आइए इसे हल करते हैं।</p><p><b>Step 1:</b> सबसे पहले निवेश के भिन्न अनुपात को सरल बनाएं।<br>अनुपात = $\\frac{1}{3} : \\frac{1}{4} : \\frac{1}{5}$<br>3, 4, और 5 का LCM 60 है। 60 से गुणा करने पर:<br>P : Q : R = 20 : 15 : 12</p><p><b>Step 2:</b> अब निवेश और समय की गणना करते हैं। (कुल 12 महीने हैं)<br><b>P का निवेश:</b> 2 महीने तक 20, फिर एक-चौथाई (5) निकाल लिया, तो 10 महीने तक 15।<br>P का कुल निवेश = (20 &times; 2) + (15 &times; 10) = 40 + 150 = 190<br><br><b>Q का निवेश:</b> पूरे 12 महीने तक 15।<br>Q का कुल निवेश = 15 &times; 12 = 180<br><br><b>R का निवेश:</b> 2 महीने तक 12, फिर आधा (6) निकाल लिया, तो 10 महीने तक 6।<br>R का कुल निवेश = (12 &times; 2) + (6 &times; 10) = 24 + 60 = 84</p><p><b>Step 3:</b> लाभ का अनुपात:<br>P : Q : R = 190 : 180 : 84<br>इसे 2 से काटें: 95 : 90 : 42<br>कुल हिस्से = 95 + 90 + 42 = 227 हिस्से।</p><p><b>Step 4:</b> R का हिस्सा निकालें:<br>कुल लाभ = ₹1,816<br>R का हिस्सा = $\\frac{42}{227} \\times 1816$<br>चूँकि 227 &times; 8 = 1816 होता है,<br>R का हिस्सा = 42 &times; 8 = ₹336</p><p>अतः विकल्प 1 (336) सही है!</p>"
+  }
+]
