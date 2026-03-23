@@ -1,0 +1,422 @@
+[
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Antonyms",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate ANTONYM of the given word.<br /><br />Vouch</p>",
+    "q_hi": "<p>Select the most appropriate ANTONYM of the given word.<br /><br />Vouch</p>",
+    "op_en": [
+      "Justify",
+      "Develop",
+      "Convince",
+      "Undermine"
+    ],
+    "op_hi": [
+      "Justify",
+      "Develop",
+      "Convince",
+      "Undermine"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें दिए गए शब्द 'Vouch' का Antonym (विलोम शब्द) बताना है।</p><p><b>Vocab Power: आइए सभी शब्दों के अर्थ जानते हैं:</b></p><ul><li><b>Vouch:</b> समर्थन करना, गवाही देना या ज़मानत देना (To confirm or assert something is true)।</li><li><b>Justify:</b> सही ठहराना (To show or prove to be right)। यह एक तरह से synonym हो सकता है।</li><li><b>Develop:</b> विकसित करना (To grow)।</li><li><b>Convince:</b> यकीन दिलाना (To make someone believe)।</li><li><b>Undermine:</b> कमज़ोर करना या नीचा दिखाना (To lessen the effectiveness, power, or ability of someone/something)।</li></ul><p>चूँकि 'Vouch' का अर्थ किसी का समर्थन करना या विश्वास जताना है, तो इसका ठीक उल्टा किसी चीज़ को 'कमज़ोर करना' (Undermine) होगा। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - One Word Substitution",
+    "level": "Medium",
+    "q_en": "<p>Select the option that can be used as a one-word substitute for the given group of words.<br /><br />Able to recover quickly from difficulties</p>",
+    "q_hi": "<p>Select the option that can be used as a one-word substitute for the given group of words.<br /><br />Able to recover quickly from difficulties</p>",
+    "op_en": [
+      "Mercurial",
+      "Loquacious",
+      "Resilient",
+      "Perspicacious"
+    ],
+    "op_hi": [
+      "Mercurial",
+      "Loquacious",
+      "Resilient",
+      "Perspicacious"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें उस व्यक्ति के लिए एक शब्द ढूँढना है जो \"कठिनाइयों से जल्दी उबरने में सक्षम हो\" (Able to recover quickly from difficulties)।</p><p><b>Vocab Power:</b></p><ul><li><b>1. Mercurial:</b> अस्थिर / जिसका मिजाज जल्दी-जल्दी बदलता हो (Subject to sudden or unpredictable changes of mood)।</li><li><b>2. Loquacious:</b> बातूनी / बहुत अधिक बोलने वाला (Tending to talk a great deal)।</li><li><b>3. Resilient:</b> लचीला / जो मुश्किलों के बाद जल्दी संभल जाए (Able to withstand or recover quickly from difficult conditions)।</li><li><b>4. Perspicacious:</b> कुशाग्र बुद्धि / तीक्ष्ण दृष्टि वाला (Having a ready insight into and understanding of things)।</li></ul><p>दिए गए वाक्य का सही अर्थ 'Resilient' से मिलता है। अतः सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Spelling",
+    "level": "Easy",
+    "q_en": "<p>Select the correct spelling of the underlined incorrectly spelt word in the given sentence.<br /><br />The inn offers a wide range of <u>cuesines</u>.</p>",
+    "q_hi": "<p>Select the correct spelling of the underlined incorrectly spelt word in the given sentence.<br /><br />The inn offers a wide range of <u>cuesines</u>.</p>",
+    "op_en": [
+      "Quisuines",
+      "Cuisins",
+      "Cousines",
+      "Cuisines"
+    ],
+    "op_hi": [
+      "Quisuines",
+      "Cuisins",
+      "Cousines",
+      "Cuisines"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें 'cuesines' की सही spelling ढूँढनी है।</p><p><b>Vocab Power:</b></p><p>सही शब्द <b>Cuisine</b> (कुज़ीन) होता है, जिसका मतलब होता है \"भोजन पकाने की शैली या विशेष प्रकार का खाना\" (A style or method of cooking, especially as characteristic of a particular country or region)।</p><p>इसकी सही स्पेलिंग <b>C-U-I-S-I-N-E</b> होती है। इसका plural form 'Cuisines' होगा। बाकी सभी ऑप्शन्स की स्पेलिंग गलत है। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Idioms & Proverbs",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate meaning of the given proverb.<br /><br />A chain is as strong as the weakest link.</p>",
+    "q_hi": "<p>Select the most appropriate meaning of the given proverb.<br /><br />A chain is as strong as the weakest link.</p>",
+    "op_en": [
+      "The team can compensate for an individual's weakness.",
+      "Individual performance is not crucial in a team.",
+      "A team is only as strong as its weakest player.",
+      "A group will remain strong, even if one of its members is weak."
+    ],
+    "op_hi": [
+      "The team can compensate for an individual's weakness.",
+      "Individual performance is not crucial in a team.",
+      "A team is only as strong as its weakest player.",
+      "A group will remain strong, even if one of its members is weak."
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस कहावत (proverb) का अर्थ समझते हैं।</p><p>\"A chain is as strong as the weakest link\" का शाब्दिक अर्थ है कि एक जंजीर (chain) उतनी ही मजबूत होती है जितनी उसकी सबसे कमज़ोर कड़ी। अगर सबसे कमज़ोर कड़ी टूट जाए, तो पूरी जंजीर टूट जाएगी।</p><p><b>Meaning:</b> इसका प्रयोग किसी टीम या समूह के लिए किया जाता है। इसका मतलब है कि कोई भी टीम उतनी ही सफल या मजबूत हो सकती है, जितना उसका सबसे कमज़ोर सदस्य (A team is only as strong as its weakest player)। अगर एक व्यक्ति भी गलती करेगा, तो पूरी टीम को नुकसान होगा।</p><p>बाकी ऑप्शन्स इस कहावत के विपरीत अर्थ दे रहे हैं। अतः सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Synonyms",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate synonym of the given word.<br /><br />Ardent</p>",
+    "q_hi": "<p>Select the most appropriate synonym of the given word.<br /><br />Ardent</p>",
+    "op_en": [
+      "Passionate",
+      "Meek",
+      "Ancient",
+      "Indifferent"
+    ],
+    "op_hi": [
+      "Passionate",
+      "Meek",
+      "Ancient",
+      "Indifferent"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें 'Ardent' का Synonym (समानार्थी शब्द) बताना है।</p><p><b>Vocab Power:</b></p><ul><li><b>Ardent:</b> उत्साही / जोशीला (Very enthusiastic or passionate)।</li><li><b>Passionate:</b> जोशीला / भावुक (Showing or caused by strong feelings or a strong belief)।</li><li><b>Meek:</b> दब्बू / नम्र (Quiet, gentle, and easily imposed on; submissive)।</li><li><b>Ancient:</b> बहुत पुराना / प्राचीन (Belonging to the very distant past)।</li><li><b>Indifferent:</b> उदासीन (Having no particular interest or sympathy; unconcerned)।</li></ul><p>चूँकि 'Ardent' और 'Passionate' दोनों का मतलब अत्यधिक उत्साह या जोश से भरा हुआ होता है, इसलिए <b>Option 1</b> सही उत्तर है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Synonyms",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate synonym of the given word.<br /><br />Hymn</p>",
+    "q_hi": "<p>Select the most appropriate synonym of the given word.<br /><br />Hymn</p>",
+    "op_en": [
+      "Tribute",
+      "Approval",
+      "Recommendation",
+      "Clap"
+    ],
+    "op_hi": [
+      "Tribute",
+      "Approval",
+      "Recommendation",
+      "Clap"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें 'Hymn' का Synonym ढूँढना है।</p><p><b>Vocab Power:</b></p><ul><li><b>Hymn:</b> भजन / स्तुतिगान (A religious song or poem of praise to God or a god)।</li><li><b>Tribute:</b> श्रद्धांजलि / सम्मान या स्तुति के शब्द (An act, statement, or gift that is intended to show gratitude, respect, or admiration)।</li><li><b>Approval:</b> मंज़ूरी / सहमति (The action of approving something)।</li><li><b>Recommendation:</b> सिफ़ारिश (A suggestion or proposal as to the best course of action)।</li><li><b>Clap:</b> ताली बजाना (Strike the palms of the hands together)।</li></ul><p>दिए गए विकल्पों में, 'Tribute' (सम्मान या स्तुति) 'Hymn' (ईश्वर की स्तुति) के सबसे करीब का अर्थ देता है। अतः सही उत्तर <b>Option 1</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Idioms & Phrases",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate meaning of the given idiom.<br /><br />A blessing in disguise</p>",
+    "q_hi": "<p>Select the most appropriate meaning of the given idiom.<br /><br />A blessing in disguise</p>",
+    "op_en": [
+      "To avoid taking a risk",
+      "To refuse to accept a new idea",
+      "A bad event with terrible consequences",
+      "Something that seems bad but turns out good"
+    ],
+    "op_hi": [
+      "To avoid taking a risk",
+      "To refuse to accept a new idea",
+      "A bad event with terrible consequences",
+      "Something that seems bad but turns out good"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस मुहावरे (idiom) को समझते हैं।</p><p><b>A blessing in disguise:</b> इस मुहावरे का शाब्दिक अर्थ है 'भेष बदलकर आया हुआ आशीर्वाद'।</p><p><b>Meaning:</b> इसका उपयोग तब किया जाता है जब कोई घटना शुरुआत में बहुत बुरी या नुकसानदायक लगती है, लेकिन बाद में उसी घटना के कारण कुछ बहुत अच्छा हो जाता है (Something that seems bad at first but turns out to be good eventually)।</p><p>उदाहरण: नौकरी छूटना एक 'blessing in disguise' साबित हुआ, क्योंकि उसके बाद मुझे एक बेहतरीन बिजनेस शुरू करने का मौका मिला।</p><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Synonyms",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate synonym of the given word.<br /><br />Estimate</p>",
+    "q_hi": "<p>Select the most appropriate synonym of the given word.<br /><br />Estimate</p>",
+    "op_en": [
+      "Arrange",
+      "Rank",
+      "Amend",
+      "Speculate"
+    ],
+    "op_hi": [
+      "Arrange",
+      "Rank",
+      "Amend",
+      "Speculate"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें 'Estimate' का समान अर्थ वाला शब्द (Synonym) बताना है।</p><p><b>Vocab Power:</b></p><ul><li><b>Estimate:</b> अनुमान लगाना या आकलन करना (To roughly calculate or judge the value, number, or quantity of something)।</li><li><b>Arrange:</b> व्यवस्थित करना (To put in a neat, attractive, or required order)।</li><li><b>Rank:</b> दर्ज़ा देना (Give a particular rank or place to)।</li><li><b>Amend:</b> सुधार करना / संशोधन करना (Make minor changes to update or improve)।</li><li><b>Speculate:</b> अनुमान लगाना / अटकलें लगाना (Form a theory or conjecture about a subject without firm evidence)।</li></ul><p>दिए गए ऑप्शन्स में 'Estimate' (अनुमान) के सबसे नज़दीक का शब्द 'Speculate' (अनुमान या अटकल लगाना) है। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - One Word Substitution",
+    "level": "Hard",
+    "q_en": "<p>Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.<br /><br />The leader’s speech inspired the audience with <u>deep and serious thoughts about life and existence</u>.</p>",
+    "q_hi": "<p>Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.<br /><br />The leader’s speech inspired the audience with <u>deep and serious thoughts about life and existence</u>.</p>",
+    "op_en": [
+      "triviality",
+      "frivolity",
+      "superficiality",
+      "philosophy"
+    ],
+    "op_hi": [
+      "triviality",
+      "frivolity",
+      "superficiality",
+      "philosophy"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें \"जीवन और अस्तित्व के बारे में गहरे और गंभीर विचार\" (deep and serious thoughts about life and existence) के लिए एक शब्द ढूँढना है।</p><p><b>Vocab Power:</b></p><ul><li><b>1. Triviality:</b> तुच्छता / महत्वहीन बातें (Lack of seriousness or importance)।</li><li><b>2. Frivolity:</b> छिछोरापन / अगंभीरता (Lack of seriousness; lightheartedness)।</li><li><b>3. Superficiality:</b> सतहीपन / ऊपरी दिखावा (Lack of depth of character or understanding)।</li><li><b>4. Philosophy:</b> दर्शन / दर्शनशास्त्र (The study of the fundamental nature of knowledge, reality, and existence)।</li></ul><p>Option 1, 2 और 3 तीनों ही नकारात्मक शब्द हैं जो सतही या गैर-गंभीर सोच को दर्शाते हैं। केवल 'Philosophy' (दर्शन) जीवन के गहरे विचारों को दर्शाता है। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Idioms & Proverbs",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate meaning of the given proverb.<br /><br />The pen is mightier than the sword.</p>",
+    "q_hi": "<p>Select the most appropriate meaning of the given proverb.<br /><br />The pen is mightier than the sword.</p>",
+    "op_en": [
+      "Regular exercise of an activity or skill is the way to become proficient in it.",
+      "Words and ideas are more powerful than physical force.",
+      "Nothing comes for free.",
+      "A task is soon accomplished if several people help."
+    ],
+    "op_hi": [
+      "Regular exercise of an activity or skill is the way to become proficient in it.",
+      "Words and ideas are more powerful than physical force.",
+      "Nothing comes for free.",
+      "A task is soon accomplished if several people help."
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस मशहूर कहावत को समझते हैं।</p><p><b>\"The pen is mightier than the sword\"</b> का शाब्दिक अर्थ है: 'कलम तलवार से ज्यादा ताकतवर होती है'।</p><p><b>Meaning:</b> इसका मतलब है कि लिखना, सोच-विचार और ആശയ (words and ideas) लोगों पर ज़्यादा गहरा और स्थायी प्रभाव डालते हैं, बजाय हिंसा या शारीरिक बल (physical force) के। एक अच्छी किताब या लेख लोगों की सोच बदल सकता है, जो काम कोई युद्ध या तलवार नहीं कर सकती।</p><p>अतः इस कहावत का सटीक अर्थ <b>Option 2 (Words and ideas are more powerful than physical force)</b> में दिया गया है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Idioms & Proverbs",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate meaning of the given proverb.<br /><br />All that glitters is not gold.</p>",
+    "q_hi": "<p>Select the most appropriate meaning of the given proverb.<br /><br />All that glitters is not gold.</p>",
+    "op_en": [
+      "Gold objects shine.",
+      "Not everything that shines is valuable.",
+      "Valuables are expensive.",
+      "Never criticise a gift."
+    ],
+    "op_hi": [
+      "Gold objects shine.",
+      "Not everything that shines is valuable.",
+      "Valuables are expensive.",
+      "Never criticise a gift."
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह भी एक बहुत ही आम कहावत (proverb) है।</p><p><b>\"All that glitters is not gold\"</b> का शाब्दिक अर्थ है: 'हर चमकती चीज़ सोना नहीं होती' (Not everything that shines is valuable)।</p><p><b>Meaning:</b> इसका मतलब है कि सिर्फ बाहरी दिखावे या चमक-दमक से किसी चीज़ या इंसान की असली कीमत या अच्छाई का अंदाज़ा नहीं लगाया जा सकता। बाहर से आकर्षक दिखने वाली चीज़ अंदर से खराब या धोखेबाज़ हो सकती है।</p><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - One Word Substitution",
+    "level": "Easy",
+    "q_en": "<p>Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.<br /><br />Some tribes are also known to be <u>people who eat human flesh</u>.</p>",
+    "q_hi": "<p>Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.<br /><br />Some tribes are also known to be <u>people who eat human flesh</u>.</p>",
+    "op_en": [
+      "vegetarians",
+      "omnivores",
+      "herbivores",
+      "cannibals"
+    ],
+    "op_hi": [
+      "vegetarians",
+      "omnivores",
+      "herbivores",
+      "cannibals"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें \"मानव मांस खाने वाले लोग\" (people who eat human flesh) के लिए एक शब्द ढूँढना है।</p><p><b>Vocab Power: आइए साइंस और इंग्लिश के इन शब्दों को देखते हैं:</b></p><ul><li><b>1. Vegetarians:</b> शाकाहारी (जो सिर्फ पेड़-पौधे और डेरी उत्पाद खाते हैं)।</li><li><b>2. Omnivores:</b> सर्वाहारी (जो पौधे और मांस दोनों खाते हैं, जैसे इंसान, भालू)।</li><li><b>3. Herbivores:</b> शाकाहारी जानवर (An animal that feeds on plants, जैसे गाय)।</li><li><b>4. Cannibals:</b> नरभक्षी / स्वजातिभक्षी (A person who eats the flesh of other human beings)।</li></ul><p>चूँकि यहाँ 'human flesh' (इंसान का मांस) खाने की बात हो रही है, इसलिए सही शब्द 'Cannibals' (नरभक्षी) होगा। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Spelling",
+    "level": "Easy",
+    "q_en": "<p>Select the INCORRECTLY spelt word.</p>",
+    "q_hi": "<p>Select the INCORRECTLY spelt word.</p>",
+    "op_en": [
+      "Canoeingg",
+      "Canopies",
+      "Reminiscing",
+      "Heralding"
+    ],
+    "op_hi": [
+      "Canoeingg",
+      "Canopies",
+      "Reminiscing",
+      "Heralding"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें चारों ऑप्शन्स में से वह शब्द चुनना है जिसकी spelling गलत है।</p><p><b>Vocab Power & Spelling Check:</b></p><ul><li><b>1. Canoeingg:</b> यह गलत स्पेलिंग है। सही स्पेलिंग <b>Canoeing</b> (डोंगी/छोटी नाव चलाना) होती है। इसमें अंत में 'g' सिर्फ एक बार आता है।</li><li><b>2. Canopies:</b> यह सही है। यह Canopy (छतरीनुमा आवरण) का बहुवचन है।</li><li><b>3. Reminiscing:</b> यह सही है। इसका मतलब है 'पुरानी यादें ताज़ा करना' (Indulging in enjoyable recollection of past events)।</li><li><b>4. Heralding:</b> यह सही है। इसका मतलब है 'घोषणा करना या संकेत देना' (Be a sign that something is about to happen)।</li></ul><p>चूँकि Option 1 की स्पेलिंग गलत है, इसलिए हमारा सही उत्तर <b>Option 1</b> होगा।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Sentence Rearrangement (Parajumbles)",
+    "level": "Medium",
+    "q_en": "<p>Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.<br /><br />A. accurate and visually stunning<br />B. the costume designer worked<br />C. worn by the actors in the period drama,<br />D. ensuring they were historically<br />E. tirelessly to embellish the outfits</p>",
+    "q_hi": "<p>Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.<br /><br />A. accurate and visually stunning<br />B. the costume designer worked<br />C. worn by the actors in the period drama,<br />D. ensuring they were historically<br />E. tirelessly to embellish the outfits</p>",
+    "op_en": [
+      "DBACE",
+      "ACEBD",
+      "BADCE",
+      "BECDA"
+    ],
+    "op_hi": [
+      "DBACE",
+      "ACEBD",
+      "BADCE",
+      "BECDA"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस Parajumble को solve करने की <b>Short Trick</b> देखते हैं। जम्बल्ड वाक्यों को जोड़ने के लिए सबसे पहले Subject और Verb वाला हिस्सा ढूँढते हैं।</p><p><b>Step 1:</b> यहाँ Subject है 'the costume designer' और Verb है 'worked' जो Part (B) में है। इसलिए वाक्य की शुरुआत (B) से होगी।</p><p><b>Step 2:</b> 'worked' के बाद क्या आएगा? डिजाइनर ने कैसे काम किया? (E) में लिखा है 'tirelessly to embellish the outfits' (कपड़ों को सजाने के लिए अथक प्रयास किया)। तो, (B) + (E) जुड़ेगा।</p><p><b>Step 3:</b> कौन से Outfits (कपड़े)? (C) बताता है: 'worn by the actors in the period drama' (जो ऐतिहासिक नाटक में अभिनेताओं द्वारा पहने गए थे)।</p><p><b>Step 4:</b> काम करते हुए क्या सुनिश्चित किया? (D) बताता है: 'ensuring they were historically' (यह सुनिश्चित करते हुए कि वे ऐतिहासिक रूप से...)।</p><p><b>Step 5:</b> ऐतिहासिक रूप से क्या? (A) वाक्य को पूरा करता है: 'accurate and visually stunning' (सटीक और दिखने में आश्चर्यजनक थे)।</p><p>पूरा वाक्य बनेगा: The costume designer worked (B) tirelessly to embellish the outfits (E) worn by the actors in the period drama, (C) ensuring they were historically (D) accurate and visually stunning (A).</p><p>सही क्रम <b>BECDA</b> है। अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - One Word Substitution",
+    "level": "Easy",
+    "q_en": "<p>Select the option that can be used as a one-word substitute for the given group of words.<br /><br />A person who speaks several languages fluently</p>",
+    "q_hi": "<p>Select the option that can be used as a one-word substitute for the given group of words.<br /><br />A person who speaks several languages fluently</p>",
+    "op_en": [
+      "Grammarian",
+      "Translator",
+      "Linguist",
+      "Polyglot"
+    ],
+    "op_hi": [
+      "Grammarian",
+      "Translator",
+      "Linguist",
+      "Polyglot"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें \"कई भाषाएँ धाराप्रवाह बोलने वाले व्यक्ति\" (A person who speaks several languages fluently) के लिए एक शब्द ढूँढना है।</p><p><b>Vocab Power:</b></p><ul><li><b>1. Grammarian:</b> वैयाकरण (A person who studies and writes about grammar)।</li><li><b>2. Translator:</b> अनुवादक (A person who translates from one language into another)।</li><li><b>3. Linguist:</b> भाषाविद् (A person skilled in foreign languages or one who studies linguistics - जो भाषा का वैज्ञानिक अध्ययन करता है)।</li><li><b>4. Polyglot:</b> बहुभाषी (Knowing or using several languages)। 'Poly' मतलब कई और 'Glot' मतलब जीभ/भाषा।</li></ul><p>अतः जो इंसान कई भाषाएँ मज़े से बोल लेता है उसे 'Polyglot' कहते हैं। इसलिए सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Titles",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Select the most appropriate title for the passage.</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Select the most appropriate title for the passage.</p>",
+    "op_en": [
+      "Language Learning",
+      "Global Translation",
+      "Literary Reviews",
+      "AI Language Revolution"
+    ],
+    "op_hi": [
+      "Language Learning",
+      "Global Translation",
+      "Literary Reviews",
+      "AI Language Revolution"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज के लिए सबसे सटीक Title (शीर्षक) चुनना है।</p><p>पूरे पैसेज का मुख्य केंद्र बिंदु (Main focus) यह है कि <b>Artificial Intelligence (AI)</b> ने भाषा के क्षेत्र में कितनी तरक्की कर ली है। यह बता रहा है कि AI कैसे कस्टमर सर्विस से लेकर हेल्थ टूल्स और अब साहित्यों के अनुवाद (Translation) में क्रांति ला रहा है, और कैसे यह इंसानों के भाषा के काम को आसान बना रहा है।</p><ul><li>'Language Learning' (भाषा सीखना) पैसेज का मुख्य विषय नहीं है।</li><li>'Global Translation' और 'Literary Reviews' सिर्फ एक पैराग्राफ का हिस्सा हैं।</li><li>'AI Language Revolution' (AI की भाषाई क्रांति) पूरे पैसेज के भाव को अच्छे से समेट लेता है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Tone",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />What is the tone of the speaker?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />What is the tone of the speaker?</p>",
+    "op_en": [
+      "Analytical",
+      "Cynical",
+      "Apologetic",
+      "Biased"
+    ],
+    "op_hi": [
+      "Analytical",
+      "Cynical",
+      "Apologetic",
+      "Biased"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज के लेखक की 'Tone' (लहज़ा) बतानी है।</p><p><b>Vocab Power:</b></p><ul><li><b>Analytical (विश्लेषणात्मक):</b> जब लेखक किसी विषय के विभिन्न पहलुओं (जैसे फायदे और नुकसान) का तार्किक रूप से विश्लेषण करता है।</li><li><b>Cynical (निंदक):</b> जब लेखक बहुत नकारात्मक हो और किसी पर भरोसा न करे।</li><li><b>Apologetic (क्षमाप्रार्थी):</b> जब लेखक माफ़ी माँगने वाले लहज़े में बात करे।</li><li><b>Biased (पक्षपाती):</b> जब लेखक सिर्फ एक ही तरफ झुका हुआ हो।</li></ul><p>पैसेज में लेखक AI के फायदों को गिनाता है (विस्तारित पहुँच, अनुवाद), लेकिन साथ ही वह इसके दूसरे पहलू (human errors, original language की अहमियत) को भी निष्पक्ष रूप से सामने रखता है। वह विषय का एक गहरा और संतुलित विश्लेषण कर रहा है। इसलिए यहाँ Tone <b>Analytical</b> है।</p><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Facts",
+    "level": "Easy",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Why do some scholars and literary purists believe that reading works in the original language is important?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Why do some scholars and literary purists believe that reading works in the original language is important?</p>",
+    "op_en": [
+      "To understand the context",
+      "To understand the meaning",
+      "To understand the author’s intent",
+      "To truly understand the society"
+    ],
+    "op_hi": [
+      "To understand the context",
+      "To understand the meaning",
+      "To understand the author’s intent",
+      "To truly understand the society"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह एक सीधा Fact-based सवाल है जिसका जवाब पैसेज की लाइनों में छिपा है।</p><p>पैसेज की बिलकुल आखिरी लाइन को ध्यान से पढ़िए: \"And there’s an enduring belief among scholars and literary purists that <b>to truly understand an author’s intent</b>, one must read them in the original language.\"</p><p>विद्वानों का मानना है कि लेखक के <b>असली इरादे (author's intent)</b> को समझने के लिए किताब को उसकी मूल भाषा (original language) में पढ़ना बहुत ज़रूरी है।</p><p>अतः सही उत्तर स्पष्ट रूप से <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Vocab",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Select the most appropriate word given in the passage meaning 'a way of entering or reaching a place'.</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />Select the most appropriate word given in the passage meaning 'a way of entering or reaching a place'.</p>",
+    "op_en": [
+      "Functionality",
+      "Enduring",
+      "Access",
+      "Chatbots"
+    ],
+    "op_hi": [
+      "Functionality",
+      "Enduring",
+      "Access",
+      "Chatbots"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज में इस्तेमाल हुए उस शब्द को ढूँढना है जिसका मतलब \"किसी जगह पहुँचने या प्रवेश करने का तरीका\" (a way of entering or reaching a place) होता है।</p><p><b>Vocab Power: आइए ऑप्शन्स का अर्थ देखते हैं:</b></p><ul><li><b>Functionality:</b> कार्यक्षमता (The quality of being suited to serve a purpose well)।</li><li><b>Enduring:</b> लंबे समय तक चलने वाला / स्थायी (Continuing or long-lasting)।</li><li><b>Access:</b> पहुँच / प्रवेश (The means or opportunity to approach or enter a place / ability to reach resources)।</li><li><b>Chatbots:</b> कंप्यूटर प्रोग्राम जो इंसानों से बात करते हैं।</li></ul><p>स्पष्ट है कि 'a way of reaching' का सही अर्थ <b>'Access' (पहुँच)</b> होता है। पैसेज में इसे 'expand access' (पहुँच का विस्तार करना) के रूप में इस्तेमाल किया गया है। अतः सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Facts",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />What is one of the limitations of AI in translation, as discussed in the passage?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />We seem to be at a point in the development of Artificial Intelligence where its capabilities in using language adequately approximate human functionality in a wide range of circumstances, from customer service chatbots to a growing number of health diagnostic tools. Even the World Health Organization has created and deployed an AI 'health created' using a conversational platform.<br />Learning every language to read every book is, of course, impractical. But not understanding a particular language can exclude us from discovering great works of native literature that may never be translated into our own languages. We might advance a social justice argument for using AI translation to radically expand access.<br />Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or make errors. And there’s an enduring belief among scholars and literary purists that to truly understand an author’s intent, one must read them in the original language.<br />What is one of the limitations of AI in translation, as discussed in the passage?</p>",
+    "op_en": [
+      "That it can make transitions",
+      "That it can make predictions",
+      "That it can make speculations",
+      "That it can make errors"
+    ],
+    "op_hi": [
+      "That it can make transitions",
+      "That it can make predictions",
+      "That it can make speculations",
+      "That it can make errors"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। सवाल अनुवाद (Translation) में आने वाली सीमा (Limitation) के बारे में पूछ रहा है।</p><p>पैसेज के तीसरे पैराग्राफ पर ध्यान दें: \"Of course, it’s true that human translators, despite their expertise, sometimes miss distinctions or <b>make errors</b>.\"</p><p>यहाँ बताया गया है कि भाषा का अनुवाद करते समय, चाहे वह इंसान हों या मशीन (चूँकि पैसेज AI और Human Translators की तुलना कर रहा है), कुछ बारीकियाँ छूट सकती हैं या <b>ग़लतियाँ (errors)</b> हो सकती हैं। यही वजह है कि 'Original language' में पढ़ने पर ज़ोर दिया जाता है।</p><p>बाकी विकल्प (transitions, predictions, speculations) अनुवाद की सीमाओं के रूप में पैसेज में बिल्कुल भी उल्लिखित नहीं हैं। अतः दिए गए विकल्पों में सबसे तार्किक उत्तर <b>Option 4 (That it can make errors)</b> है।</p>"
+  }
+]
