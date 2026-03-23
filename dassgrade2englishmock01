@@ -1,0 +1,422 @@
+[
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Article Error",
+    "level": "Easy",
+    "q_en": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.<br /><br />After receiving a email from / the manager of his office, / Palash started to finish / his pending assignments.</p>",
+    "q_hi": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.<br /><br />After receiving a email from / the manager of his office, / Palash started to finish / his pending assignments.</p>",
+    "op_en": [
+      "the manager of his office",
+      "Palash started to finish",
+      "After receiving a email from",
+      "his pending assignments"
+    ],
+    "op_hi": [
+      "the manager of his office",
+      "Palash started to finish",
+      "After receiving a email from",
+      "his pending assignments"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ जो error है, वह <b>Articles (A/An/The)</b> से जुड़ा है।</p><p>वाक्य के तीसरे हिस्से पर ध्यान दीजिए: 'After receiving <u>a email</u> from'.</p><p>हम जानते हैं कि जिन शब्दों का उच्चारण (pronunciation) <b>vowel sound</b> (स्वर की ध्वनि - अ, आ, इ, ई, ए, ऐ आदि) से शुरू होता है, उनके आगे article <b>'an'</b> का इस्तेमाल किया जाता है। 'Email' शब्द की शुरुआत 'ई' (vowel sound) से होती है, इसलिए 'a email' लिखना पूरी तरह से गलत है। यहाँ 'an email' होना चाहिए।</p><ul><li>Option 1, 2 और 4 में कोई ग्रामेटिकल गलती नहीं है।</li><li>Option 3 में 'a' की जगह 'an' का प्रयोग होगा।</li></ul><p>इसलिए सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Preposition",
+    "level": "Easy",
+    "q_en": "<p>Select the option that rectifies the underlined preposition in the given sentence.<br /><br />Norman has a meeting <u>on</u> 11 a.m.</p>",
+    "q_hi": "<p>Select the option that rectifies the underlined preposition in the given sentence.<br /><br />Norman has a meeting <u>on</u> 11 a.m.</p>",
+    "op_en": [
+      "to",
+      "for",
+      "at",
+      "in"
+    ],
+    "op_hi": [
+      "to",
+      "for",
+      "at",
+      "in"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें <b>Preposition of Time</b> के rules को देखना होगा।</p><p>सवाल में कहा गया है: Norman has a meeting <u>on</u> 11 a.m.</p><p>जब भी हम किसी <b>निश्चित समय (Specific Time या Clock time)</b> की बात करते हैं (जैसे 11 a.m., 5 o'clock), तो हम हमेशा <b>'at'</b> preposition का इस्तेमाल करते हैं।</p><p><b>Short Trick:</b></p><ul><li><b>at:</b> Clock time के लिए (e.g., at 10 AM, at noon).</li><li><b>on:</b> Days और Dates के लिए (e.g., on Monday, on 15th August).</li><li><b>in:</b> Months, Years, Seasons, और लंबे समय के लिए (e.g., in 2023, in summer, in January).</li></ul><p>चूँकि 11 a.m. एक clock time है, इसलिए 'on' की जगह 'at' आएगा। अन्य options (to, for, in) यहाँ context के हिसाब से गलत हैं। इसलिए सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Adverbs",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate adverb to fill in the blank.<br /><br />The CEO _________ posted a comment on his Instagram, which immediately provoked the netizens.</p>",
+    "q_hi": "<p>Select the most appropriate adverb to fill in the blank.<br /><br />The CEO _________ posted a comment on his Instagram, which immediately provoked the netizens.</p>",
+    "op_en": [
+      "punitively",
+      "impeccably",
+      "voraciously",
+      "inadvertently"
+    ],
+    "op_hi": [
+      "punitively",
+      "impeccably",
+      "voraciously",
+      "inadvertently"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें blank में एक ऐसा adverb भरना है जो sentence के अर्थ को सही तरीके से पूरा करे। Sentence कह रहा है कि CEO ने Instagram पर एक comment post किया, जिससे netizens (internet users) तुरंत भड़क गए।</p><p><b>Vocab Power: आइए सभी ऑप्शन्स के अर्थ जानते हैं:</b></p><ul><li><b>1. Punitively:</b> दंडात्मक रूप से (In a way that is intended to punish). यहाँ सज़ा देने का कोई context नहीं है।</li><li><b>2. Impeccably:</b> बिना किसी गलती के / त्रुटिहीन ढंग से (Flawlessly). अगर comment त्रुटिहीन होता, तो लोग भड़कते नहीं।</li><li><b>3. Voraciously:</b> लालच से / बहुत अधिक भूख के साथ (Eagerly/greedily). यह खाने या पढ़ने के संदर्भ में आता है।</li><li><b>4. Inadvertently:</b> अनजाने में / गलती से (Without intention; accidentally).</li></ul><p>Sentence का भाव यह है कि CEO ने <b>अनजाने में</b> एक ऐसा comment post कर दिया, जिसने बवाल खड़ा कर दिया। इसलिए 'inadvertently' बिल्कुल सटीक शब्द है। सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Adjectives",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.<br /><br />Due to the heavy rain that persisted throughout the evening, __________ people attended the highly anticipated outdoor concert than had been initially expected by the event organisers.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.<br /><br />Due to the heavy rain that persisted throughout the evening, __________ people attended the highly anticipated outdoor concert than had been initially expected by the event organisers.</p>",
+    "op_en": [
+      "less",
+      "fewer",
+      "few",
+      "lesser"
+    ],
+    "op_hi": [
+      "less",
+      "fewer",
+      "few",
+      "lesser"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ <b>Adjectives of Quantity और Number</b> का कांसेप्ट चेक किया जा रहा है।</p><p>वाक्य में 'than' का प्रयोग हुआ है, जिसका मतलब है कि यहाँ <b>Comparative Degree</b> का इस्तेमाल होगा (यानी उम्मीद से 'कम' लोग आए)। 'People' (लोग) एक <b>Plural Countable Noun</b> (जिन्हें गिना जा सके) है।</p><p><b>Rule को समझिए:</b></p><ul><li><b>Less / Lesser:</b> इनका प्रयोग Uncountable Nouns (जिन्हें गिना नहीं जा सकता, जैसे पानी, चीनी) के साथ मात्रा बताने के लिए होता है।</li><li><b>Few / Fewer:</b> इनका प्रयोग Countable Nouns (जिन्हें गिना जा सकता है) के साथ होता है। चूँकि यहाँ तुलना ('than') हो रही है, इसलिए comparative degree 'fewer' का इस्तेमाल होगा।</li></ul><p>अतः, 'fewer people' सही phrase है। Option 1 (less) और 4 (lesser) uncountable के लिए हैं, और Option 3 (few) positive degree है। इसलिए सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Degrees of Comparison",
+    "level": "Medium",
+    "q_en": "<p>Select the option that will rectify the highlighted word of the given sentence.<br /><br />Her dress is <b>fashionable</b> than mine.</p>",
+    "q_hi": "<p>Select the option that will rectify the highlighted word of the given sentence.<br /><br />Her dress is <b>fashionable</b> than mine.</p>",
+    "op_en": [
+      "most fashionable",
+      "very fashionable",
+      "much fashionable",
+      "more fashionable"
+    ],
+    "op_hi": [
+      "most fashionable",
+      "very fashionable",
+      "much fashionable",
+      "more fashionable"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह बहुत ही सीधा सवाल है जो <b>Adjective की Degrees</b> पर आधारित है।</p><p>Sentence में शब्द <b>'than'</b> आया है। English grammar में 'than' का इस्तेमाल हमेशा दो चीज़ों की तुलना (Comparison) करने के लिए होता है, और इसके साथ हमेशा <b>Comparative Degree</b> लगाई जाती है।</p><p>यहाँ 'Her dress' और 'mine' (मेरी dress) के बीच तुलना हो रही है। 'Fashionable' एक multi-syllable word है, इसलिए इसकी Comparative degree 'more fashionable' और Superlative degree 'most fashionable' बनती है।</p><ul><li>Option 1: Superlative degree है (गलत)।</li><li>Option 2 & 3: Comparative नहीं हैं (गलत)।</li><li>Option 4: 'more fashionable' बिल्कुल सही Comparative degree है।</li></ul><p>इसलिए सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Confusing Words / Prepositions",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.<br /><br />Rakesh came and sat ________ his friend.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.<br /><br />Rakesh came and sat ________ his friend.</p>",
+    "op_en": [
+      "away",
+      "for",
+      "beside",
+      "besides"
+    ],
+    "op_hi": [
+      "away",
+      "for",
+      "beside",
+      "besides"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह सवाल अक्सर Exams में कन्फ्यूज करने के लिए पूछा जाता है। यहाँ हमें 'beside' और 'besides' के बीच का अंतर पता होना चाहिए।</p><p><b>Vocab Power:</b></p><ul><li><b>Beside:</b> का मतलब होता है \"के बगल में\" या \"के पास\" (next to / at the side of)।</li><li><b>Besides:</b> का मतलब होता है \"के अतिरिक्त\" या \"के अलावा\" (in addition to / apart from)।</li></ul><p>वाक्य का अर्थ बन रहा है: \"राकेश आया और अपने दोस्त के <b>बगल में</b> बैठ गया।\" इसलिए यहाँ <b>'beside'</b> का प्रयोग होगा।</p><p>Option 1 (away) और Option 2 (for) सन्दर्भ के अनुसार कोई मतलब नहीं बना रहे हैं। अतः सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Articles",
+    "level": "Medium",
+    "q_en": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.<br /><br />She saw / an European tourist / at the museum / and offered help.</p>",
+    "q_hi": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error.<br /><br />She saw / an European tourist / at the museum / and offered help.</p>",
+    "op_en": [
+      "an European tourist",
+      "at the museum",
+      "She saw",
+      "and offered help"
+    ],
+    "op_hi": [
+      "an European tourist",
+      "at the museum",
+      "She saw",
+      "and offered help"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह सवाल फिर से <b>Articles (a/an)</b> के उच्चारण (pronunciation) वाले rule पर आधारित है।</p><p>यहाँ segment 1 में <b>'an European'</b> लिखा है। ध्यान दें कि 'European' शब्द हालांकि 'E' (vowel) से शुरू होता है, लेकिन जब हम इसे बोलते हैं, तो इसका उच्चारण <b>'यूरोपीयन' (Yu-ro-pean)</b> होता है।</p><p>'यू' (Y) एक Consonant sound (व्यंजन की ध्वनि) है। English grammar का नियम कहता है कि Consonant sound से पहले हमेशा article <b>'a'</b> का इस्तेमाल होता है, न कि 'an' का।</p><ul><li>इसलिए, 'an European' गलत है। सही phrase <b>'a European'</b> होगा।</li><li>बाकी सभी segments (Option 2, 3, 4) ग्रामर के हिसाब से बिल्कुल ठीक हैं।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Degrees of Comparison",
+    "level": "Easy",
+    "q_en": "<p>Select the option that will rectify the highlighted word in the given sentence.<br /><br />This cake is <b>more tastier than</b> the one we had yesterday.</p>",
+    "q_hi": "<p>Select the option that will rectify the highlighted word in the given sentence.<br /><br />This cake is <b>more tastier than</b> the one we had yesterday.</p>",
+    "op_en": [
+      "tastier than",
+      "tastiest than",
+      "more tasty than",
+      "very tastier to"
+    ],
+    "op_hi": [
+      "tastier than",
+      "tastiest than",
+      "more tasty than",
+      "very tastier to"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ <b>Double Comparative</b> का error दिया गया है।</p><p>Sentence में 'tastier' शब्द का इस्तेमाल हुआ है। 'Tastier' अपने आप में 'tasty' की Comparative Degree है। Grammar का एक बहुत ही सख्त नियम है कि हम <b>कभी भी दो Comparative words (जैसे more और tastier) का इस्तेमाल एक साथ नहीं करते हैं।</b></p><p>यहाँ 'more tastier' लिखना बिलकुल वैसा ही गलत है जैसे 'more better' लिखना। चूँकि आगे 'than' लगा है, इसलिए हमें सिर्फ Comparative degree 'tastier' का इस्तेमाल करना चाहिए।</p><ul><li>Option 2: tastiest (Superlative) के साथ 'than' नहीं आता।</li><li>Option 3: 'more tasty' गलत form है क्योंकि tasty का तुलनात्मक रूप tastier होता है।</li><li>Option 4: 'very tastier to' पूरी तरह से गलत structure है।</li></ul><p>इसलिए सही उत्तर <b>Option 1 (tastier than)</b> होगा।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Vocabulary - Contextual Usage",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.<br /><br />Which shop in this vicinity is known for its __________ service?</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.<br /><br />Which shop in this vicinity is known for its __________ service?</p>",
+    "op_en": [
+      "weightless",
+      "silent",
+      "exceptional",
+      "inanimate"
+    ],
+    "op_hi": [
+      "weightless",
+      "silent",
+      "exceptional",
+      "inanimate"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें blank में एक ऐसा adjective भरना है जो 'service' (सेवा) की विशेषता को सही तरीके से बताए।</p><p>वाक्य पूछ रहा है: \"इस इलाके की कौन सी दुकान अपनी _________ सेवा के लिए जानी जाती है?\" आमतौर पर कोई दुकान अपनी <b>बहुत अच्छी (बेहतरीन)</b> सर्विस के लिए जानी जाती है।</p><p><b>Vocab Power:</b></p><ul><li><b>1. Weightless:</b> भारहीन (जिसका कोई वज़न न हो)। सर्विस weightless नहीं होती।</li><li><b>2. Silent:</b> शांत/चुपचाप। Service के लिए silent शब्द उचित नहीं है।</li><li><b>3. Exceptional:</b> असाधारण / उत्कृष्ट (Unusually good; outstanding)। यह शब्द 'service' के साथ बहुत सटीक बैठता है (exceptional service)।</li><li><b>4. Inanimate:</b> निर्जीव (जिसमें जान न हो)। यह भी गलत है।</li></ul><p>अतः सही उत्तर <b>Option 3 (exceptional)</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Sentence Rearrangement (Parajumbles)",
+    "level": "Hard",
+    "q_en": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.<br /><br />(P) and making informed decisions based on evidence<br />(Q) solving problems through reasoning,<br />(R) critical thinking involves analysing information objectively,<br />(S) evaluating different perspectives logically,</p>",
+    "q_hi": "<p>Parts of a sentence are given below. Arrange the parts in the correct order to form a meaningful and coherent sentence.<br /><br />(P) and making informed decisions based on evidence<br />(Q) solving problems through reasoning,<br />(R) critical thinking involves analysing information objectively,<br />(S) evaluating different perspectives logically,</p>",
+    "op_en": [
+      "QPSR",
+      "SRQP",
+      "SQPR",
+      "RSQP"
+    ],
+    "op_hi": [
+      "QPSR",
+      "SRQP",
+      "SQPR",
+      "RSQP"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Parajumbles को solve करने की <b>Short Trick</b> है Opening Part और Connectors को ढूँढना।</p><p>सबसे पहले Sentence के Subject को ढूँढते हैं। Part (R) से एक स्वतंत्र वाक्य की शुरुआत हो रही है: \"critical thinking involves...\" (आलोचनात्मक सोच में शामिल है...)। बाकी सभी parts (P, Q, S) में 'ing' form (gerund) के साथ काम बताए गए हैं, जो (R) की ही सूची (list) को आगे बढ़ा रहे हैं। इसलिए वाक्य (R) से शुरू होगा।</p><p>अब Options को देखें, तो केवल <b>Option 4</b> ही (R) से शुरू हो रहा है (RSQP)।</p><p>आइए इसे पढ़कर check करते हैं:<br />(R) Critical thinking involves analysing information objectively,<br />(S) evaluating different perspectives logically,<br />(Q) solving problems through reasoning,<br />(P) and making informed decisions based on evidence.</p><p>यहाँ कॉमा (,) और अंत में 'and' (P) के साथ पूरी list सही व्याकरण (parallelism) में दी गई है। अतः सही क्रम <b>RSQP</b> होगा।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Article Error",
+    "level": "Medium",
+    "q_en": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error. <br /><br />The Ganges flows / through northern plains / of India, / supporting millions of people.</p>",
+    "q_hi": "<p>The following sentence has been split into four segments. Identify the segment that contains a grammatical error. <br /><br />The Ganges flows / through northern plains / of India, / supporting millions of people.</p>",
+    "op_en": [
+      "The Ganges flows",
+      "supporting millions of people.",
+      "of India,",
+      "through northern plains"
+    ],
+    "op_hi": [
+      "The Ganges flows",
+      "supporting millions of people.",
+      "of India,",
+      "through northern plains"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह error <b>Definite Article 'The'</b> के उपयोग पर आधारित है।</p><p>वाक्य में 'northern plains of India' की बात हो रही है। जब भी हम किसी <b>विशिष्ट भौगोलिक क्षेत्र (Specific geographical region)</b> की बात करते हैं और उसका ढाँचा 'Noun + of + Noun' (plains + of + India) होता है, तो पहले Noun के आगे हमेशा Definite Article <b>'the'</b> का प्रयोग होता है।</p><p>यहाँ 'northern plains' एक विशिष्ट क्षेत्र है, इसलिए इसके आगे 'the' लगना अनिवार्य है। सही phrase होना चाहिए: <b>\"through the northern plains\"</b>।</p><ul><li>Option 1 में 'The Ganges' बिल्कुल सही है (नदियों के नाम के आगे the आता है)।</li><li>Option 2 और 3 में कोई grammatical error नहीं है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Sentence Rearrangement (Parajumbles)",
+    "level": "Medium",
+    "q_en": "<p>Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.<br /><br />A. Cardiology Federation (ICF), which<br />B. the International Society of Cardiology to<br />C. he founded the International<br />D. later merged with<br />E. form the World Heart Federation</p>",
+    "q_hi": "<p>Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.<br /><br />A. Cardiology Federation (ICF), which<br />B. the International Society of Cardiology to<br />C. he founded the International<br />D. later merged with<br />E. form the World Heart Federation</p>",
+    "op_en": [
+      "ABCDE",
+      "CADBE",
+      "BACDE",
+      "DACEB"
+    ],
+    "op_hi": [
+      "ABCDE",
+      "CADBE",
+      "BACDE",
+      "DACEB"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। जम्बल्ड वाक्यों को जोड़ने के लिए सबसे पहले Subject और Verb वाला हिस्सा ढूँढते हैं।</p><p><b>Step 1:</b> Part (C) में 'he founded the International' लिखा है। यह एक स्पष्ट Subject + Verb structure है, इसलिए वाक्य की शुरुआत (C) से होगी।</p><p><b>Step 2:</b> 'International' के बाद क्या आएगा? (A) में 'Cardiology Federation (ICF)' है। तो (C) + (A) मिलकर बनता है: \"he founded the International Cardiology Federation (ICF)\".</p><p><b>Step 3:</b> Part (A) के अंत में 'which' है, जो एक Relative Pronoun है और इसके तुरंत बाद Verb आनी चाहिए। Part (D) 'later merged with' एक Verb phrase है। तो (A) + (D) जुड़ेगा: \"which later merged with\".</p><p><b>Step 4:</b> किसके साथ merge हुआ? Part (B) बताता है: \"the International Society of Cardiology to\".</p><p><b>Step 5:</b> और अंत में result क्या निकला? Part (E) बताता है: \"form the World Heart Federation\".</p><p>पूरा वाक्य इस प्रकार बनेगा: He founded the International (C) Cardiology Federation (ICF), which (A) later merged with (D) the International Society of Cardiology to (B) form the World Heart Federation (E).</p><p>सही क्रम <b>CADBE</b> है। अतः सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Subject Verb Agreement",
+    "level": "Easy",
+    "q_en": "<p>Select the option that rectifies the underlined word in the given sentence.<br /><br />One of my cats <u>are</u> old.</p>",
+    "q_hi": "<p>Select the option that rectifies the underlined word in the given sentence.<br /><br />One of my cats <u>are</u> old.</p>",
+    "op_en": [
+      "has",
+      "is",
+      "were",
+      "does"
+    ],
+    "op_hi": [
+      "has",
+      "is",
+      "were",
+      "does"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह <b>Subject-Verb Agreement</b> का एक बहुत ही common rule है जो लगभग हर competitive exam में आता है।</p><p><b>Rule:</b> 'One of' के बाद हमेशा <b>Plural Noun</b> (बहुवचन संज्ञा) आता है, लेकिन जो Verb इस्तेमाल होती है, वह हमेशा <b>Singular</b> (एकवचन) होती है।</p><p>यहाँ 'One of my cats' का मतलब है \"मेरी कई बिल्लियों में से <b>एक</b>\"। चूँकि बात 'एक' (One) की हो रही है, इसलिए इसके साथ verb भी singular आनी चाहिए।</p><ul><li>'are' (plural) गलत है। इसकी जगह 'is' (singular) होना चाहिए।</li><li>Option 1 (has) पजेशन (अधिकार) दिखाता है, यहाँ अवस्था बतानी है।</li><li>Option 3 (were) past plural है, जो गलत है।</li><li>Option 4 (does) का यहाँ कोई अर्थ नहीं बनता।</li></ul><p>अतः सही उत्तर <b>Option 2 (is)</b> होगा।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Articles",
+    "level": "Medium",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.<br /><br />Mumbai is _______ commercial capital of India.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.<br /><br />Mumbai is _______ commercial capital of India.</p>",
+    "op_en": [
+      "No article required",
+      "a",
+      "the",
+      "an"
+    ],
+    "op_hi": [
+      "No article required",
+      "a",
+      "the",
+      "an"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह <b>Articles</b> के एक फिक्स्ड रूल पर आधारित सवाल है।</p><p><b>Rule: Noun + of + Noun structure</b></p><p>जब भी किसी sentence में किसी संज्ञा (Noun) को 'of' लगाकर किसी और Noun से जोड़ा जाता है और उसे विशेष (specific) बना दिया जाता है, तो पहले Noun से पहले हमेशा Definite Article <b>'the'</b> का प्रयोग होता है।</p><p>यहाँ 'commercial capital' (Noun) को 'of India' (Noun) के साथ जोड़ा गया है। हम किसी आम राजधानी की नहीं, बल्कि 'भारत की' व्यावसायिक राजधानी की बात कर रहे हैं। यह एक Specific (निश्चित) बात है।</p><p>इसलिए सही वाक्य होगा: \"Mumbai is <b>the</b> commercial capital of India.\"</p><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Grammar - Subject Verb Agreement",
+    "level": "Easy",
+    "q_en": "<p>Select the most appropriate option to fill in the blank.<br /><br />Each of the applicants __________ required to submit original documents.</p>",
+    "q_hi": "<p>Select the most appropriate option to fill in the blank.<br /><br />Each of the applicants __________ required to submit original documents.</p>",
+    "op_en": [
+      "were",
+      "have",
+      "are",
+      "is"
+    ],
+    "op_hi": [
+      "were",
+      "have",
+      "are",
+      "is"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह भी <b>Subject-Verb Agreement</b> के बहुत महत्वपूर्ण नियम पर आधारित है।</p><p><b>Rule:</b> Words like <b>Each, Every, Either, Neither, Everyone, Someone, Nobody</b> आदि हमेशा Singular (एकवचन) माने जाते हैं। जब भी वाक्य की शुरुआत <b>'Each of'</b> से होती है, तो उसके बाद Noun तो Plural आता है ('the applicants'), लेकिन <b>Verb हमेशा Singular ही लगाई जाती है।</b></p><p>यहाँ 'Each' (प्रत्येक) ही असल Subject है। इसलिए इसके साथ Singular verb का प्रयोग होगा।</p><ul><li>Option 1 (were): Plural verb (गलत)</li><li>Option 2 (have): Plural verb (गलत)</li><li>Option 3 (are): Plural verb (गलत)</li><li>Option 4 (is): <b>Singular verb (सही)</b></li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Inference",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What inference can be drawn from the passage?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What inference can be drawn from the passage?</p>",
+    "op_en": [
+      "Climate change is not a serious issue for future generations.",
+      "Renewable energy sources are ineffective in reducing carbon emissions.",
+      "Combating climate change requires both individual and collective actions.",
+      "Deforestation has no significant impact on climate change."
+    ],
+    "op_hi": [
+      "Climate change is not a serious issue for future generations.",
+      "Renewable energy sources are ineffective in reducing carbon emissions.",
+      "Combating climate change requires both individual and collective actions.",
+      "Deforestation has no significant impact on climate change."
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Inference का मतलब होता है कि Passage पढ़कर हम क्या निष्कर्ष (conclusion) निकाल सकते हैं।</p><p>Passage के आखिरी पैराग्राफ की इन लाइनों पर ध्यान दें: \"Education and awareness are crucial to encouraging <b>individuals</b> and governments to act responsibly... Through <b>collective efforts</b> and sustainable practices, humanity can mitigate its effects...\"</p><p>इन लाइनों से साफ जाहिर होता है कि जलवायु परिवर्तन (climate change) से लड़ने के लिए सिर्फ सरकारों को ही नहीं, बल्कि आम नागरिकों (individuals) और सभी को सामूहिक रूप (collective actions) से काम करना होगा।</p><ul><li>Option 1 गलत है, क्योंकि passage में साफ लिखा है कि यह आने वाली पीढ़ियों के लिए बड़ा खतरा है।</li><li>Option 2 गलत है, passage में renewable energy को एक effort/solution बताया गया है।</li><li>Option 4 गलत है, passage में deforestation को climate change का मुख्य कारण बताया गया है।</li></ul><p>इसलिए सबसे तार्किक निष्कर्ष <b>Option 3</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Facts",
+    "level": "Easy",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />Which of the following is a fact stated in the passage?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />Which of the following is a fact stated in the passage?</p>",
+    "op_en": [
+      "Renewable energy is the sole solution to climate change.",
+      "Greenhouse gases trap heat, leading to a rise in Earth's temperature.",
+      "Climate change only affects certain regions of the world.",
+      "Governments worldwide have successfully resolved climate change."
+    ],
+    "op_hi": [
+      "Renewable energy is the sole solution to climate change.",
+      "Greenhouse gases trap heat, leading to a rise in Earth's temperature.",
+      "Climate change only affects certain regions of the world.",
+      "Governments worldwide have successfully resolved climate change."
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज में दिए गए किसी स्पष्ट तथ्य (Fact) को ढूँढना है।</p><p>पैसेज के पहले पैराग्राफ की तीसरी लाइन को देखिए: \"<b>These gases trap heat, causing the Earth’s temperature to rise.</b>\"</p><p>यह वाक्य स्पष्ट रूप से बताता है कि ग्रीनहाउस गैसें गर्मी (heat) को रोक लेती हैं, जिससे पृथ्वी का तापमान बढ़ता है। यह एक सीधा तथ्य है जो passage में लिखा गया है।</p><ul><li>Option 1 गलत है, क्योंकि renewable energy के अलावा भी sustainable farming, forest protection जैसे अन्य उपाय बताए गए हैं (यह 'sole' या इकलौता समाधान नहीं है)।</li><li>Option 3 गलत है, passage में 'global populations' और 'worldwide' लिखा है, मतलब यह पूरी दुनिया को प्रभावित करता है।</li><li>Option 4 गलत है, passage के अनुसार 'global cooperation remains a significant challenge', यानी अभी तक यह समस्या सुलझी नहीं है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Central Theme",
+    "level": "Medium",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What is the central theme of the passage?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What is the central theme of the passage?</p>",
+    "op_en": [
+      "The causes of deforestation",
+      "The need for global cooperation to combat climate change",
+      "The benefits of renewable energy sources",
+      "The dangers of rising sea levels"
+    ],
+    "op_hi": [
+      "The causes of deforestation",
+      "The need for global cooperation to combat climate change",
+      "The benefits of renewable energy sources",
+      "The dangers of rising sea levels"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Central Theme का मतलब होता है कि पैसेज का मुख्य उद्देश्य या सबसे बड़ा संदेश क्या है।</p><p>अगर हम पूरे पैसेज को ध्यान से पढ़ें, तो पहला हिस्सा जलवायु परिवर्तन (Climate Change) की समस्या और उसके कारणों को बताता है, और दूसरा हिस्सा इस समस्या से लड़ने के उपायों (Renewable energy, policies, sustainable practice) और पूरी दुनिया के <b>सामूहिक प्रयासों (Global cooperation / Collective efforts)</b> की आवश्यकता पर ज़ोर देता है।</p><ul><li>Option 1 (deforestation), Option 3 (renewable energy), और Option 4 (rising sea levels) पैसेज के सिर्फ छोटे-छोटे हिस्से (sub-topics) हैं, पूरी कहानी का सार नहीं।</li><li>Option 2 पूरे पैसेज के भाव को अच्छी तरह से कवर करता है कि Climate Change जैसी बड़ी समस्या से लड़ने के लिए पूरी दुनिया को मिलकर काम करने की सख्त ज़रूरत है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Titles",
+    "level": "Hard",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />Select the most appropriate title for the passage.</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />Select the most appropriate title for the passage.</p>",
+    "op_en": [
+      "The Effects of Greenhouse Gases",
+      "Tackling Climate Change: Challenges and Solutions",
+      "Human Activities and Their Impact on Earth",
+      "The Role of Forests in Climate Change"
+    ],
+    "op_hi": [
+      "The Effects of Greenhouse Gases",
+      "Tackling Climate Change: Challenges and Solutions",
+      "Human Activities and Their Impact on Earth",
+      "The Role of Forests in Climate Change"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। किसी भी Passage का Title (शीर्षक) वह होना चाहिए जो पूरे लेख का पूरी तरह से प्रतिनिधित्व (represent) करे।</p><p>पैसेज को दो मुख्य भागों में बाँटा गया है:<br />1. पहले पैराग्राफ में Climate Change के कारण और उसके बुरे प्रभावों (Challenges/Problems) के बारे में बताया गया है।<br />2. दूसरे पैराग्राफ में इससे निपटने के उपायों (Solutions जैसे renewable energy, policies, awareness) के बारे में चर्चा की गई है।</p><p>इस प्रकार, \"Tackling Climate Change: Challenges and Solutions\" (जलवायु परिवर्तन से निपटना: चुनौतियां और समाधान) सबसे उपयुक्त शीर्षक है क्योंकि यह समस्या और उसके निवारण, दोनों पहलुओं को कवर करता है। बाकी options बहुत संकीर्ण (narrow) हैं और केवल एक हिस्से की बात करते हैं।</p><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+  },
+  {
+    "section": "English Language and Comprehension",
+    "topic": "Reading Comprehension - Tone",
+    "level": "Hard",
+    "q_en": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What tone does the author use in the passage?</p>",
+    "q_hi": "<p><b>Comprehension:</b><br />Read the given passage and answer the questions that follow.<br /><br />Climate change is a pressing issue that impacts ecosystems, weather patterns, and global populations. It is primarily driven by human activities, such as burning fossil fuels and deforestation, which release greenhouse gases into the atmosphere. These gases trap heat, causing the Earth’s temperature to rise. As a result, polar ice caps are melting, sea levels are rising, and extreme weather events, like hurricanes, floods, and droughts, are becoming more frequent and severe. These changes threaten biodiversity and disrupt the livelihoods of millions of people worldwide.<br />Efforts to combat climate change include switching to renewable energy sources, reducing carbon emissions, adopting sustainable farming practices, and protecting forests. Governments and organisations across the globe are implementing policies to limit greenhouse gas emissions and promote green technologies. However, achieving global cooperation remains a significant challenge due to varying national priorities. Education and awareness are crucial to encouraging individuals and governments to act responsibly. Addressing climate change requires urgent and sustained action to safeguard the planet for future generations. Through collective efforts and sustainable practices, humanity can mitigate its effects and work toward a more balanced relationship with nature.<br /><br />What tone does the author use in the passage?</p>",
+    "op_en": [
+      "Alarmist",
+      "Informative and persuasive",
+      "Pessimistic",
+      "Neutral"
+    ],
+    "op_hi": [
+      "Alarmist",
+      "Informative and persuasive",
+      "Pessimistic",
+      "Neutral"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 'Tone' का अर्थ है लेखक का लिखने का लहज़ा या नज़रिया।</p><p><b>Vocab Power: आइए ऑप्शन्स की Tone समझते हैं:</b></p><ul><li><b>Alarmist:</b> जो बिना वजह बहुत ज़्यादा डराए या दहशत फैलाए। लेखक डरा नहीं रहा, बल्कि facts बता रहा है।</li><li><b>Pessimistic:</b> निराशावादी। लेखक निराश नहीं है, उसने आखिर में कहा है कि \"humanity can mitigate its effects\" (हम इसे ठीक कर सकते हैं)।</li><li><b>Neutral:</b> एकदम तटस्थ (बिना किसी राय के)। लेखक तटस्थ भी नहीं है, क्योंकि वह लोगों को 'act responsibly' और 'urgent action' के लिए कह रहा है।</li><li><b>Informative and persuasive:</b> ज्ञानवर्धक और प्रेरक। पहले हिस्से में लेखक हमें climate change के बारे में जानकारी (Informative) देता है और दूसरे हिस्से में वह हमें उपाय करने के लिए प्रेरित (Persuasive) कर रहा है।</li></ul><p>चूँकि लेखक ने हमें समस्या के बारे में तथ्यपूर्ण जानकारी दी है और अंत में समाधान के लिए ठोस कदम उठाने के लिए प्रेरित किया है, इसलिए यहाँ Tone <b>Informative and persuasive</b> होगी।</p><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+  }
+]
